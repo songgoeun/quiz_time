@@ -342,7 +342,8 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
                   onClick={submitAnswer}
                   className="w-full bg-green-600 text-white py-3 px-4 rounded-md hover:bg-green-700 transition-colors"
                 >
-                  답안 제출: {selectedAnswer}
+                  {submittedAnswer ? "답안 변경:" : "답안 제출:"}{" "}
+                  {selectedAnswer}
                 </button>
                 <div className="text-xs text-gray-500 text-center">
                   제출 전·후 모두 다시 선택해 재제출할 수 있습니다.
@@ -414,24 +415,24 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
                 <div
                   key={index}
                   className={`flex items-center justify-between p-4 rounded-lg ${
-                    index === 0
+                    (score.rank ?? index + 1) === 1
                       ? "bg-yellow-100 border-2 border-yellow-400"
-                      : index === 1
+                      : (score.rank ?? index + 1) === 2
                       ? "bg-gray-100 border-2 border-gray-400"
-                      : index === 2
+                      : (score.rank ?? index + 1) === 3
                       ? "bg-orange-100 border-2 border-orange-400"
                       : "bg-gray-50"
                   }`}
                 >
                   <div className="flex items-center gap-3">
                     <span className="text-2xl">
-                      {index === 0
+                      {(score.rank ?? index + 1) === 1
                         ? "🥇"
-                        : index === 1
+                        : (score.rank ?? index + 1) === 2
                         ? "🥈"
-                        : index === 2
+                        : (score.rank ?? index + 1) === 3
                         ? "🥉"
-                        : `${index + 1}위`}
+                        : `${score.rank ?? index + 1}위`}
                     </span>
                     <span className="font-bold text-lg">{score.nickname}</span>
                   </div>
@@ -609,7 +610,12 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
                 {isHost ? (
                   <button
                     onClick={endGame}
-                    className="w-full bg-red-600 text-white py-3 px-4 rounded-md hover:bg-red-700 transition-colors"
+                    disabled={finalScores.length > 0}
+                    className={`w-full py-3 px-4 rounded-md transition-colors ${
+                      finalScores.length > 0
+                        ? "bg-gray-400 text-white cursor-not-allowed"
+                        : "bg-red-600 text-white hover:bg-red-700"
+                    }`}
                   >
                     퀴즈 종료 (방장)
                   </button>

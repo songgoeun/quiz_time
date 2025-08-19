@@ -50,9 +50,21 @@ const NicknameInput: React.FC<NicknameInputProps> = ({ onNicknameSet }) => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center p-4">
       <div className="bg-white rounded-lg shadow-xl p-8 w-full max-w-md">
-        <h1 className="text-3xl font-bold text-gray-800 text-center mb-6">
-          퀴즈 채팅봇
-        </h1>
+        <div className="text-center mb-6">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-50 text-purple-700 text-sm font-medium mb-3">
+            <span>⚡ 실시간 멀티플레이</span>
+          </div>
+          <h1 className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 leading-tight">
+            심심할 때? <br />
+            졸릴 때? <br />
+            집에 가고싶을 때?
+            <br />
+            퀴즈 타임! 🔔
+          </h1>
+          <p className="mt-3 text-gray-500 text-sm">
+            닉네임을 정하고 바로 시작하세요 🚀
+          </p>
+        </div>
         <div className="space-y-4">
           <div>
             <label

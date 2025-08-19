@@ -90,6 +90,8 @@ loadQuizData();
 // 게임 상태 저장
 const rooms = new Map(); // roomId -> { name, host, players, gameStarted }
 const userSockets = new Map(); // socketId -> { nickname, roomId }
+// 방별 사용된 문제 ID 저장: roomId -> Map(categoryId -> Set(questionId))
+const usedQuestionsByRoom = new Map();
 
 // 방 목록 브로드캐스트 (전역)
 function broadcastRoomList() {
@@ -314,14 +316,8 @@ io.on("connection", (socket) => {
       clearTimeout(room.questionTimeout);
       room.questionTimeout = null;
     }
-    // 현재 문제 결과 먼저 표시(점수 집계)
-    if (room.gamePhase === "playing") {
-      showQuestionResult(user.roomId);
-    }
-    // 짧은 지연 후 최종 종료 방송
-    setTimeout(() => {
-      endQuiz(user.roomId);
-    }, 1000);
+    // 바로 종료: 현재 문제 결과 집계 없이 즉시 최종 결과 전송
+    endQuiz(user.roomId);
   });
 
   // 퀴즈 분야 선택 (방장만)
@@ -363,9 +359,17 @@ io.on("connection", (socket) => {
     room.selectedCategory = selectedCategory;
     room.gamePhase = "playing";
     room.currentQuestionIndex = 0;
-    // 전체 문제를 셔플하여 끝날 때까지 진행
-    const allCount = quizData[categoryId]?.questions?.length || 0;
-    room.questions = getRandomQuestions(categoryId, allCount);
+    // 방별 사용된 문제 초기화/준비
+    if (!usedQuestionsByRoom.has(user.roomId)) {
+      usedQuestionsByRoom.set(user.roomId, new Map());
+    }
+    const roomUsedMap = usedQuestionsByRoom.get(user.roomId);
+    if (!roomUsedMap.has(categoryId)) {
+      roomUsedMap.set(categoryId, new Set());
+    }
+    // 이번 게임에서 아직 나오지 않은 문제만 선별해 셔플 전체 진행
+    const available = getUnseenQuestions(categoryId, user.roomId);
+    room.questions = available;
     room.playerScores = {};
     room.questionStartTime = Date.now();
 
@@ -469,6 +473,8 @@ io.on("connection", (socket) => {
     if (room.players.length === 0) {
       console.log(`방 ${user.roomId}이 삭제되었습니다.`);
       rooms.delete(user.roomId);
+      // 사용된 문제 기록 정리
+      usedQuestionsByRoom.delete(user.roomId);
     } else if (room.host === socketId && room.players.length > 0) {
       // 새로운 호스트 지정
       room.host = room.players[0].id;
@@ -504,6 +510,16 @@ function getRandomQuestions(categoryId, count = 5) {
   const questions = [...categoryData.questions];
   const shuffled = questions.sort(() => 0.5 - Math.random());
   return shuffled.slice(0, Math.min(count, questions.length));
+}
+
+// 방 기준으로 아직 출제되지 않은 문제 리스트를 셔플해 반환
+function getUnseenQuestions(categoryId, roomId) {
+  const categoryData = quizData[categoryId];
+  if (!categoryData || !Array.isArray(categoryData.questions)) return [];
+  const usedMap = usedQuestionsByRoom.get(roomId)?.get(categoryId) || new Set();
+  const unseen = categoryData.questions.filter((q) => !usedMap.has(q.id));
+  const shuffled = unseen.sort(() => 0.5 - Math.random());
+  return shuffled;
 }
 
 function sendNextQuestion(roomId) {
@@ -601,6 +617,23 @@ function showQuestionResult(roomId) {
 
   // 3초 후 다음 문제 또는 게임 종료
   setTimeout(() => {
+    // 사용된 문제 기록에 현재 문제 ID 추가 (중복 방지)
+    try {
+      const categoryId = room.selectedCategory?.id;
+      if (categoryId && question.id != null) {
+        if (!usedQuestionsByRoom.has(room.id)) {
+          usedQuestionsByRoom.set(room.id, new Map());
+        }
+        const usedMap = usedQuestionsByRoom.get(room.id);
+        if (!usedMap.has(categoryId)) {
+          usedMap.set(categoryId, new Set());
+        }
+        usedMap.get(categoryId).add(question.id);
+      }
+    } catch (e) {
+      // no-op
+    }
+
     room.currentQuestionIndex++;
     if (room.currentQuestionIndex < room.questions.length) {
       sendNextQuestion(roomId);
@@ -617,12 +650,22 @@ function endQuiz(roomId) {
   room.gamePhase = "finished";
 
   // 최종 순위 계산
-  const finalScores = room.players
+  const sorted = room.players
     .map((player) => ({
       nickname: player.nickname,
       score: room.playerScores[player.id] || 0,
     }))
     .sort((a, b) => b.score - a.score);
+  // 공동 순위 부여
+  let lastScore = null;
+  let lastRank = 0;
+  const finalScores = sorted.map((entry, idx) => {
+    if (lastScore === null || entry.score < lastScore) {
+      lastRank = idx + 1;
+      lastScore = entry.score;
+    }
+    return { ...entry, rank: lastRank };
+  });
 
   io.to(roomId).emit("quizFinished", {
     finalScores,

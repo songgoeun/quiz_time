@@ -51,6 +51,7 @@ export interface QuestionResult {
 export interface FinalScore {
   nickname: string;
   score: number;
+  rank?: number;
 }
 
 export interface Category {
