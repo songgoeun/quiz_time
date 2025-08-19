@@ -4,6 +4,9 @@ import {
   type GameRoom as GameRoomType,
   type Player,
   QUIZ_CATEGORIES,
+  type QuizQuestion,
+  type QuestionResult,
+  type FinalScore,
 } from "../types";
 
 interface GameRoomProps {
@@ -15,12 +18,24 @@ interface GameRoomProps {
 const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
   const [currentRoom, setCurrentRoom] = useState<GameRoomType>(room);
   const [isHost, setIsHost] = useState(false);
+  const [currentQuestion, setCurrentQuestion] = useState<QuizQuestion | null>(
+    null
+  );
+  const [selectedAnswer, setSelectedAnswer] = useState<string>("");
+  const [timeLeft, setTimeLeft] = useState<number>(0);
+  const [questionResult, setQuestionResult] = useState<QuestionResult | null>(
+    null
+  );
+  const [finalScores, setFinalScores] = useState<FinalScore[]>([]);
+  const [submittedAnswer, setSubmittedAnswer] = useState<string>("");
+  const [showResult, setShowResult] = useState(false);
   const { socket } = useSocket();
 
   useEffect(() => {
     setCurrentRoom(room);
-    setIsHost(room.players.some((p) => p.nickname === nickname && p.isHost));
-  }, [room, nickname]);
+    // 같은 닉네임이어도 소켓 ID로 방장 여부 판단
+    setIsHost(room.host === socket?.id);
+  }, [room, socket?.id]);
 
   useEffect(() => {
     if (!socket) return;
@@ -50,7 +65,7 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
           isHost: p.id === newHost.id,
         })),
       }));
-      setIsHost(newHost.nickname === nickname);
+      setIsHost(newHost.id === socket?.id);
     };
 
     const handleGameStarted = ({
@@ -69,7 +84,57 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
       category: { id: number; name: string; description: string };
     }) => {
       setCurrentRoom(updatedRoom);
-      alert(`"${category.name}" 분야가 선택되었습니다! 게임을 시작합니다.`);
+      alert(`"${category.name}" 분야가 선택되었습니다! 곧 퀴즈가 시작됩니다.`);
+    };
+
+    const handleQuestionStart = (question: QuizQuestion) => {
+      setCurrentQuestion(question);
+      setSelectedAnswer("");
+      setTimeLeft(question.timeLimit / 1000);
+      setQuestionResult(null);
+      setShowResult(false);
+      setSubmittedAnswer("");
+    };
+
+    const handleQuestionResult = (result: QuestionResult) => {
+      setQuestionResult(result);
+      setShowResult(true);
+      setCurrentQuestion(null);
+    };
+
+    const handleQuizFinished = ({
+      finalScores: scores,
+    }: {
+      finalScores: FinalScore[];
+    }) => {
+      setFinalScores(scores);
+      setCurrentQuestion(null);
+      setQuestionResult(null);
+      setShowResult(false);
+    };
+
+    const handleBackToWaiting = ({
+      room: updatedRoom,
+    }: {
+      room: GameRoomType;
+    }) => {
+      setCurrentRoom(updatedRoom);
+      setCurrentQuestion(null);
+      setQuestionResult(null);
+      setFinalScores([]);
+      setShowResult(false);
+      setSelectedAnswer("");
+    };
+
+    const handleAnswerSubmitted = ({
+      isCorrect,
+      points,
+    }: {
+      isCorrect: boolean;
+      points: number;
+    }) => {
+      // 답안 제출 완료 피드백
+      console.log(`답안 제출: ${isCorrect ? "정답" : "오답"}, 점수: ${points}`);
     };
 
     const handleError = (message: string) => {
@@ -81,6 +146,11 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
     socket.on("hostChanged", handleHostChanged);
     socket.on("gameStarted", handleGameStarted);
     socket.on("categorySelected", handleCategorySelected);
+    socket.on("questionStart", handleQuestionStart);
+    socket.on("questionResult", handleQuestionResult);
+    socket.on("quizFinished", handleQuizFinished);
+    socket.on("backToWaiting", handleBackToWaiting);
+    socket.on("answerSubmitted", handleAnswerSubmitted);
     socket.on("error", handleError);
 
     return () => {
@@ -89,9 +159,22 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
       socket.off("hostChanged", handleHostChanged);
       socket.off("gameStarted", handleGameStarted);
       socket.off("categorySelected", handleCategorySelected);
+      socket.off("questionStart", handleQuestionStart);
+      socket.off("questionResult", handleQuestionResult);
+      socket.off("quizFinished", handleQuizFinished);
+      socket.off("backToWaiting", handleBackToWaiting);
+      socket.off("answerSubmitted", handleAnswerSubmitted);
       socket.off("error", handleError);
     };
   }, [socket, nickname]);
+
+  // 타이머 효과
+  useEffect(() => {
+    if (timeLeft > 0 && currentQuestion) {
+      const timer = setTimeout(() => setTimeLeft(timeLeft - 1), 1000);
+      return () => clearTimeout(timer);
+    }
+  }, [timeLeft, currentQuestion]);
 
   const startGame = () => {
     if (!socket) {
@@ -107,6 +190,26 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
       return;
     }
     socket.emit("selectCategory", categoryId);
+  };
+
+  const submitAnswer = () => {
+    if (!socket || !selectedAnswer || !currentQuestion) {
+      return;
+    }
+
+    const timeSpent = currentQuestion.timeLimit / 1000 - timeLeft;
+    socket.emit("submitAnswer", {
+      answer: selectedAnswer,
+      timeSpent: timeSpent * 1000,
+    });
+
+    // UI 상태 업데이트
+    setSubmittedAnswer(selectedAnswer);
+  };
+
+  const endGame = () => {
+    if (!socket) return;
+    socket.emit("endGame");
   };
 
   const leaveRoom = () => {
@@ -161,6 +264,10 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
                 {currentRoom.name}
               </h1>
               <p className="text-gray-600">방 ID: {currentRoom.id}</p>
+              <p className="text-gray-500 text-sm mt-1">
+                나: <span className="font-semibold">{nickname}</span> (
+                <span className="font-mono text-xs">{socket?.id}</span>)
+              </p>
             </div>
             <button
               onClick={leaveRoom}
@@ -172,6 +279,174 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
 
           {getGameStatusDisplay()}
         </div>
+
+        {/* 퀴즈 진행 화면 */}
+        {currentQuestion && (
+          <div className="bg-white rounded-lg shadow-xl p-6 mb-6">
+            <div className="flex items-center justify-between mb-4">
+              <span className="text-lg font-semibold text-gray-700">
+                문제 {currentQuestion.questionNumber} /{" "}
+                {currentQuestion.totalQuestions}
+              </span>
+              <div className="flex items-center gap-4">
+                <span className="text-sm text-gray-600">
+                  난이도: {currentQuestion.difficulty}
+                </span>
+                <div
+                  className={`text-xl font-bold ${
+                    timeLeft <= 5 ? "text-red-500" : "text-blue-600"
+                  }`}
+                >
+                  ⏰ {timeLeft}초
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-xl font-bold text-gray-800 mb-6">
+              {currentQuestion.question}
+            </h2>
+
+            <div className="grid gap-3">
+              {currentQuestion.options.map((option, index) => {
+                const isChosenNow = selectedAnswer === option;
+                const isSubmitted = submittedAnswer === option;
+                return (
+                  <button
+                    key={index}
+                    onClick={() => setSelectedAnswer(option)}
+                    className={`p-4 border rounded-lg text-left transition-colors flex items-center justify-between ${
+                      isChosenNow
+                        ? "bg-blue-100 border-blue-500 text-blue-700"
+                        : "border-gray-200 hover:bg-gray-50 hover:border-blue-300"
+                    }`}
+                  >
+                    <div>
+                      <span className="font-medium">
+                        {String.fromCharCode(65 + index)}.
+                      </span>{" "}
+                      {option}
+                    </div>
+                    {isSubmitted && (
+                      <span className="ml-3 text-xs px-2 py-1 rounded bg-green-100 text-green-700">
+                        제출됨
+                      </span>
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+
+            {selectedAnswer && (
+              <div className="mt-6 flex flex-col gap-2">
+                <button
+                  onClick={submitAnswer}
+                  className="w-full bg-green-600 text-white py-3 px-4 rounded-md hover:bg-green-700 transition-colors"
+                >
+                  답안 제출: {selectedAnswer}
+                </button>
+                <div className="text-xs text-gray-500 text-center">
+                  제출 전·후 모두 다시 선택해 재제출할 수 있습니다.
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* 문제 결과 화면 */}
+        {showResult && questionResult && (
+          <div className="bg-white rounded-lg shadow-xl p-6 mb-6">
+            <div className="text-center mb-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-2">
+                문제 결과
+              </h2>
+              <div className="text-lg">
+                <span className="text-green-600 font-bold">
+                  정답: {questionResult.correctAnswer}
+                </span>
+              </div>
+              <p className="text-gray-600 mt-2">{questionResult.explanation}</p>
+            </div>
+
+            <div className="space-y-3">
+              {questionResult.playerResults.map((result, index) => (
+                <div
+                  key={index}
+                  className="flex items-center justify-between p-3 bg-gray-50 rounded-lg"
+                >
+                  <div className="flex items-center gap-3">
+                    <span className="font-medium">{result.nickname}</span>
+                    <span
+                      className={`text-sm px-2 py-1 rounded ${
+                        result.isCorrect
+                          ? "bg-green-100 text-green-700"
+                          : "bg-red-100 text-red-700"
+                      }`}
+                    >
+                      {result.answer}
+                    </span>
+                  </div>
+                  <div className="text-right">
+                    <div className="font-bold">{result.score}점</div>
+                    <div className="text-xs text-gray-500">
+                      {(result.timeSpent / 1000).toFixed(1)}초
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* 최종 결과 화면 */}
+        {finalScores.length > 0 && (
+          <div className="bg-white rounded-lg shadow-xl p-6 mb-6">
+            <div className="text-center mb-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-2">
+                🏆 최종 결과
+              </h2>
+              <p className="text-gray-600">
+                "{currentRoom.selectedCategory?.name}" 퀴즈가 끝났습니다!
+              </p>
+            </div>
+
+            <div className="space-y-3">
+              {finalScores.map((score, index) => (
+                <div
+                  key={index}
+                  className={`flex items-center justify-between p-4 rounded-lg ${
+                    index === 0
+                      ? "bg-yellow-100 border-2 border-yellow-400"
+                      : index === 1
+                      ? "bg-gray-100 border-2 border-gray-400"
+                      : index === 2
+                      ? "bg-orange-100 border-2 border-orange-400"
+                      : "bg-gray-50"
+                  }`}
+                >
+                  <div className="flex items-center gap-3">
+                    <span className="text-2xl">
+                      {index === 0
+                        ? "🥇"
+                        : index === 1
+                        ? "🥈"
+                        : index === 2
+                        ? "🥉"
+                        : `${index + 1}위`}
+                    </span>
+                    <span className="font-bold text-lg">{score.nickname}</span>
+                  </div>
+                  <span className="text-xl font-bold text-blue-600">
+                    {score.score}점
+                  </span>
+                </div>
+              ))}
+            </div>
+
+            <div className="text-center mt-6 text-gray-600">
+              잠시 후 대기실로 돌아갑니다...
+            </div>
+          </div>
+        )}
 
         <div className="grid md:grid-cols-2 gap-6">
           {/* 참가자 목록 */}
@@ -189,15 +464,33 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
                     <div className="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center text-sm font-medium">
                       {player.nickname.charAt(0).toUpperCase()}
                     </div>
-                    <span className="font-medium text-gray-800">
-                      {player.nickname}
-                    </span>
+                    <div>
+                      <div className="font-medium text-gray-800 flex items-center gap-2">
+                        {player.nickname}
+                        {player.id === socket?.id && (
+                          <span className="text-xs px-2 py-0.5 rounded bg-blue-100 text-blue-700">
+                            나
+                          </span>
+                        )}
+                      </div>
+                      <div className="text-xs text-gray-400 font-mono">
+                        {player.id}
+                      </div>
+                    </div>
                   </div>
-                  {player.isHost && (
-                    <span className="bg-yellow-100 text-yellow-800 text-xs font-medium px-2 py-1 rounded">
-                      방장
-                    </span>
-                  )}
+                  <div className="flex items-center gap-2">
+                    {currentRoom.playerScores &&
+                      currentRoom.playerScores[player.id] !== undefined && (
+                        <span className="text-sm bg-blue-100 text-blue-700 px-2 py-1 rounded">
+                          {currentRoom.playerScores[player.id]}점
+                        </span>
+                      )}
+                    {player.isHost && (
+                      <span className="bg-yellow-100 text-yellow-800 text-xs font-medium px-2 py-1 rounded">
+                        방장
+                      </span>
+                    )}
+                  </div>
                 </div>
               ))}
             </div>
@@ -288,24 +581,43 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
                 </div>
               )}
 
-            {/* 게임 진행 중 */}
-            {currentRoom.gameStarted && currentRoom.gamePhase === "playing" && (
-              <div className="text-center py-8">
-                <div className="mb-4">
-                  <span className="text-3xl">
-                    {
-                      QUIZ_CATEGORIES.find(
-                        (c) => c.id === currentRoom.selectedCategory?.id
-                      )?.emoji
-                    }
-                  </span>
+            {/* 게임 진행 중 - 대기 화면 */}
+            {currentRoom.gameStarted &&
+              currentRoom.gamePhase === "playing" &&
+              !currentQuestion &&
+              !showResult &&
+              finalScores.length === 0 && (
+                <div className="text-center py-8">
+                  <div className="mb-4">
+                    <span className="text-3xl">
+                      {
+                        QUIZ_CATEGORIES.find(
+                          (c) => c.id === currentRoom.selectedCategory?.id
+                        )?.emoji
+                      }
+                    </span>
+                  </div>
+                  <p className="text-green-600 font-medium mb-2">
+                    "{currentRoom.selectedCategory?.name}" 퀴즈 준비 중...
+                  </p>
+                  <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-purple-600 mx-auto"></div>
                 </div>
-                <p className="text-green-600 font-medium mb-2">
-                  "{currentRoom.selectedCategory?.name}" 퀴즈가 진행 중입니다!
-                </p>
-                <p className="text-gray-600">
-                  실제 퀴즈 기능은 곧 추가될 예정입니다.
-                </p>
+              )}
+
+            {currentRoom.gameStarted && currentRoom.gamePhase === "playing" && (
+              <div className="mt-6">
+                {isHost ? (
+                  <button
+                    onClick={endGame}
+                    className="w-full bg-red-600 text-white py-3 px-4 rounded-md hover:bg-red-700 transition-colors"
+                  >
+                    퀴즈 종료 (방장)
+                  </button>
+                ) : (
+                  <div className="text-center text-sm text-gray-500">
+                    방장이 언제든 퀴즈를 종료할 수 있습니다.
+                  </div>
+                )}
               </div>
             )}
           </div>

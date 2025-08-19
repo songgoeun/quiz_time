@@ -1,0 +1,1789 @@
+{
+  "category": "anime",
+  "category_name": "다슬쨩의 애니",
+  "questions": [
+    {
+      "id": 1,
+      "question": "나루토의 소속 마을은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "나뭇잎 마을",
+      "incorrect_answers": ["모래 마을", "안개 마을", "바위 마을", "구름 마을"],
+      "explanation": "나루토는 나뭇잎 마을(코노하가쿠레) 출신의 닌자입니다."
+    },
+    {
+      "id": 2,
+      "question": "원피스에서 루피의 꿈은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "해적왕이 되는 것",
+      "incorrect_answers": [
+        "세계 최강이 되는 것",
+        "보물을 찾는 것",
+        "모든 바다를 항해하는 것",
+        "동료를 구하는 것"
+      ],
+      "explanation": "몽키 D. 루피의 꿈은 해적왕이 되어 원피스를 찾는 것입니다."
+    },
+    {
+      "id": 3,
+      "question": "드래곤볼에서 손오공이 처음 변신한 형태는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "대원숭이",
+      "incorrect_answers": [
+        "슈퍼 사이어인",
+        "슈퍼 사이어인 2",
+        "슈퍼 사이어인 3",
+        "울트라 인스팅트"
+      ],
+      "explanation": "손오공이 처음 변신한 형태는 보름달을 보고 변신하는 대원숭이입니다."
+    },
+    {
+      "id": 4,
+      "question": "센과 치히로의 행방불명에서 치히로가 일하게 되는 곳은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "목욕탕",
+      "incorrect_answers": ["식당", "호텔", "학교", "공장"],
+      "explanation": "치히로는 신들이 이용하는 목욕탕에서 일하게 됩니다."
+    },
+    {
+      "id": 5,
+      "question": "에반게리온에서 신지가 조종하는 기체 번호는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "초호기",
+      "incorrect_answers": ["영호기", "이호기", "삼호기", "사호기"],
+      "explanation": "이카리 신지는 에반게리온 초호기를 조종합니다."
+    },
+    {
+      "id": 6,
+      "question": "공각기동대의 주인공 쿠사나기 모토코의 별명은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "소령",
+      "incorrect_answers": ["대령", "중령", "대위", "중사"],
+      "explanation": "쿠사나기 모토코는 공안 9과의 소령으로 활동합니다."
+    },
+    {
+      "id": 7,
+      "question": "데스노트에서 주인공 야가미 라이토가 찾는 것은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "L의 정체",
+      "incorrect_answers": [
+        "더 많은 데스노트",
+        "신의 눈",
+        "류크의 사과",
+        "미사의 마음"
+      ],
+      "explanation": "라이토는 자신을 추적하는 L의 정체를 알아내려고 합니다."
+    },
+    {
+      "id": 8,
+      "question": "슬램덩크에서 강백호가 다니는 고등학교는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "북산고등학교",
+      "incorrect_answers": [
+        "해남고등학교",
+        "상양고등학교",
+        "능남고등학교",
+        "산왕고등학교"
+      ],
+      "explanation": "강백호는 북산고등학교 농구부에 소속되어 있습니다."
+    },
+    {
+      "id": 9,
+      "question": "포켓몬스터에서 피카츄의 진화형은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "라이츄",
+      "incorrect_answers": ["피츄", "일렉키드", "볼트오브", "썬더"],
+      "explanation": "피카츄는 천둥의돌을 사용하면 라이츄로 진화합니다."
+    },
+    {
+      "id": 10,
+      "question": "진격의 거인에서 엘런의 거인화 능력은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "진격의 거인",
+      "incorrect_answers": [
+        "갑옷 거인",
+        "여성형 거인",
+        "초대형 거인",
+        "수정 거인"
+      ],
+      "explanation": "엘런 예거는 진격의 거인의 힘을 가지고 있습니다."
+    },
+    {
+      "id": 11,
+      "question": "도라에몽에서 진구(노비타)의 미래 아내는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "시즈카",
+      "incorrect_answers": [
+        "자이안의 여동생",
+        "도라미",
+        "선생님",
+        "이웃집 누나"
+      ],
+      "explanation": "진구는 미래에 시즈카와 결혼하게 됩니다."
+    },
+    {
+      "id": 12,
+      "question": "세일러문에서 주인공 우사기의 세일러 전사 이름은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "세일러 문",
+      "incorrect_answers": [
+        "세일러 마스",
+        "세일러 머큐리",
+        "세일러 비너스",
+        "세일러 주피터"
+      ],
+      "explanation": "우사기는 세일러 문으로 변신합니다."
+    },
+    {
+      "id": 13,
+      "question": "카드캡터 체리에서 체리가 사용하는 마법의 지팡이 이름은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "케로짱의 지팡이",
+      "incorrect_answers": [
+        "유에의 지팡이",
+        "클로우 카드",
+        "봉인의 지팡이",
+        "별의 지팡이"
+      ],
+      "explanation": "체리는 케로짱이 준 마법의 지팡이를 사용합니다."
+    },
+    {
+      "id": 14,
+      "question": "강철의 연금술사에서 주인공 형제의 성은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "엘릭",
+      "incorrect_answers": ["머스탱", "아암스트롱", "휴즈", "터커"],
+      "explanation": "에드워드 엘릭과 알폰스 엘릭 형제입니다."
+    },
+    {
+      "id": 15,
+      "question": "시티헌터에서 료의 파트너 여성의 이름은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "마키무라 카오리",
+      "incorrect_answers": [
+        "노가미 레이카",
+        "아사쿠라 유키",
+        "키사라기 루이",
+        "하야미 히토미"
+      ],
+      "explanation": "사에바 료의 파트너는 마키무라 카오리입니다."
+    },
+    {
+      "id": 16,
+      "question": "이누야샤에서 주인공 여성 카고메가 사는 시대는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "현대",
+      "incorrect_answers": [
+        "헤이안 시대",
+        "가마쿠라 시대",
+        "에도 시대",
+        "메이지 시대"
+      ],
+      "explanation": "카고메는 현대에서 과거로 시간여행을 합니다."
+    },
+    {
+      "id": 17,
+      "question": "천공의 성 라퓨타에서 주인공 소녀의 이름은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "시타",
+      "incorrect_answers": ["나우시카", "키키", "산", "치히로"],
+      "explanation": "천공의 성 라퓨타의 여주인공은 시타입니다."
+    },
+    {
+      "id": 18,
+      "question": "내 이름은 코난에서 코난의 본명은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "쿠도 신이치",
+      "incorrect_answers": ["모리 란", "핫토리 헤이지", "아가사 박사", "키드"],
+      "explanation": "명탐정 코난의 본명은 쿠도 신이치입니다."
+    },
+    {
+      "id": 19,
+      "question": "기동전사 건담에서 아무로가 조종하는 건담의 이름은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "RX-78-2 건담",
+      "incorrect_answers": ["자쿠", "건캐논", "건탱크", "짐"],
+      "explanation": "아무로 레이는 RX-78-2 건담을 조종합니다."
+    },
+    {
+      "id": 20,
+      "question": "미야자키 하야오 감독의 대표작이 아닌 것은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "너의 이름은",
+      "incorrect_answers": [
+        "토토로",
+        "센과 치히로의 행방불명",
+        "하울의 움직이는 성",
+        "천공의 성 라퓨타"
+      ],
+      "explanation": "너의 이름은은 신카이 마코토 감독의 작품입니다."
+    },
+    {
+      "id": 21,
+      "question": "헌터x헌터에서 곤의 아버지는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "진 프릭스",
+      "incorrect_answers": ["레오리오", "크라피카", "키르아", "히소카"],
+      "explanation": "곤 프릭스의 아버지는 진 프릭스입니다."
+    },
+    {
+      "id": 22,
+      "question": "블리치에서 이치고의 참월도 이름은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "잔게츠",
+      "incorrect_answers": [
+        "센본자쿠라",
+        "효린마루",
+        "류진쟈카",
+        "소데노시라유키"
+      ],
+      "explanation": "쿠로사키 이치고의 참월도는 잔게츠입니다."
+    },
+    {
+      "id": 23,
+      "question": "바람계곡의 나우시카에서 나우시카가 사는 계곡의 이름은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "바람계곡",
+      "incorrect_answers": ["독성림", "크시아나", "톨메키아", "페지테"],
+      "explanation": "나우시카는 바람계곡의 족장의 딸입니다."
+    },
+    {
+      "id": 24,
+      "question": "모노노케 히메에서 아시타카가 저주받은 부위는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "오른팔",
+      "incorrect_answers": ["왼팔", "다리", "얼굴", "가슴"],
+      "explanation": "아시타카는 타타리가미에게 오른팔을 저주받았습니다."
+    },
+    {
+      "id": 25,
+      "question": "하울의 움직이는 성에서 하울의 머리색은 처음에 무슨 색이었나?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "금발",
+      "incorrect_answers": ["검은색", "갈색", "은색", "빨간색"],
+      "explanation": "하울은 원래 금발이었지만 마법으로 색을 바꿨습니다."
+    },
+    {
+      "id": 26,
+      "question": "귀신의 아이 토토로에서 주인공 자매의 이름은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "사츠키와 메이",
+      "incorrect_answers": [
+        "유키와 미사",
+        "아이와 유우",
+        "하나와 타로",
+        "사쿠라와 모모"
+      ],
+      "explanation": "자매의 이름은 사츠키(언니)와 메이(동생)입니다."
+    },
+    {
+      "id": 27,
+      "question": "마녀 배달부 키키에서 키키의 마법 능력은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "하늘을 나는 것",
+      "incorrect_answers": [
+        "투명해지는 것",
+        "미래를 보는 것",
+        "동물과 대화하는 것",
+        "물건을 변화시키는 것"
+      ],
+      "explanation": "키키는 빗자루를 타고 하늘을 날 수 있습니다."
+    },
+    {
+      "id": 28,
+      "question": "붉은 돼지에서 주인공 포르코의 직업은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "공중 해적 퇴치업",
+      "incorrect_answers": ["여객기 조종사", "화물기 조종사", "공군", "경찰"],
+      "explanation": "포르코 로소는 공중 해적을 퇴치하는 일을 합니다."
+    },
+    {
+      "id": 29,
+      "question": "게드전기에서 게드가 마법사가 되기 위해 다니는 학교는?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "로크 섬",
+      "incorrect_answers": ["고화 섬", "호트타운", "테르머", "하브너"],
+      "explanation": "게드는 로크 섬의 마법학교에 다닙니다."
+    },
+    {
+      "id": 30,
+      "question": "절규의 춤을 추다가 죽어버린 소녀 기담에서 '단자'는 무엇을 의미하나?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "계단",
+      "incorrect_answers": ["문", "창문", "지붕", "마당"],
+      "explanation": "단자는 계단을 의미하는 일본어입니다."
+    },
+    {
+      "id": 31,
+      "question": "유유백서에서 우라메시 유스케의 영계탐정 번호는?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "002",
+      "incorrect_answers": ["001", "003", "004", "005"],
+      "explanation": "우라메시 유스케의 영계탐정 번호는 002번입니다."
+    },
+    {
+      "id": 32,
+      "question": "세인트 세이야에서 페가수스 성좌의 세인트는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "세이야",
+      "incorrect_answers": ["시류", "현", "잇키", "순"],
+      "explanation": "페가수스 성좌의 세인트는 세이야입니다."
+    },
+    {
+      "id": 33,
+      "question": "베르세르크에서 주인공 가츠가 사용하는 검의 이름은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "드래곤 슬레이어",
+      "incorrect_answers": ["엑스칼리버", "그라무쟝", "뒤란달", "무라마사"],
+      "explanation": "가츠는 드래곤 슬레이어라는 거대한 검을 사용합니다."
+    },
+    {
+      "id": 34,
+      "question": "유희왕에서 무토 유기의 어둠의 인격 이름은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "어둠의 유기 (아템)",
+      "incorrect_answers": ["카이바", "조노우치", "마리크", "바쿠라"],
+      "explanation": "무토 유기 안에는 고대 파라오 아템의 혼이 깃들어 있습니다."
+    },
+    {
+      "id": 35,
+      "question": "디지몬 어드벤처에서 야가미 타이치의 파트너 디지몬은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "아구몬",
+      "incorrect_answers": ["가부몬", "피요몬", "텐타몬", "팔몬"],
+      "explanation": "야가미 타이치의 파트너는 아구몬입니다."
+    },
+    {
+      "id": 36,
+      "question": "록맨 X에서 제로의 빔 세이버 색깔은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "초록색",
+      "incorrect_answers": ["빨간색", "파란색", "노란색", "보라색"],
+      "explanation": "제로의 빔 세이버는 초록색입니다."
+    },
+    {
+      "id": 37,
+      "question": "카우보이 비밥에서 스파이크의 우주선 이름은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "소드피쉬 II",
+      "incorrect_answers": ["레드 테일", "비밥호", "해머헤드", "스파이크호"],
+      "explanation": "스파이크 슈피겔의 우주선은 소드피쉬 II입니다."
+    },
+    {
+      "id": 38,
+      "question": "트라이건에서 바슈의 코트 색깔은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "빨간색",
+      "incorrect_answers": ["검은색", "갈색", "파란색", "녹색"],
+      "explanation": "바슈 더 스탬피드는 빨간 코트를 입고 다닙니다."
+    },
+    {
+      "id": 39,
+      "question": "루팡 3세에서 루팡의 라이벌 경찰은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "제니가타 경부",
+      "incorrect_answers": ["고에몽", "지겐", "후지코", "야쿠자"],
+      "explanation": "제니가타 경부는 루팡을 쫓는 ICPO 경찰입니다."
+    },
+    {
+      "id": 40,
+      "question": "반딧불이의 묘에서 주인공 세이타의 동생 이름은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "세츠코",
+      "incorrect_answers": ["유키코", "마리코", "케이코", "토모코"],
+      "explanation": "세이타의 여동생 이름은 세츠코입니다."
+    },
+    {
+      "id": 41,
+      "question": "아키라에서 주인공 카네다가 타는 오토바이 색깔은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "빨간색",
+      "incorrect_answers": ["파란색", "검은색", "노란색", "흰색"],
+      "explanation": "카네다의 오토바이는 빨간색입니다."
+    },
+    {
+      "id": 42,
+      "question": "아무리 불러도 대답하지 않는 목석 바알에서 바알의 정체는?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "기계",
+      "incorrect_answers": ["외계인", "로봇", "AI", "안드로이드"],
+      "explanation": "바알은 거대한 기계입니다."
+    },
+    {
+      "id": 43,
+      "question": "아즈망가 대왕에서 치요의 특징은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "천재적으로 똑똑함",
+      "incorrect_answers": [
+        "매우 크다",
+        "운동을 잘한다",
+        "요리를 잘한다",
+        "그림을 잘 그린다"
+      ],
+      "explanation": "미하마 치요는 10살의 천재 소녀입니다."
+    },
+    {
+      "id": 44,
+      "question": "러브 히나에서 주인공 케이타로가 관리하는 곳은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "힌타 장",
+      "incorrect_answers": ["사쿠라 장", "유메 장", "미도리 장", "아카 장"],
+      "explanation": "우라시마 케이타로는 힌타 장의 관리인입니다."
+    },
+    {
+      "id": 45,
+      "question": "오! 나의 여신님에서 베르단디의 전문 분야는?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "과거",
+      "incorrect_answers": ["현재", "미래", "운명", "사랑"],
+      "explanation": "베르단디는 과거를 담당하는 여신입니다."
+    },
+    {
+      "id": 46,
+      "question": "시끄러운 녀석들에서 라무의 종족은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "오니족",
+      "incorrect_answers": ["요정", "마녀", "외계인", "로봇"],
+      "explanation": "라무는 우루성의 오니족입니다."
+    },
+    {
+      "id": 47,
+      "question": "란마 1/2에서 란마가 변하는 조건은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "찬물에 닿으면",
+      "incorrect_answers": [
+        "더운물에 닿으면",
+        "화가 나면",
+        "배고프면",
+        "잠들면"
+      ],
+      "explanation": "사오토메 란마는 찬물에 닿으면 여자가 됩니다."
+    },
+    {
+      "id": 48,
+      "question": "이니셜 D에서 타쿠미가 타는 차는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "AE86 하치로쿠",
+      "incorrect_answers": ["RX-7", "실비아", "GT-R", "랜서 에볼루션"],
+      "explanation": "후지와라 타쿠미는 토요타 AE86 하치로쿠를 운전합니다."
+    },
+    {
+      "id": 49,
+      "question": "두근두근! 프리큐어에서 프리큐어의 수는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "4명",
+      "incorrect_answers": ["2명", "3명", "5명", "6명"],
+      "explanation": "두근두근! 프리큐어는 4명의 프리큐어가 활약합니다."
+    },
+    {
+      "id": 50,
+      "question": "고양이의 보은에서 주인공 소녀의 이름은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "하루",
+      "incorrect_answers": ["유키", "사쿠라", "미도리", "아오이"],
+      "explanation": "고양이의 보은의 주인공은 요시오카 하루입니다."
+    },
+    {
+      "id": 51,
+      "question": "은하영웅전설에서 라인하르트의 부함 이름은?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "브뤤힐드",
+      "incorrect_answers": ["이제를란트", "바바로사", "룩스", "펜리르"],
+      "explanation": "라인하르트의 부함은 브뤤힐드입니다."
+    },
+    {
+      "id": 52,
+      "question": "마크로스에서 발키리의 세 가지 형태가 아닌 것은?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "워크로이드",
+      "incorrect_answers": ["파이터", "가웍", "배트로이드", "가디언"],
+      "explanation": "발키리는 파이터, 가웍(가디언), 배트로이드 세 형태로 변형됩니다."
+    },
+    {
+      "id": 53,
+      "question": "학원앨리스에서 미칸의 앨리스는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "무효화",
+      "incorrect_answers": ["순간이동", "염력", "투시", "치유"],
+      "explanation": "사쿠라 미칸의 앨리스는 다른 앨리스를 무효화하는 능력입니다."
+    },
+    {
+      "id": 54,
+      "question": "후르츠 바스켓에서 혼다 토오루가 머무는 가문은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "소마가",
+      "incorrect_answers": ["한지마가", "우오타니가", "아리사가", "모모지가"],
+      "explanation": "혼다 토오루는 소마가에서 머물게 됩니다."
+    },
+    {
+      "id": 55,
+      "question": "오란고교 호스트부에서 하루히의 성별은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "여성",
+      "incorrect_answers": ["남성", "중성", "무성", "양성"],
+      "explanation": "후지오카 하루히는 여성이지만 남장을 하고 있습니다."
+    },
+    {
+      "id": 56,
+      "question": "꽃보다 남자에서 F4의 리더는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "도묘지 츠카사",
+      "incorrect_answers": [
+        "하나자와 루이",
+        "니시카도 소지로",
+        "미마사카 아키라",
+        "마키노 츠쿠시"
+      ],
+      "explanation": "F4의 리더는 도묘지 츠카사입니다."
+    },
+    {
+      "id": 57,
+      "question": "노다메 칸타빌레에서 노다메의 본명은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "노다 메구미",
+      "incorrect_answers": ["노다 마리", "노다 유키", "노다 아이", "노다 리나"],
+      "explanation": "노다메의 본명은 노다 메구미입니다."
+    },
+    {
+      "id": 58,
+      "question": "금색의 갓슈에서 갓슈의 파트너는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "키요마로",
+      "incorrect_answers": ["시온", "카시오", "파르코", "비크토렘"],
+      "explanation": "갓슈의 인간 파트너는 타카미네 키요마로입니다."
+    },
+    {
+      "id": 59,
+      "question": "보노보노에서 보노보노의 동물 종류는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "해달",
+      "incorrect_answers": ["너구리", "족제비", "오소리", "여우"],
+      "explanation": "보노보노는 해달입니다."
+    },
+    {
+      "id": 60,
+      "question": "짱구는 못말려에서 짱구의 여동생 이름은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "짱아",
+      "incorrect_answers": ["나나", "미미", "하나", "유미"],
+      "explanation": "노하라 신노스케의 여동생은 노하라 히마와리(짱아)입니다."
+    },
+    {
+      "id": 61,
+      "question": "크레용 신짱에서 신짱이 다니는 유치원은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "후타바 유치원",
+      "incorrect_answers": [
+        "사쿠라 유치원",
+        "해바라기 유치원",
+        "코스모스 유치원",
+        "히마와리 유치원"
+      ],
+      "explanation": "노하라 신노스케는 후타바 유치원에 다닙니다."
+    },
+    {
+      "id": 62,
+      "question": "킨니쿠맨에서 주인공의 필살기는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "킨니쿠 버스터",
+      "incorrect_answers": [
+        "킨니쿠 드라이버",
+        "킨니쿠 빔",
+        "킨니쿠 플래시",
+        "킨니쿠 보미"
+      ],
+      "explanation": "킨니쿠맨의 대표적인 필살기는 킨니쿠 버스터입니다."
+    },
+    {
+      "id": 63,
+      "question": "북두의 권에서 켄시로의 유파는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "북두신권",
+      "incorrect_answers": ["남두성권", "원두황권", "서두백권", "동두청권"],
+      "explanation": "켄시로는 북두신권의 전수자입니다."
+    },
+    {
+      "id": 64,
+      "question": "죠죠의 기묘한 모험에서 3부의 주인공은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "쿠죠 죠타로",
+      "incorrect_answers": [
+        "죠나단 죠스타",
+        "죠셉 죠스타",
+        "히가시카타 죠스케",
+        "죠르노 죠바나"
+      ],
+      "explanation": "3부 스타더스트 크루세이더즈의 주인공은 쿠죠 죠타로입니다."
+    },
+    {
+      "id": 65,
+      "question": "원피스에서 루피의 형은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "포트가스 D. 에이스",
+      "incorrect_answers": ["사보", "샹크스", "가프", "드래곤"],
+      "explanation": "몽키 D. 루피의 의형은 포트가스 D. 에이스입니다."
+    },
+    {
+      "id": 66,
+      "question": "나루토에서 9미 호랑이의 이름은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "구라마",
+      "incorrect_answers": ["시카쿠", "마타타비", "이소부", "코쿠오"],
+      "explanation": "9미 호랑이의 이름은 구라마입니다."
+    },
+    {
+      "id": 67,
+      "question": "진격의 거인에서 벽의 이름이 아닌 것은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "월 마르스",
+      "incorrect_answers": ["월 마리아", "월 로제", "월 시나", "월 시간샤"],
+      "explanation": "벽의 이름은 월 마리아, 월 로제, 월 시나입니다."
+    },
+    {
+      "id": 68,
+      "question": "데스노트에서 미사의 죽음의 눈으로 볼 수 없는 것은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "수명",
+      "incorrect_answers": ["이름", "얼굴", "나이", "성별"],
+      "explanation": "죽음의 눈으로는 이름과 수명을 볼 수 있지만, 데스노트 소유자의 수명은 볼 수 없습니다."
+    },
+    {
+      "id": 69,
+      "question": "귀멸의 칼날에서 탄지로의 여동생 이름은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "네즈코",
+      "incorrect_answers": ["카나오", "시노부", "미츠리", "칸나"],
+      "explanation": "카마도 탄지로의 여동생은 카마도 네즈코입니다."
+    },
+    {
+      "id": 70,
+      "question": "원펀맨에서 사이타마의 등급은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "B급",
+      "incorrect_answers": ["S급", "A급", "C급", "특급"],
+      "explanation": "사이타마는 B급 영웅입니다."
+    },
+    {
+      "id": 71,
+      "question": "모브사이코 100에서 모브의 본명은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "카게야마 시게오",
+      "incorrect_answers": [
+        "카게야마 리츠",
+        "레이겐 아라타카",
+        "하나자와 테루키",
+        "쿠라타 토메"
+      ],
+      "explanation": "모브의 본명은 카게야마 시게오입니다."
+    },
+    {
+      "id": 72,
+      "question": "나의 히어로 아카데미아에서 데쿠의 본명은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "미도리야 이즈쿠",
+      "incorrect_answers": [
+        "바쿠고 카츠키",
+        "토도로키 쇼토",
+        "우라라카 오차코",
+        "이이다 텐야"
+      ],
+      "explanation": "데쿠의 본명은 미도리야 이즈쿠입니다."
+    },
+    {
+      "id": 73,
+      "question": "닥터 스톤에서 센쿠의 전공은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "화학",
+      "incorrect_answers": ["물리학", "생물학", "수학", "지질학"],
+      "explanation": "이시가미 센쿠는 화학에 특화된 과학자입니다."
+    },
+    {
+      "id": 74,
+      "question": "약속의 네버랜드에서 주인공 엠마가 사는 곳은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "그레이스 필드 하우스",
+      "incorrect_answers": ["글로리아 벨", "골디 폰드", "람다 7214", "아담"],
+      "explanation": "엠마는 그레이스 필드 하우스 출신입니다."
+    },
+    {
+      "id": 75,
+      "question": "주술회전에서 유지 이타도리가 먹은 것은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "료멘 스쿠나의 손가락",
+      "incorrect_answers": [
+        "저주받은 반지",
+        "악령의 눈",
+        "마왕의 심장",
+        "어둠의 돌"
+      ],
+      "explanation": "이타도리 유지는 료멘 스쿠나의 손가락을 먹었습니다."
+    },
+    {
+      "id": 76,
+      "question": "체인소맨에서 데지의 꿈은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "빵에 잼을 발라 먹는 것",
+      "incorrect_answers": [
+        "부자가 되는 것",
+        "영웅이 되는 것",
+        "사랑받는 것",
+        "유명해지는 것"
+      ],
+      "explanation": "데지의 소박한 꿈은 빵에 잼을 발라 먹는 것이었습니다."
+    },
+    {
+      "id": 77,
+      "question": "스파이 패밀리에서 아냐의 나이는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "6세",
+      "incorrect_answers": ["5세", "7세", "8세", "4세"],
+      "explanation": "아냐 포저는 6세입니다."
+    },
+    {
+      "id": 78,
+      "question": "동경 리벤저스에서 타케미치가 과거로 돌아가는 방법은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "악수하기",
+      "incorrect_answers": ["키스하기", "포옹하기", "눈맞춤하기", "손잡기"],
+      "explanation": "타케미치는 특정 사람과 악수하면 과거로 돌아갑니다."
+    },
+    {
+      "id": 79,
+      "question": "기생수에서 기생생물이 들어간 신이치의 부위는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "오른손",
+      "incorrect_answers": ["왼손", "머리", "가슴", "배"],
+      "explanation": "이즈미 신이치의 오른손에 미기가 기생했습니다."
+    },
+    {
+      "id": 80,
+      "question": "갑철성의 카바네리에서 주인공이 사는 역은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "아라가네역",
+      "incorrect_answers": ["코테츠죠", "야시로역", "이와도역", "콘고카쿠"],
+      "explanation": "이코마는 아라가네역에 살고 있습니다."
+    },
+    {
+      "id": 81,
+      "question": "오버로드에서 아인즈의 길드 이름은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "아인즈 울 고운",
+      "incorrect_answers": [
+        "나자릭 지하 대분묘",
+        "어둠의 기사단",
+        "데스 기사단",
+        "언데드 킹덤"
+      ],
+      "explanation": "아인즈가 속한 길드는 아인즈 울 고운입니다."
+    },
+    {
+      "id": 82,
+      "question": "리제로에서 주인공 스바루의 능력은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "죽음 회귀",
+      "incorrect_answers": ["시간 정지", "순간이동", "미래 예지", "기억 조작"],
+      "explanation": "나츠키 스바루는 죽으면 특정 시점으로 돌아가는 능력이 있습니다."
+    },
+    {
+      "id": 83,
+      "question": "이 세계는 스마트폰과 함께에서 주인공이 받은 것은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "스마트폰",
+      "incorrect_answers": ["태블릿", "노트북", "게임기", "시계"],
+      "explanation": "주인공은 신으로부터 스마트폰을 받고 이세계로 전생했습니다."
+    },
+    {
+      "id": 84,
+      "question": "방패 용사의 성공담에서 주인공이 소환된 무기는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "방패",
+      "incorrect_answers": ["검", "창", "활", "지팡이"],
+      "explanation": "이와타니 나오후미는 방패의 용사로 소환되었습니다."
+    },
+    {
+      "id": 85,
+      "question": "전생했더니 슬라임이었던 건에 대하여에서 주인공의 이름은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "림루",
+      "incorrect_answers": ["고블타", "란가", "시온", "베니마루"],
+      "explanation": "슬라임으로 전생한 주인공의 이름은 림루 템페스트입니다."
+    },
+    {
+      "id": 86,
+      "question": "코노스바에서 카즈마의 직업은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "모험가",
+      "incorrect_answers": ["도적", "전사", "마법사", "성직자"],
+      "explanation": "사토 카즈마는 특별한 직업 없이 모험가로 활동합니다."
+    },
+    {
+      "id": 87,
+      "question": "노 게임 노 라이프에서 형제의 팀명은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "『 』(쿠우하쿠)",
+      "incorrect_answers": ["블랭크", "니트", "히키코모리", "게이머"],
+      "explanation": "소라와 시로 남매는 『 』(쿠우하쿠)라는 팀명을 사용합니다."
+    },
+    {
+      "id": 88,
+      "question": "하이큐에서 히나타가 다니는 고등학교는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "카라스노고",
+      "incorrect_answers": [
+        "네코마고",
+        "아오바조사이고",
+        "시라토리자와고",
+        "후쿠로다니고"
+      ],
+      "explanation": "히나타 쇼요는 카라스노 고등학교에 다닙니다."
+    },
+    {
+      "id": 89,
+      "question": "쿠로코의 농구에서 키세의 능력은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "퍼펙트 카피",
+      "incorrect_answers": ["존", "미스디렉션", "엠퍼러 아이", "메테오 잼"],
+      "explanation": "키세 료타의 능력은 상대방의 기술을 완벽하게 복사하는 퍼펙트 카피입니다."
+    },
+    {
+      "id": 90,
+      "question": "테니스의 왕자에서 에치젠 료마의 필살기는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "트위스트 서브",
+      "incorrect_answers": [
+        "드라이브 A",
+        "스매시",
+        "스네이크",
+        "부메랑 스네이크"
+      ],
+      "explanation": "에치젠 료마의 대표적인 필살기는 트위스트 서브입니다."
+    },
+    {
+      "id": 91,
+      "question": "다이아몬드 에이스에서 주인공 사와무라의 포지션은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "투수",
+      "incorrect_answers": ["포수", "1루수", "유격수", "외야수"],
+      "explanation": "사와무라 에이준은 투수입니다."
+    },
+    {
+      "id": 92,
+      "question": "메이저에서 고로의 아버지 이름은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "혼다 시게히코",
+      "incorrect_answers": [
+        "혼다 겐타",
+        "혼다 료",
+        "혼다 타케시",
+        "혼다 히로시"
+      ],
+      "explanation": "혼다 고로의 아버지는 혼다 시게히코입니다."
+    },
+    {
+      "id": 93,
+      "question": "아이실드 21에서 세나의 포지션은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "러닝백",
+      "incorrect_answers": ["쿼터백", "와이드 리시버", "라인백커", "세이프티"],
+      "explanation": "코바야카와 세나는 러닝백 포지션입니다."
+    },
+    {
+      "id": 94,
+      "question": "치하야후루에서 경기하는 것은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "경기 카루타",
+      "incorrect_answers": ["장기", "바둑", "체스", "오목"],
+      "explanation": "치하야후루는 경기 카루타를 다룬 작품입니다."
+    },
+    {
+      "id": 95,
+      "question": "작은 거인에서 코지마의 별명은?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "작은 거인",
+      "incorrect_answers": ["빠른 다리", "철벽", "에이스", "맹타"],
+      "explanation": "코지마는 작은 거인이라는 별명을 가지고 있습니다."
+    },
+    {
+      "id": 96,
+      "question": "식극의 소마에서 주인공 소마의 아버지는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "유키히라 조이치로",
+      "incorrect_answers": [
+        "나키리 센자에몬",
+        "도지마 긴",
+        "시노미야 코지로",
+        "사이바 조이치로"
+      ],
+      "explanation": "유키히라 소마의 아버지는 유키히라 조이치로입니다."
+    },
+    {
+      "id": 97,
+      "question": "감옥학원에서 주인공들이 다니는 학교는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "사립 하치미츠 학원",
+      "incorrect_answers": [
+        "공립 하치미츠 학원",
+        "사립 미츠바치 학원",
+        "공립 미츠바치 학원",
+        "사립 하치미츠 고등학교"
+      ],
+      "explanation": "감옥학원의 배경은 사립 하치미츠 학원입니다."
+    },
+    {
+      "id": 98,
+      "question": "러키스타에서 코나타의 취미는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "오타쿠 활동",
+      "incorrect_answers": ["독서", "운동", "요리", "음악"],
+      "explanation": "이즈미 코나타는 오타쿠로 애니메이션과 게임을 좋아합니다."
+    },
+    {
+      "id": 99,
+      "question": "케이온에서 밴드 이름은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "방과후 티타임",
+      "incorrect_answers": ["케이온부", "경음부", "뮤직 클럽", "사쿠라고 밴드"],
+      "explanation": "케이온의 밴드 이름은 방과후 티타임입니다."
+    },
+    {
+      "id": 100,
+      "question": "아이돌마스터에서 765프로의 프로듀서는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "플레이어(이름 없음)",
+      "incorrect_answers": [
+        "타카기 준이치로",
+        "오토나시 코토리",
+        "료가사키 레이",
+        "미우라 아즈사"
+      ],
+      "explanation": "아이돌마스터의 프로듀서는 플레이어 자신입니다."
+    },
+    {
+      "id": 101,
+      "question": "러브라이브에서 뮤즈의 센터는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "호노카",
+      "incorrect_answers": ["코토리", "우미", "마키", "엘리"],
+      "explanation": "뮤즈의 센터는 코사카 호노카입니다."
+    },
+    {
+      "id": 102,
+      "question": "아이카츠에서 주인공 이치고가 입학한 학교는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "스타라이트 학원",
+      "incorrect_answers": [
+        "드림 아카데미",
+        "스타 아카데미",
+        "아이돌 학원",
+        "스타 스쿨"
+      ],
+      "explanation": "호시미야 이치고는 스타라이트 학원에 입학합니다."
+    },
+    {
+      "id": 103,
+      "question": "프리티 리듬에서 주인공 미아의 특기는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "프리즘 점프",
+      "incorrect_answers": ["노래", "춤", "패션", "연기"],
+      "explanation": "미아는 프리즘 점프에 특화되어 있습니다."
+    },
+    {
+      "id": 104,
+      "question": "우마무스메에서 스페셜 위크의 트레이너는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "플레이어",
+      "incorrect_answers": [
+        "사일런스 스즈카",
+        "토카이 테이오",
+        "메지로 맥퀸",
+        "골드 쉽"
+      ],
+      "explanation": "우마무스메에서 트레이너는 플레이어입니다."
+    },
+    {
+      "id": 105,
+      "question": "IA와 OA에서 IA는 무엇의 줄임말인가?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "Aria on the Planetes",
+      "incorrect_answers": [
+        "Intelligence Agent",
+        "Interactive Avatar",
+        "Idol Actress",
+        "Artificial Intelligence"
+      ],
+      "explanation": "IA는 'Aria on the Planetes'의 줄임말입니다."
+    },
+    {
+      "id": 106,
+      "question": "뱅드림에서 Poppin'Party의 기타는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "토야마 카스미",
+      "incorrect_answers": [
+        "이치가야 아리사",
+        "야마부키 사아야",
+        "하나조노 타에",
+        "우시고메 리미"
+      ],
+      "explanation": "Poppin'Party의 기타는 토야마 카스미입니다."
+    },
+    {
+      "id": 107,
+      "question": "보컬로이드 하츠네 미쿠의 대표 색깔은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "청록색",
+      "incorrect_answers": ["분홍색", "파란색", "녹색", "보라색"],
+      "explanation": "하츠네 미쿠의 대표 색깔은 청록색입니다."
+    },
+    {
+      "id": 108,
+      "question": "마법소녀 마도카☆마기카에서 마도카의 소원은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "모든 마녀를 사라지게 하는 것",
+      "incorrect_answers": [
+        "세계를 구하는 것",
+        "친구를 살리는 것",
+        "평화를 가져오는 것",
+        "모든 마법소녀를 구하는 것"
+      ],
+      "explanation": "마도카는 모든 마녀가 태어나기 전에 사라지게 해달라고 소원했습니다."
+    },
+    {
+      "id": 109,
+      "question": "사키에서 주인공 사키의 특기는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "플러스마이너스 제로",
+      "incorrect_answers": ["론", "리치", "국사무쌍", "천화"],
+      "explanation": "미야나가 사키의 특기는 점수를 플러스마이너스 제로로 만드는 것입니다."
+    },
+    {
+      "id": 110,
+      "question": "아카메가 벤다에서 아카메의 무기는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "무라사메",
+      "incorrect_answers": ["간토", "엑스타즈", "퍼펙터", "에코스태즈"],
+      "explanation": "아카메의 제구는 일도양단 무라사메입니다."
+    },
+    {
+      "id": 111,
+      "question": "터미네이터에서 주인공들이 싸우는 기계는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "가스트레아",
+      "incorrect_answers": ["터미네이터", "로봇", "안드로이드", "사이보그"],
+      "explanation": "블랙 불릿에서 주인공들은 가스트레아와 싸웁니다."
+    },
+    {
+      "id": 112,
+      "question": "킬라킬에서 류코의 제복 이름은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "센케츠",
+      "incorrect_answers": ["준케츠", "카무이", "누두스트 비치", "고쿠 유니폼"],
+      "explanation": "마토이 류코의 신의 의류는 센케츠입니다."
+    },
+    {
+      "id": 113,
+      "question": "토라도라에서 타이가의 별명은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "손바닥 호랑이",
+      "incorrect_answers": [
+        "작은 호랑이",
+        "귀여운 호랑이",
+        "화난 호랑이",
+        "미니 호랑이"
+      ],
+      "explanation": "아이사카 타이가의 별명은 손바닥 호랑이입니다."
+    },
+    {
+      "id": 114,
+      "question": "골든타임에서 코코의 본명은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "카가 코코",
+      "incorrect_answers": [
+        "야나기사와 코코",
+        "나나 코코",
+        "하야시다 코코",
+        "다나카 코코"
+      ],
+      "explanation": "코코의 본명은 카가 코코입니다."
+    },
+    {
+      "id": 115,
+      "question": "니세코이에서 라쿠의 약혼자(가짜)는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "키리사키 치토게",
+      "incorrect_answers": [
+        "오노데라 코사키",
+        "타치바나 마리카",
+        "츠구미 세이시로",
+        "키류 나나코"
+      ],
+      "explanation": "이치죠 라쿠의 가짜 약혼자는 키리사키 치토게입니다."
+    },
+    {
+      "id": 116,
+      "question": "몬스터 무스메에서 미아의 종족은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "라미아",
+      "incorrect_answers": ["하피", "켄타우로스", "슬라임", "아라크네"],
+      "explanation": "미아는 라미아족입니다."
+    },
+    {
+      "id": 117,
+      "question": "감옥 교실에서 주인공이 다니는 학교는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "하치미츠 사립고등학교",
+      "incorrect_answers": [
+        "미츠바치 사립고등학교",
+        "하치미츠 공립고등학교",
+        "꿀벌 사립고등학교",
+        "달콤한 사립고등학교"
+      ],
+      "explanation": "감옥교실의 배경은 하치미츠 사립고등학교입니다."
+    },
+    {
+      "id": 118,
+      "question": "노엘의 기적에서 주인공의 이름은?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "마나베 노엘",
+      "incorrect_answers": [
+        "타나카 노엘",
+        "야마다 노엘",
+        "사토 노엘",
+        "스즈키 노엘"
+      ],
+      "explanation": "주인공의 이름은 마나베 노엘입니다."
+    },
+    {
+      "id": 119,
+      "question": "온에어에서 키타하라의 취미는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "다이빙",
+      "incorrect_answers": ["서핑", "수영", "낚시", "스노클링"],
+      "explanation": "키타하라 이오리는 다이빙을 좋아합니다."
+    },
+    {
+      "id": 120,
+      "question": "우자키와 놀고 싶어에서 우자키의 특징은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "활발함",
+      "incorrect_answers": ["조용함", "부끄러움", "무뚝뚝함", "게으름"],
+      "explanation": "우자키 하나는 매우 활발하고 밝은 성격입니다."
+    },
+    {
+      "id": 121,
+      "question": "피터 그릴과 현자의 시간에서 주인공의 직업은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "전사",
+      "incorrect_answers": ["마법사", "도적", "궁수", "성직자"],
+      "explanation": "피터 그릴은 전사입니다."
+    },
+    {
+      "id": 122,
+      "question": "가정교사 히트맨 리본에서 츠나의 패밀리는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "봉골레",
+      "incorrect_answers": ["밀피오레", "바리아", "아르코발레노", "시몬"],
+      "explanation": "사와다 츠나요시는 봉골레 패밀리의 10대 보스입니다."
+    },
+    {
+      "id": 123,
+      "question": "D.Gray-man에서 알렌의 이노센스는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "왼팔",
+      "incorrect_answers": ["오른팔", "검", "망토", "모자"],
+      "explanation": "알렌 워커의 이노센스는 왼팔에 깃들어 있습니다."
+    },
+    {
+      "id": 124,
+      "question": "엘펜 리트에서 루시의 종족은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "디클로니우스",
+      "incorrect_answers": ["뮤턴트", "외계인", "인조인간", "사이보그"],
+      "explanation": "루시는 디클로니우스라는 새로운 인류입니다."
+    },
+    {
+      "id": 125,
+      "question": "미래 일기에서 유키의 일기 종류는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "무차별 일기",
+      "incorrect_answers": ["연애 일기", "도피 일기", "살인 일기", "정의 일기"],
+      "explanation": "아마노 유키테루의 미래일기는 무차별 일기입니다."
+    },
+    {
+      "id": 126,
+      "question": "또 다른 미래에서 미사키의 정체는?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "죽은 학생",
+      "incorrect_answers": ["전학생", "반복학생", "외계인", "유령"],
+      "explanation": "미사키 메이는 이미 죽은 학생이었습니다."
+    },
+    {
+      "id": 127,
+      "question": "시원찮은 그녀를 위한 육성방법에서 주인공의 이름은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "아키 토모야",
+      "incorrect_answers": [
+        "사와무라 에리리",
+        "카스미가오카 우타하",
+        "카토 메구미",
+        "히야마 미즈키"
+      ],
+      "explanation": "주인공의 이름은 아키 토모야입니다."
+    },
+    {
+      "id": 128,
+      "question": "청춘 돼지 야로는 버니걸 선배의 꿈을 꾸지 않는다에서 사쿠라지마 마이의 증상은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "사람들이 자신을 인식하지 못함",
+      "incorrect_answers": [
+        "시간이 반복됨",
+        "기억을 잃음",
+        "나이가 줄어듦",
+        "복제됨"
+      ],
+      "explanation": "사쿠라지마 마이는 사춘기 증후군으로 사람들이 자신을 인식하지 못하게 되었습니다."
+    },
+    {
+      "id": 129,
+      "question": "오레이모에서 키리노의 취미는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "여동생 에로게",
+      "incorrect_answers": ["모델링", "독서", "요리", "운동"],
+      "explanation": "코사카 키리노는 여동생이 나오는 에로게를 좋아합니다."
+    },
+    {
+      "id": 130,
+      "question": "하갠가에서 주인공의 클럽은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "이웃사촌부",
+      "incorrect_answers": ["친구만들기부", "외톨이부", "인기부", "사교부"],
+      "explanation": "하세가와 코다카는 이웃사촌부를 만들었습니다."
+    },
+    {
+      "id": 131,
+      "question": "야하리 궤도에서 히키가야의 별명은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "히키",
+      "incorrect_answers": ["하치만", "외톨이", "음침이", "독설가"],
+      "explanation": "히키가야 하치만의 별명은 히키입니다."
+    },
+    {
+      "id": 132,
+      "question": "네토게의 아내는 여자아이가 아니라고 생각했습니까?에서 주인공의 게임 캐릭터명은?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "루시안",
+      "incorrect_answers": ["아코", "마스터", "쉬비엘", "세트"],
+      "explanation": "나이도 히데키의 게임 캐릭터명은 루시안입니다."
+    },
+    {
+      "id": 133,
+      "question": "Charlotte에서 주인공의 능력은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "5초간 빙의",
+      "incorrect_answers": ["투명화", "순간이동", "예지", "기억조작"],
+      "explanation": "오토사카 유우는 5초간 다른 사람에게 빙의할 수 있습니다."
+    },
+    {
+      "id": 134,
+      "question": "플라스틱 메모리즈에서 안드로이드들의 수명은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "9년 4개월",
+      "incorrect_answers": ["10년", "5년", "7년", "15년"],
+      "explanation": "기프티아의 수명은 약 9년 4개월입니다."
+    },
+    {
+      "id": 135,
+      "question": "에덴의 동쪽에서 주인공이 찾는 것은?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "에덴",
+      "incorrect_answers": ["낙원", "유토피아", "엘도라도", "샹그릴라"],
+      "explanation": "주인공들은 에덴을 찾고 있습니다."
+    },
+    {
+      "id": 136,
+      "question": "SHIROBAKO에서 주인공 아오이의 직업은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "제작 진행",
+      "incorrect_answers": ["애니메이터", "성우", "감독", "각본가"],
+      "explanation": "미야모리 아오이는 애니메이션 제작 진행 담당입니다."
+    },
+    {
+      "id": 137,
+      "question": "바쿠만에서 마시로의 꿈은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "만화가",
+      "incorrect_answers": [
+        "소설가",
+        "일러스트레이터",
+        "애니메이터",
+        "게임 기획자"
+      ],
+      "explanation": "마시로 모리타카의 꿈은 만화가가 되는 것입니다."
+    },
+    {
+      "id": 138,
+      "question": "NEW GAME!에서 아오바의 회사는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "이글 점프",
+      "incorrect_answers": [
+        "프라잉독",
+        "게임 컴퍼니",
+        "플라잉독",
+        "이글 다이브"
+      ],
+      "explanation": "스즈카제 아오바는 이글 점프에서 일합니다."
+    },
+    {
+      "id": 139,
+      "question": "3D 가노조에서 주인공의 취미는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "피규어 제작",
+      "incorrect_answers": ["애니메이션", "게임", "만화", "코스프레"],
+      "explanation": "츠키시마는 피규어 제작이 취미입니다."
+    },
+    {
+      "id": 140,
+      "question": "아마가미에서 주인공의 이름은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "타치바나 준이치",
+      "incorrect_answers": [
+        "아야츠지 츠카사",
+        "나나사키 아이",
+        "사쿠라이 리히코",
+        "타나무라 히비키"
+      ],
+      "explanation": "아마가미의 주인공은 타치바나 준이치입니다."
+    },
+    {
+      "id": 141,
+      "question": "CLANNAD에서 토모야의 아버지는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "오카자키 나오유키",
+      "incorrect_answers": [
+        "후루카와 아키오",
+        "사카가미 요헤이",
+        "스노하라 유헤이",
+        "이치노세 코타미"
+      ],
+      "explanation": "오카자키 토모야의 아버지는 오카자키 나오유키입니다."
+    },
+    {
+      "id": 142,
+      "question": "Angel Beats!에서 주인공이 속한 조직은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "SSS",
+      "incorrect_answers": ["SOS", "GDM", "ABC", "DEF"],
+      "explanation": "오토나시는 SSS(사후세계전선)에 속하게 됩니다."
+    },
+    {
+      "id": 143,
+      "question": "리틀 버스터즈에서 야구팀 이름은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "리틀 버스터즈",
+      "incorrect_answers": [
+        "빅 버스터즈",
+        "미니 버스터즈",
+        "와일드 버스터즈",
+        "슈퍼 버스터즈"
+      ],
+      "explanation": "야구팀 이름은 리틀 버스터즈입니다."
+    },
+    {
+      "id": 144,
+      "question": "여름색 기적에서 주인공들이 다니는 학교는?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "시미 고등학교",
+      "incorrect_answers": [
+        "나츠 고등학교",
+        "우미 고등학교",
+        "소라 고등학교",
+        "카제 고등학교"
+      ],
+      "explanation": "주인공들은 시미 고등학교에 다닙니다."
+    },
+    {
+      "id": 145,
+      "question": "야마노스스메에서 등산을 처음 제안한 캐릭터는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "히나타",
+      "incorrect_answers": ["아오이", "카에데", "코코나", "유카리"],
+      "explanation": "쿠라사키 히나타가 등산을 처음 제안했습니다."
+    },
+    {
+      "id": 146,
+      "question": "감기가 이겨내는데에서 주인공의 부모님 직업은?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "과자점 운영",
+      "incorrect_answers": ["식당 운영", "서점 운영", "꽃집 운영", "카페 운영"],
+      "explanation": "주인공의 부모님은 과자점을 운영합니다."
+    },
+    {
+      "id": 147,
+      "question": "유리 온 아이스에서 유리의 스승은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "빅토르 니키포로프",
+      "incorrect_answers": [
+        "유리 플리세츠키",
+        "오타베크 알틴",
+        "크리스토프 지아코메티",
+        "JJ 스타일"
+      ],
+      "explanation": "카츠키 유리의 스승은 빅토르 니키포로프입니다."
+    },
+    {
+      "id": 148,
+      "question": "회전희 유테나에서 유테나의 목표는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "왕자님이 되는 것",
+      "incorrect_answers": [
+        "공주님이 되는 것",
+        "기사가 되는 것",
+        "마녀가 되는 것",
+        "여왕이 되는 것"
+      ],
+      "explanation": "텐조 유테나는 왕자님이 되고 싶어합니다."
+    },
+    {
+      "id": 149,
+      "question": "무지개빛 러시에서 주인공이 하는 스포츠는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "라크로스",
+      "incorrect_answers": ["테니스", "배드민턴", "핸드볼", "럭비"],
+      "explanation": "무지개빛 러시는 라크로스를 다룬 애니메이션입니다."
+    },
+    {
+      "id": 150,
+      "question": "스케치북에서 소라의 취미는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "그림 그리기",
+      "incorrect_answers": ["사진 찍기", "독서", "음악 듣기", "산책"],
+      "explanation": "카지와라 소라는 그림 그리기를 좋아합니다."
+    },
+    {
+      "id": 151,
+      "question": "아리아에서 무도회가 열리는 행성은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "아쿠아",
+      "incorrect_answers": ["네오 베네치아", "만홈", "화성", "지구"],
+      "explanation": "아리아의 배경인 행성은 아쿠아입니다."
+    },
+    {
+      "id": 152,
+      "question": "스즈미야 하루히의 우울에서 하루히가 만든 동아리는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "SOS단",
+      "incorrect_answers": ["문예부", "컴퓨터부", "오컬트부", "방송부"],
+      "explanation": "스즈미야 하루히는 SOS단을 만들었습니다."
+    },
+    {
+      "id": 153,
+      "question": "라이트 노벨 클럽에서 주인공이 쓰는 소설 장르는?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "라이트 노벨",
+      "incorrect_answers": ["순문학", "추리소설", "SF", "판타지"],
+      "explanation": "주인공은 라이트 노벨을 씁니다."
+    },
+    {
+      "id": 154,
+      "question": "기동전함 나데시코에서 나데시코의 함장은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "미스마루 유리카",
+      "incorrect_answers": [
+        "호시카와 루리",
+        "아카츠키 나가레",
+        "텐카와 아키토",
+        "로사 아프로디아"
+      ],
+      "explanation": "나데시코의 함장은 미스마루 유리카입니다."
+    },
+    {
+      "id": 155,
+      "question": "십이국기에서 주인공 요코가 가게 되는 나라는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "경국",
+      "incorrect_answers": ["연국", "범국", "한국", "재국"],
+      "explanation": "나카지마 요코는 경국의 왕이 됩니다."
+    },
+    {
+      "id": 156,
+      "question": "로도스도 전기에서 파른의 직업은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "기사",
+      "incorrect_answers": ["마법사", "도적", "성직자", "전사"],
+      "explanation": "파른은 프리 기사입니다."
+    },
+    {
+      "id": 157,
+      "question": "슬레이어즈에서 리나의 필살기는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "드래곤 슬레이브",
+      "incorrect_answers": [
+        "파이어볼",
+        "라이트닝",
+        "기가 슬레이브",
+        "플레어 애로우"
+      ],
+      "explanation": "리나 인버스의 대표적인 필살기는 드래곤 슬레이브입니다."
+    },
+    {
+      "id": 158,
+      "question": "마법기사 레이어스에서 주인공들이 구해야 할 공주는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "에메로드 공주",
+      "incorrect_answers": [
+        "세피라 공주",
+        "아스카 공주",
+        "루나 공주",
+        "아리아 공주"
+      ],
+      "explanation": "세피로의 에메로드 공주를 구해야 합니다."
+    },
+    {
+      "id": 159,
+      "question": "도쿄 구울에서 카네키가 변하게 된 원인은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "구울의 장기 이식",
+      "incorrect_answers": [
+        "구울에게 물림",
+        "구울의 피를 마심",
+        "구울의 고기를 먹음",
+        "구울의 독에 중독됨"
+      ],
+      "explanation": "카네키 켄은 리제의 장기를 이식받아 반구울이 되었습니다."
+    },
+    {
+      "id": 160,
+      "question": "아카가미의 시라유키히메에서 시라유키의 머리 색깔은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "빨간색",
+      "incorrect_answers": ["파란색", "금색", "갈색", "검은색"],
+      "explanation": "시라유키는 아름다운 빨간 머리를 가지고 있습니다."
+    },
+    {
+      "id": 161,
+      "question": "월간소녀 노자키군에서 노자키의 펜네임은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "사쿠라코",
+      "incorrect_answers": ["치요코", "유카리코", "마미코", "에리코"],
+      "explanation": "노자키 우메타로의 펜네임은 사쿠라코입니다."
+    },
+    {
+      "id": 162,
+      "question": "히나마츠리에서 히나의 초능력은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "염력",
+      "incorrect_answers": ["순간이동", "투시", "예지", "치유"],
+      "explanation": "히나는 강력한 염력을 가지고 있습니다."
+    },
+    {
+      "id": 163,
+      "question": "아소비 아소바세에서 주인공 3명의 그룹 이름은?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "장난감 연구회",
+      "incorrect_answers": [
+        "놀이 연구회",
+        "게임 연구회",
+        "오락 연구회",
+        "재미 연구회"
+      ],
+      "explanation": "세 명은 장난감 연구회라는 이름으로 활동합니다."
+    },
+    {
+      "id": 164,
+      "question": "그랜벨루에서 진구지 센파이의 비밀은?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "남장여자",
+      "incorrect_answers": ["여장남자", "쌍둥이", "외계인", "로봇"],
+      "explanation": "진구지 센파이는 실제로는 여성입니다."
+    },
+    {
+      "id": 165,
+      "question": "정말로 큰 웅덩이에서 주인공들이 하는 활동은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "다이빙",
+      "incorrect_answers": ["수영", "서핑", "낚시", "보트"],
+      "explanation": "Grand Blue는 다이빙을 주제로 한 작품입니다."
+    },
+    {
+      "id": 166,
+      "question": "일하는 세포에서 주인공 적혈구의 특징은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "길치",
+      "incorrect_answers": ["느림", "게으름", "건망증", "소심함"],
+      "explanation": "주인공 적혈구는 심각한 길치입니다."
+    },
+    {
+      "id": 167,
+      "question": "바이올렛 에버가든에서 바이올렛의 직업은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "자동 수기 인형",
+      "incorrect_answers": ["간호사", "교사", "메이드", "비서"],
+      "explanation": "바이올렛 에버가든은 자동 수기 인형으로 일합니다."
+    }
+  ]
+}

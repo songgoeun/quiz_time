@@ -1,0 +1,1027 @@
+[
+  {
+    "id": 1,
+    "question": "신라 말 후삼국을 통일하여 고려를 건국한 왕은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "왕건",
+    "incorrect_answers": ["궁예", "견훤", "정도전", "이순신"],
+    "explanation": "왕건(태조)은 918년 고려를 건국하고 935년 신라, 936년 후백제를 멸망시켜 후삼국을 통일했습니다."
+  },
+  {
+    "id": 2,
+    "question": "지구에서 가장 큰 대륙은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "아시아",
+    "incorrect_answers": ["아프리카", "북아메리카", "남아메리카", "유럽"],
+    "explanation": "아시아는 면적과 인구 모두 세계 최대의 대륙입니다."
+  },
+  {
+    "id": 3,
+    "question": "달에 최초로 착륙한 인물은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "닐 암스트롱",
+    "incorrect_answers": [
+      "유리 가가린",
+      "버즈 올드린",
+      "마이클 콜린스",
+      "앨런 셰퍼드"
+    ],
+    "explanation": "닐 암스트롱은 1969년 아폴로 11호 임무에서 달에 최초로 발을 내디뎠습니다."
+  },
+  {
+    "id": 4,
+    "question": "세계에서 가장 긴 강은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "나일강",
+    "incorrect_answers": ["아마존강", "양쯔강", "미시시피강", "갠지스강"],
+    "explanation": "나일강은 약 6,650km 길이로 세계에서 가장 긴 강으로 알려져 있습니다."
+  },
+  {
+    "id": 5,
+    "question": "대한민국의 국화는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "무궁화",
+    "incorrect_answers": ["장미", "국화", "백합", "동백꽃"],
+    "explanation": "무궁화는 끊임없이 피고 지는 특성으로 나라의 상징으로 쓰입니다."
+  },
+  {
+    "id": 6,
+    "question": "세계에서 가장 높은 산은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "에베레스트산",
+    "incorrect_answers": ["K2", "칸첸중가", "로체", "마칼루"],
+    "explanation": "에베레스트산은 해발 약 8,848m로 세계에서 가장 높은 산입니다."
+  },
+  {
+    "id": 7,
+    "question": "인류 최초로 우주에 간 사람은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "유리 가가린",
+    "incorrect_answers": [
+      "닐 암스트롱",
+      "버즈 올드린",
+      "발렌티나 테레시코바",
+      "존 글렌"
+    ],
+    "explanation": "소련의 우주비행사 유리 가가린은 1961년 보스토크 1호를 타고 인류 최초로 지구 궤도를 비행했습니다."
+  },
+  {
+    "id": 8,
+    "question": "프랑스의 수도는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "파리",
+    "incorrect_answers": ["리옹", "마르세유", "니스", "보르도"],
+    "explanation": "파리는 프랑스의 수도이자 대표적인 관광 도시입니다."
+  },
+  {
+    "id": 9,
+    "question": "지구 자전 주기는 약 몇 시간인가?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "24시간",
+    "incorrect_answers": ["12시간", "36시간", "48시간", "72시간"],
+    "explanation": "지구는 약 23시간 56분에 한 바퀴를 자전하여 하루를 이룹니다."
+  },
+  {
+    "id": 10,
+    "question": "피타고라스 정리는 어떤 도형에 적용되는가?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "직각삼각형",
+    "incorrect_answers": ["정삼각형", "이등변삼각형", "사각형", "원"],
+    "explanation": "피타고라스 정리는 직각삼각형의 빗변과 다른 두 변 사이의 관계를 설명합니다."
+  },
+  {
+    "id": 11,
+    "question": "대한민국의 건국일은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "1948년 8월 15일",
+    "incorrect_answers": [
+      "1919년 3월 1일",
+      "1950년 6월 25일",
+      "1945년 8월 15일",
+      "1960년 4월 19일"
+    ],
+    "explanation": "대한민국은 1948년 8월 15일 정부 수립을 통해 공식적으로 출범했습니다."
+  },
+  {
+    "id": 12,
+    "question": "세계에서 인구가 가장 많은 나라는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "중국",
+    "incorrect_answers": ["인도", "미국", "인도네시아", "브라질"],
+    "explanation": "중국은 약 14억 명 이상의 인구로 세계 최대 인구를 보유하고 있습니다."
+  },
+  {
+    "id": 13,
+    "question": "인류가 불을 처음 사용한 시기로 알려진 시대는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "구석기 시대",
+    "incorrect_answers": [
+      "신석기 시대",
+      "청동기 시대",
+      "철기 시대",
+      "중세 시대"
+    ],
+    "explanation": "구석기 시대에 인류는 불을 사용하기 시작하면서 생활에 큰 변화를 겪었습니다."
+  },
+  {
+    "id": 14,
+    "question": "대한민국의 최초 대통령은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "이승만",
+    "incorrect_answers": ["김구", "박정희", "윤보선", "김대중"],
+    "explanation": "이승만은 1948년 제1대 대통령으로 취임했습니다."
+  },
+  {
+    "id": 15,
+    "question": "지구의 위성은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "달",
+    "incorrect_answers": ["화성", "목성", "태양", "혜성"],
+    "explanation": "지구의 유일한 자연 위성은 달입니다."
+  },
+  {
+    "id": 16,
+    "question": "세종대왕이 창제한 문자는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "훈민정음",
+    "incorrect_answers": ["한자", "가타카나", "알파벳", "키릴문자"],
+    "explanation": "훈민정음은 1443년에 세종대왕과 집현전 학자들이 창제한 문자로, 오늘날 한글의 기초가 되었습니다."
+  },
+  {
+    "id": 17,
+    "question": "태양계에서 가장 큰 행성은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "목성",
+    "incorrect_answers": ["토성", "지구", "천왕성", "해왕성"],
+    "explanation": "목성은 지름 약 14만 km로 태양계에서 가장 큰 행성입니다."
+  },
+  {
+    "id": 18,
+    "question": "대한민국 국기의 이름은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "태극기",
+    "incorrect_answers": ["일장기", "성조기", "유니언잭", "삼태극기"],
+    "explanation": "태극기는 흰 바탕에 태극 문양과 4괘로 이루어진 대한민국의 국기입니다."
+  },
+  {
+    "id": 19,
+    "question": "‘국부(國父)’라 불리며 대한민국 임시정부의 주석을 지낸 인물은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "김구",
+    "incorrect_answers": ["안중근", "윤봉길", "이승만", "신채호"],
+    "explanation": "백범 김구는 대한민국 임시정부의 주석으로 독립운동을 이끈 인물입니다."
+  },
+  {
+    "id": 20,
+    "question": "세계에서 가장 넓은 사막은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "사하라 사막",
+    "incorrect_answers": [
+      "고비 사막",
+      "아라비아 사막",
+      "카라쿠미 사막",
+      "모하비 사막"
+    ],
+    "explanation": "사하라 사막은 북아프리카에 위치하며 약 920만 km²로 세계 최대의 사막입니다."
+  },
+  {
+    "id": 21,
+    "question": "에펠탑이 위치한 도시는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "파리",
+    "incorrect_answers": ["런던", "베를린", "마드리드", "로마"],
+    "explanation": "에펠탑은 프랑스 파리에 위치한 대표적인 관광 명소입니다."
+  },
+  {
+    "id": 22,
+    "question": "피라미드가 있는 나라는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "이집트",
+    "incorrect_answers": ["수단", "이라크", "이란", "사우디아라비아"],
+    "explanation": "이집트의 기자 지역에는 고대 피라미드들이 남아 있습니다."
+  },
+  {
+    "id": 23,
+    "question": "태양계에서 고리가 뚜렷하게 보이는 행성은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "토성",
+    "incorrect_answers": ["목성", "천왕성", "해왕성", "금성"],
+    "explanation": "토성은 얼음과 암석 조각으로 이루어진 아름다운 고리를 가지고 있습니다."
+  },
+  {
+    "id": 24,
+    "question": "인류 최초의 인공위성은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "스푸트니크 1호",
+    "incorrect_answers": [
+      "아폴로 11호",
+      "보스토크 1호",
+      "익스플로러 1호",
+      "소유즈 1호"
+    ],
+    "explanation": "1957년 소련에서 발사된 스푸트니크 1호는 인류 최초의 인공위성이었습니다."
+  },
+  {
+    "id": 25,
+    "question": "‘나는 생각한다, 고로 존재한다’라는 명언을 남긴 철학자는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "데카르트",
+    "incorrect_answers": ["칸트", "니체", "아리스토텔레스", "플라톤"],
+    "explanation": "프랑스 철학자 데카르트는 합리주의 철학의 기초를 닦았습니다."
+  },
+  {
+    "id": 26,
+    "question": "세상에서 가장 큰 포유류는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "흰긴수염고래",
+    "incorrect_answers": ["코끼리", "코뿔소", "하마", "범고래"],
+    "explanation": "흰긴수염고래는 길이 30m 이상, 무게 170톤 이상으로 지구 최대의 동물입니다."
+  },
+  {
+    "id": 27,
+    "question": "‘로미오와 줄리엣’을 쓴 작가는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "셰익스피어",
+    "incorrect_answers": ["괴테", "톨스토이", "호메로스", "푸시킨"],
+    "explanation": "셰익스피어는 영국의 대표 극작가로 ‘햄릿’, ‘오셀로’ 등도 집필했습니다."
+  },
+  {
+    "id": 28,
+    "question": "세계에서 가장 작은 대륙은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "오세아니아",
+    "incorrect_answers": ["유럽", "남아메리카", "남극", "아프리카"],
+    "explanation": "호주 대륙을 중심으로 한 오세아니아는 면적이 가장 작은 대륙입니다."
+  },
+  {
+    "id": 29,
+    "question": "인류 최초의 비행기를 만든 사람은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "라이트 형제",
+    "incorrect_answers": [
+      "레오나르도 다빈치",
+      "찰스 린드버그",
+      "아멜리아 이어하트",
+      "유리 가가린"
+    ],
+    "explanation": "1903년 라이트 형제가 최초의 동력 비행기를 성공적으로 이륙시켰습니다."
+  },
+  {
+    "id": 30,
+    "question": "우리나라의 국보 1호는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "숭례문",
+    "incorrect_answers": ["팔만대장경", "석굴암", "불국사", "첨성대"],
+    "explanation": "서울 숭례문은 1962년에 대한민국 국보 1호로 지정되었습니다."
+  },
+  {
+    "id": 31,
+    "question": "세계에서 가장 깊은 바다는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "마리아나 해구",
+    "incorrect_answers": ["태평양", "대서양", "인도양", "북극해"],
+    "explanation": "마리아나 해구의 챌린저 딥은 약 11,000m 깊이로 알려져 있습니다."
+  },
+  {
+    "id": 32,
+    "question": "대한민국의 법정 수도는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "서울",
+    "incorrect_answers": ["세종", "부산", "인천", "대전"],
+    "explanation": "대한민국 헌법상 수도는 서울로 규정되어 있습니다."
+  },
+  {
+    "id": 33,
+    "question": "세계 최초로 올림픽이 열린 나라는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "그리스",
+    "incorrect_answers": ["이탈리아", "프랑스", "영국", "독일"],
+    "explanation": "고대 올림픽은 기원전 776년 그리스 올림피아에서 시작되었습니다."
+  },
+  {
+    "id": 34,
+    "question": "지구의 자전 방향은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "서쪽에서 동쪽",
+    "incorrect_answers": [
+      "동쪽에서 서쪽",
+      "북쪽에서 남쪽",
+      "남쪽에서 북쪽",
+      "무작위"
+    ],
+    "explanation": "지구는 서쪽에서 동쪽으로 자전하기 때문에 태양이 동쪽에서 떠오르는 것처럼 보입니다."
+  },
+  {
+    "id": 35,
+    "question": "인류 역사상 최초로 세계 일주를 완수한 항해자는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "마젤란 일행",
+    "incorrect_answers": [
+      "콜럼버스",
+      "바스코 다 가마",
+      "쿡 선장",
+      "아메리고 베스푸치"
+    ],
+    "explanation": "포르투갈 출신 마젤란의 함대가 1522년에 최초로 세계 일주를 완수했습니다."
+  },
+  {
+    "id": 36,
+    "question": "‘반지의 제왕’을 쓴 작가는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "J.R.R. 톨킨",
+    "incorrect_answers": [
+      "C.S. 루이스",
+      "조지 오웰",
+      "J.K. 롤링",
+      "아서 코난 도일"
+    ],
+    "explanation": "톨킨은 영국의 언어학자이자 소설가로, 판타지 문학의 거장으로 평가됩니다."
+  },
+  {
+    "id": 37,
+    "question": "‘모나리자’를 그린 화가는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "레오나르도 다빈치",
+    "incorrect_answers": ["미켈란젤로", "라파엘로", "빈센트 반 고흐", "루벤스"],
+    "explanation": "레오나르도 다빈치는 르네상스 시대의 대표적인 예술가입니다."
+  },
+  {
+    "id": 38,
+    "question": "대한민국의 대표적 전통 악기 중 현악기는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "가야금",
+    "incorrect_answers": ["장구", "북", "꽹과리", "징"],
+    "explanation": "가야금은 한국 전통 현악기로 12현의 줄을 뜯어 연주합니다."
+  },
+  {
+    "id": 39,
+    "question": "세계에서 가장 높은 폭포는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "앤젤 폭포",
+    "incorrect_answers": [
+      "나이아가라 폭포",
+      "이구아수 폭포",
+      "빅토리아 폭포",
+      "요세미티 폭포"
+    ],
+    "explanation": "베네수엘라의 앤젤 폭포는 약 979m 높이로 세계에서 가장 높은 폭포입니다."
+  },
+  {
+    "id": 40,
+    "question": "노벨상을 제정한 사람은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "알프레드 노벨",
+    "incorrect_answers": ["에디슨", "마리 퀴리", "아인슈타인", "패러데이"],
+    "explanation": "알프레드 노벨은 다이너마이트 발명가로, 유언에 따라 노벨상이 제정되었습니다."
+  },
+  {
+    "id": 41,
+    "question": "대한민국의 국보 2호는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "원각사지 십층석탑",
+    "incorrect_answers": ["팔만대장경", "석굴암", "불국사", "첨성대"],
+    "explanation": "서울 탑골공원에 있는 원각사지 십층석탑은 국보 제2호입니다."
+  },
+  {
+    "id": 42,
+    "question": "세계 최초로 인쇄술을 발명한 문명은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "중국",
+    "incorrect_answers": ["한국", "독일", "이집트", "메소포타미아"],
+    "explanation": "중국 당나라 시대에 목판 인쇄가 발명되어 널리 사용되었습니다."
+  },
+  {
+    "id": 43,
+    "question": "우리나라의 가장 긴 강은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "한강",
+    "incorrect_answers": ["낙동강", "금강", "섬진강", "영산강"],
+    "explanation": "한강은 약 514km로 우리나라에서 가장 긴 강입니다."
+  },
+  {
+    "id": 44,
+    "question": "세계에서 가장 오래된 문명 중 하나로 메소포타미아 문명이 발달한 강은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "유프라테스강과 티그리스강",
+    "incorrect_answers": ["나일강", "황허강", "인더스강", "갠지스강"],
+    "explanation": "메소포타미아 문명은 유프라테스강과 티그리스강 사이에서 발달했습니다."
+  },
+  {
+    "id": 45,
+    "question": "‘별 헤는 밤’을 쓴 한국의 시인은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "윤동주",
+    "incorrect_answers": ["이육사", "한용운", "김소월", "정지용"],
+    "explanation": "윤동주는 일제 강점기의 대표적인 저항 시인입니다."
+  },
+  {
+    "id": 46,
+    "question": "태양계에서 가장 뜨거운 행성은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "금성",
+    "incorrect_answers": ["수성", "지구", "화성", "목성"],
+    "explanation": "금성은 두꺼운 대기와 온실효과로 표면 온도가 약 465도에 달합니다."
+  },
+  {
+    "id": 47,
+    "question": "세계 4대 발명품으로 불리는 것은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "종이, 나침반, 화약, 인쇄술",
+    "incorrect_answers": [
+      "전구, 전화, 비행기, 자동차",
+      "철도, 나침반, 시계, 종이",
+      "화약, 전기, 철도, 자동차",
+      "인쇄술, 바퀴, 증기기관, 전구"
+    ],
+    "explanation": "중국의 4대 발명품은 종이, 나침반, 화약, 인쇄술입니다."
+  },
+  {
+    "id": 48,
+    "question": "한국 전쟁이 발발한 연도는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "1950년",
+    "incorrect_answers": ["1945년", "1948년", "1953년", "1960년"],
+    "explanation": "한국 전쟁은 1950년 6월 25일 북한의 남침으로 시작되었습니다."
+  },
+  {
+    "id": 49,
+    "question": "태양의 에너지원은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "핵융합 반응",
+    "incorrect_answers": ["화학 반응", "연소", "핵분열 반응", "중력 붕괴"],
+    "explanation": "태양은 수소 핵융합 반응으로 에너지를 방출합니다."
+  },
+  {
+    "id": 50,
+    "question": "‘구운몽’을 쓴 조선 시대 문인은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "김만중",
+    "incorrect_answers": ["박지원", "정약용", "허균", "윤선도"],
+    "explanation": "김만중은 숙종 시기 문인으로 ‘구운몽’을 저술했습니다."
+  },
+  {
+    "id": 51,
+    "question": "지구에서 가장 깊은 호수는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "바이칼 호수",
+    "incorrect_answers": [
+      "카스피해",
+      "탱가니카 호수",
+      "수피리어 호수",
+      "빅토리아 호수"
+    ],
+    "explanation": "러시아의 바이칼 호수는 최대 깊이 약 1,642m로 세계에서 가장 깊습니다."
+  },
+  {
+    "id": 52,
+    "question": "세계에서 가장 많은 섬을 가진 나라는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "스웨덴",
+    "incorrect_answers": ["인도네시아", "필리핀", "일본", "노르웨이"],
+    "explanation": "스웨덴은 약 26만 개 이상의 섬을 보유하고 있어 세계에서 가장 많습니다."
+  },
+  {
+    "id": 53,
+    "question": "우리나라에서 가장 높은 산은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "한라산",
+    "incorrect_answers": ["지리산", "설악산", "태백산", "소백산"],
+    "explanation": "한라산은 해발 1,947m로 대한민국 최고봉입니다."
+  },
+  {
+    "id": 54,
+    "question": "‘논어’를 저술한 사상가는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "공자",
+    "incorrect_answers": ["맹자", "노자", "장자", "순자"],
+    "explanation": "논어는 공자의 언행과 제자들의 기록을 모은 책입니다."
+  },
+  {
+    "id": 55,
+    "question": "지구 대기의 대부분을 차지하는 기체는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "질소",
+    "incorrect_answers": ["산소", "이산화탄소", "아르곤", "수소"],
+    "explanation": "지구 대기의 약 78%는 질소입니다."
+  },
+  {
+    "id": 56,
+    "question": "‘서유기’에 등장하는 원숭이 캐릭터의 이름은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "손오공",
+    "incorrect_answers": ["저팔계", "사오정", "당삼장", "관운장"],
+    "explanation": "손오공은 서유기의 주인공으로 여의봉과 구름을 타고 다니는 캐릭터입니다."
+  },
+  {
+    "id": 57,
+    "question": "세계에서 가장 큰 바다는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "태평양",
+    "incorrect_answers": ["대서양", "인도양", "북극해", "남극해"],
+    "explanation": "태평양은 약 1억 6천만 km²의 면적으로 세계에서 가장 큰 바다입니다."
+  },
+  {
+    "id": 58,
+    "question": "전구를 발명한 사람으로 잘 알려진 인물은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "에디슨",
+    "incorrect_answers": ["테슬라", "패러데이", "볼타", "베르너"],
+    "explanation": "토머스 에디슨은 실용적인 전구 개발로 유명합니다."
+  },
+  {
+    "id": 59,
+    "question": "대한민국의 화폐 단위는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "원",
+    "incorrect_answers": ["엔", "달러", "위안", "유로"],
+    "explanation": "대한민국의 공식 통화 단위는 원(KRW)입니다."
+  },
+  {
+    "id": 60,
+    "question": "우리나라 최초의 금속활자는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "직지심체요절",
+    "incorrect_answers": ["훈민정음", "삼국사기", "팔만대장경", "계림유사"],
+    "explanation": "직지는 1377년 청주 흥덕사에서 간행된 세계에서 가장 오래된 금속활자본입니다."
+  },
+  {
+    "id": 61,
+    "question": "세계에서 가장 추운 곳으로 알려진 대륙은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "남극",
+    "incorrect_answers": ["북극", "아시아", "유럽", "아메리카"],
+    "explanation": "남극은 평균 기온이 -49도로 지구에서 가장 추운 대륙입니다."
+  },
+  {
+    "id": 62,
+    "question": "세계에서 가장 넓은 나라 면적을 가진 국가는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "러시아",
+    "incorrect_answers": ["캐나다", "중국", "미국", "브라질"],
+    "explanation": "러시아는 약 1,700만 km²의 면적으로 세계에서 가장 넓은 영토를 보유합니다."
+  },
+  {
+    "id": 63,
+    "question": "‘파우스트’를 쓴 독일의 작가는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "괴테",
+    "incorrect_answers": ["쉴러", "카프카", "토마스 만", "하이네"],
+    "explanation": "괴테는 독일의 국민 작가로 ‘파우스트’는 그의 대표작입니다."
+  },
+  {
+    "id": 64,
+    "question": "세상에서 가장 빠른 육상 동물은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "치타",
+    "incorrect_answers": ["사자", "호랑이", "표범", "재규어"],
+    "explanation": "치타는 시속 100km 이상 달릴 수 있는 가장 빠른 육상 동물입니다."
+  },
+  {
+    "id": 65,
+    "question": "지구에서 가장 가까운 별은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "태양",
+    "incorrect_answers": [
+      "알파 센타우리",
+      "시리우스",
+      "베텔게우스",
+      "폴라리스"
+    ],
+    "explanation": "지구에서 가장 가까운 별은 태양으로 약 1억 5천만 km 떨어져 있습니다."
+  },
+  {
+    "id": 66,
+    "question": "‘데미안’을 쓴 독일 작가는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "헤르만 헤세",
+    "incorrect_answers": ["프란츠 카프카", "괴테", "쉴러", "토마스 만"],
+    "explanation": "헤르만 헤세는 독일 출신 작가로, ‘데미안’, ‘싯다르타’ 등이 유명합니다."
+  },
+  {
+    "id": 67,
+    "question": "우리나라 최초의 훈민정음 해설서는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "훈민정음 해례본",
+    "incorrect_answers": ["동국정운", "용비어천가", "월인석보", "삼강행실도"],
+    "explanation": "훈민정음 해례본은 한글 창제 원리를 설명한 해설서입니다."
+  },
+  {
+    "id": 68,
+    "question": "세계에서 가장 큰 섬은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "그린란드",
+    "incorrect_answers": ["뉴기니", "보르네오", "마다가스카르", "칼리만탄"],
+    "explanation": "그린란드는 약 216만 km²로 세계에서 가장 큰 섬입니다."
+  },
+  {
+    "id": 69,
+    "question": "‘자본론’을 저술한 사람은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "칼 마르크스",
+    "incorrect_answers": ["레닌", "엥겔스", "스탈린", "히틀러"],
+    "explanation": "칼 마르크스는 ‘자본론’을 통해 자본주의 비판과 공산주의 이론을 전개했습니다."
+  },
+  {
+    "id": 70,
+    "question": "세계에서 가장 큰 민물 호수는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "수피리어 호수",
+    "incorrect_answers": [
+      "빅토리아 호수",
+      "바이칼 호수",
+      "카스피해",
+      "온타리오 호수"
+    ],
+    "explanation": "북미의 수피리어 호수는 면적 약 82,000km²로 세계 최대의 담수호입니다."
+  },
+  {
+    "id": 71,
+    "question": "‘동의보감’을 저술한 조선 시대 의학자는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "허준",
+    "incorrect_answers": ["이제마", "유형원", "정약용", "김홍도"],
+    "explanation": "허준은 조선 광해군 시기 ‘동의보감’을 편찬하여 의학 발전에 기여했습니다."
+  },
+  {
+    "id": 72,
+    "question": "세계에서 가장 큰 폭포 중 하나로 아프리카 잠비아와 짐바브웨 국경에 있는 폭포는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "빅토리아 폭포",
+    "incorrect_answers": [
+      "나이아가라 폭포",
+      "이구아수 폭포",
+      "앤젤 폭포",
+      "요세미티 폭포"
+    ],
+    "explanation": "빅토리아 폭포는 ‘천둥소리를 내는 연기’라는 별명으로 유명합니다."
+  },
+  {
+    "id": 73,
+    "question": "‘1984’를 쓴 영국 작가는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "조지 오웰",
+    "incorrect_answers": [
+      "올더스 헉슬리",
+      "아서 코난 도일",
+      "찰스 디킨스",
+      "버지니아 울프"
+    ],
+    "explanation": "조지 오웰의 ‘1984’는 전체주의를 비판하는 디스토피아 소설입니다."
+  },
+  {
+    "id": 74,
+    "question": "우리나라에서 가장 큰 섬은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "제주도",
+    "incorrect_answers": ["울릉도", "거제도", "진도", "강화도"],
+    "explanation": "제주도는 면적 1,845km²로 한국 최대의 섬입니다."
+  },
+  {
+    "id": 75,
+    "question": "‘파리의 노트르담’을 쓴 프랑스 작가는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "빅토르 위고",
+    "incorrect_answers": [
+      "알렉상드르 뒤마",
+      "몰리에르",
+      "장 자크 루소",
+      "볼테르"
+    ],
+    "explanation": "빅토르 위고는 ‘레 미제라블’, ‘파리의 노트르담’ 등으로 유명한 프랑스의 문호입니다."
+  },
+  {
+    "id": 76,
+    "question": "세계에서 가장 큰 산맥은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "안데스 산맥",
+    "incorrect_answers": [
+      "히말라야 산맥",
+      "알프스 산맥",
+      "로키 산맥",
+      "우랄 산맥"
+    ],
+    "explanation": "안데스 산맥은 남아메리카 서쪽에 길이 약 7,000km로 이어져 있습니다."
+  },
+  {
+    "id": 77,
+    "question": "지구에서 가장 큰 바다는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "태평양",
+    "incorrect_answers": ["대서양", "인도양", "북극해", "남극해"],
+    "explanation": "태평양은 지구 표면의 약 30%를 차지하는 가장 큰 바다입니다."
+  },
+  {
+    "id": 78,
+    "question": "‘백설공주’를 처음 발표한 형제는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "그림 형제",
+    "incorrect_answers": ["안데르센", "셰익스피어", "푸시킨", "괴테"],
+    "explanation": "그림 형제는 독일의 민속 설화를 모아 동화집을 출간했습니다."
+  },
+  {
+    "id": 79,
+    "question": "우리나라 최초의 역사서로 알려진 책은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "삼국사기",
+    "incorrect_answers": ["삼국유사", "조선왕조실록", "동국통감", "고려사"],
+    "explanation": "삼국사기는 김부식이 편찬한 우리나라 최초의 정사(正史)입니다."
+  },
+  {
+    "id": 80,
+    "question": "‘성학십도’를 저술한 조선의 성리학자는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "이황",
+    "incorrect_answers": ["이이", "정약용", "송시열", "김굉필"],
+    "explanation": "퇴계 이황은 조선 중기의 성리학자로 성학십도를 저술했습니다."
+  },
+  {
+    "id": 81,
+    "question": "세계 최초로 달 뒷면 사진을 촬영한 나라는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "소련",
+    "incorrect_answers": ["미국", "중국", "일본", "인도"],
+    "explanation": "1959년 소련의 루나 3호가 달 뒷면을 처음 촬영했습니다."
+  },
+  {
+    "id": 82,
+    "question": "‘군주론’을 쓴 이탈리아 사상가는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "마키아벨리",
+    "incorrect_answers": ["토마스 모어", "홉스", "루소", "몽테스키외"],
+    "explanation": "마키아벨리는 권모술수를 강조하는 정치사상가로 ‘군주론’을 집필했습니다."
+  },
+  {
+    "id": 83,
+    "question": "세상에서 가장 작은 새는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "벌새",
+    "incorrect_answers": ["참새", "제비", "종달새", "까치"],
+    "explanation": "벌새는 길이 5cm 정도로 세계에서 가장 작은 새입니다."
+  },
+  {
+    "id": 84,
+    "question": "세계에서 가장 큰 바나나 생산국은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "인도",
+    "incorrect_answers": ["필리핀", "에콰도르", "브라질", "인도네시아"],
+    "explanation": "인도는 세계 최대 바나나 생산국으로 연간 3천만 톤 이상을 생산합니다."
+  },
+  {
+    "id": 85,
+    "question": "‘순풍산부인과’에 출연한 대한민국 배우가 아닌 사람은?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "송강호",
+    "incorrect_answers": ["김소연", "박영규", "강석우", "이태란"],
+    "explanation": "송강호는 영화 배우로 드라마 ‘순풍산부인과’에는 출연하지 않았습니다."
+  },
+  {
+    "id": 86,
+    "question": "세계에서 가장 큰 열대우림은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "아마존 열대우림",
+    "incorrect_answers": [
+      "콩고 열대우림",
+      "보르네오 열대우림",
+      "마다가스카르 열대우림",
+      "인도네시아 열대우림"
+    ],
+    "explanation": "아마존 열대우림은 남미 브라질을 중심으로 광범위하게 분포합니다."
+  },
+  {
+    "id": 87,
+    "question": "세계 최초로 인공 심장을 이식한 나라는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "미국",
+    "incorrect_answers": ["독일", "프랑스", "일본", "러시아"],
+    "explanation": "1969년 미국 텍사스에서 최초로 인공 심장 이식 수술이 시행되었습니다."
+  },
+  {
+    "id": 88,
+    "question": "‘데카메론’을 쓴 이탈리아 작가는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "보카치오",
+    "incorrect_answers": ["단테", "페트라르카", "아리오스토", "골도니"],
+    "explanation": "보카치오는 ‘데카메론’을 통해 르네상스 문학의 기초를 마련했습니다."
+  },
+  {
+    "id": 89,
+    "question": "세계에서 가장 큰 반도는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "아라비아 반도",
+    "incorrect_answers": [
+      "한반도",
+      "스칸디나비아 반도",
+      "이베리아 반도",
+      "인도 반도"
+    ],
+    "explanation": "아라비아 반도는 면적 약 3백만 km²로 세계 최대의 반도입니다."
+  },
+  {
+    "id": 90,
+    "question": "우리나라 최초의 고대 천문대는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "첨성대",
+    "incorrect_answers": ["관측대", "경천대", "석성대", "북극대"],
+    "explanation": "경주에 위치한 첨성대는 신라 선덕여왕 시기 세워진 세계에서 가장 오래된 천문대입니다."
+  },
+  {
+    "id": 91,
+    "question": "‘걸리버 여행기’를 쓴 영국 작가는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "조너선 스위프트",
+    "incorrect_answers": [
+      "다니엘 디포",
+      "찰스 디킨스",
+      "조지 오웰",
+      "루이스 캐럴"
+    ],
+    "explanation": "스위프트는 풍자 문학의 대가로 ‘걸리버 여행기’를 집필했습니다."
+  },
+  {
+    "id": 92,
+    "question": "우리나라의 4대강 사업에 포함된 강이 아닌 것은?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "영산강",
+    "incorrect_answers": ["한강", "낙동강", "금강", "영산강"],
+    "explanation": "4대강 사업은 한강, 낙동강, 금강, 영산강을 대상으로 했습니다."
+  },
+  {
+    "id": 93,
+    "question": "세계 최초의 인공위성 이름은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "스푸트니크 1호",
+    "incorrect_answers": [
+      "보스토크 1호",
+      "아폴로 11호",
+      "익스플로러 1호",
+      "루나 3호"
+    ],
+    "explanation": "1957년 발사된 소련의 스푸트니크 1호가 세계 최초의 인공위성입니다."
+  },
+  {
+    "id": 94,
+    "question": "세계에서 가장 큰 산호초 지대는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "그레이트 배리어 리프",
+    "incorrect_answers": [
+      "몰디브 산호초",
+      "팔라우 산호초",
+      "보라보라 산호초",
+      "카라이브 산호초"
+    ],
+    "explanation": "호주 동해안에 위치한 그레이트 배리어 리프는 세계 최대의 산호초 지대입니다."
+  },
+  {
+    "id": 95,
+    "question": "‘홍길동전’을 쓴 작가는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "허균",
+    "incorrect_answers": ["박지원", "정약용", "김만중", "윤선도"],
+    "explanation": "허균은 조선 중기의 문신으로 한국 최초의 한글 소설 ‘홍길동전’을 집필했습니다."
+  },
+  {
+    "id": 96,
+    "question": "세계에서 가장 높은 고원의 이름은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "티베트 고원",
+    "incorrect_answers": [
+      "파미르 고원",
+      "안데스 고원",
+      "에티오피아 고원",
+      "이란 고원"
+    ],
+    "explanation": "티베트 고원은 평균 해발 4,500m로 ‘세계의 지붕’이라고 불립니다."
+  },
+  {
+    "id": 97,
+    "question": "세계에서 가장 인구가 많은 도시권은?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "도쿄",
+    "incorrect_answers": ["상하이", "델리", "서울", "뉴욕"],
+    "explanation": "도쿄 대도시권은 3천만 명 이상의 인구를 가진 세계 최대 도시권입니다."
+  },
+  {
+    "id": 98,
+    "question": "세계 최초로 화약을 발명한 나라는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "중국",
+    "incorrect_answers": ["한국", "일본", "인도", "영국"],
+    "explanation": "중국 당나라 시대 도교 연금술사들이 화약을 발명했습니다."
+  },
+  {
+    "id": 99,
+    "question": "‘천자문’은 몇 글자로 구성되어 있는가?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "1000자",
+    "incorrect_answers": ["500자", "800자", "1200자", "1500자"],
+    "explanation": "천자문은 1000개의 서로 다른 한자로 이루어진 학습용 교재입니다."
+  },
+  {
+    "id": 100,
+    "question": "세계에서 가장 넓은 내륙 바다는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "카스피해",
+    "incorrect_answers": ["흑해", "아랄해", "사해", "동중국해"],
+    "explanation": "카스피해는 약 37만 km²로 세계 최대의 내륙 해입니다."
+  }
+]

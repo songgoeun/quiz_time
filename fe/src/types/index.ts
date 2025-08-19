@@ -23,6 +23,34 @@ export interface GameRoom extends Room {
     name: string;
     description: string;
   };
+  currentQuestionIndex?: number;
+  playerScores?: { [playerId: string]: number };
+}
+
+export interface QuizQuestion {
+  questionNumber: number;
+  totalQuestions: number;
+  question: string;
+  options: string[];
+  difficulty: string;
+  timeLimit: number;
+}
+
+export interface QuestionResult {
+  correctAnswer: string;
+  explanation: string;
+  playerResults: Array<{
+    nickname: string;
+    answer: string;
+    isCorrect: boolean;
+    timeSpent: number;
+    score: number;
+  }>;
+}
+
+export interface FinalScore {
+  nickname: string;
+  score: number;
 }
 
 export interface Category {
@@ -50,11 +78,5 @@ export const QUIZ_CATEGORIES: Category[] = [
     name: "몰상식 듀오의 상식",
     description: "일반상식 관련 퀴즈",
     emoji: "🧠",
-  },
-  {
-    id: 4,
-    name: "윤하의 수학 교실",
-    description: "수학 관련 퀴즈",
-    emoji: "📐",
   },
 ];
