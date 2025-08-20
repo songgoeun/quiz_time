@@ -1023,5 +1023,933 @@
     "correct_answer": "카스피해",
     "incorrect_answers": ["흑해", "아랄해", "사해", "동중국해"],
     "explanation": "카스피해는 약 37만 km²로 세계 최대의 내륙 해입니다."
+  },
+  {
+    "id": 101,
+    "question": "세계에서 가장 깊은 호수는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "바이칼 호수",
+    "incorrect_answers": ["카스피해", "빅토리아 호수", "탕가니카 호수"],
+    "explanation": "러시아에 위치한 바이칼 호수는 세계에서 가장 깊은 호수로 약 1,642m 깊이를 가집니다."
+  },
+  {
+    "id": 102,
+    "question": "DNA의 이중 나선 구조를 발견한 과학자는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "왓슨과 크릭",
+    "incorrect_answers": ["멘델", "파스퇴르", "다윈"],
+    "explanation": "1953년 왓슨과 크릭이 DNA의 이중 나선 구조를 제시했습니다."
+  },
+  {
+    "id": 103,
+    "question": "세계에서 가장 넓은 사막은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "남극 사막",
+    "incorrect_answers": ["사하라 사막", "고비 사막", "아라비아 사막"],
+    "explanation": "사하라보다 넓은 남극 대륙은 극지 사막으로 분류되며 세계 최대입니다."
+  },
+  {
+    "id": 104,
+    "question": "태양에서 네 번째 행성은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "화성",
+    "incorrect_answers": ["금성", "목성", "토성"],
+    "explanation": "태양계에서 화성은 네 번째에 위치한 행성으로 ‘붉은 행성’이라 불립니다."
+  },
+  {
+    "id": 105,
+    "question": "인류 최초로 달에 착륙한 사람은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "닐 암스트롱",
+    "incorrect_answers": ["버즈 올드린", "유리 가가린", "앨런 셰퍼드"],
+    "explanation": "1969년 아폴로 11호 미션에서 닐 암스트롱이 달에 첫 발을 내디뎠습니다."
+  },
+  {
+    "id": 106,
+    "question": "노벨상을 제정한 인물은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "알프레드 노벨",
+    "incorrect_answers": ["에디슨", "아인슈타인", "마리 퀴리"],
+    "explanation": "다이너마이트 발명가 알프레드 노벨이 유산을 바탕으로 노벨상을 제정했습니다."
+  },
+  {
+    "id": 107,
+    "question": "지구의 대기 중 가장 많은 기체는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "질소",
+    "incorrect_answers": ["산소", "이산화탄소", "아르곤"],
+    "explanation": "대기의 약 78%는 질소로 구성되어 있습니다."
+  },
+  {
+    "id": 108,
+    "question": "세계에서 가장 높은 산은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "에베레스트",
+    "incorrect_answers": ["K2", "칸첸중가", "마칼루"],
+    "explanation": "히말라야에 위치한 에베레스트산은 해발 8,848m로 가장 높습니다."
+  },
+  {
+    "id": 109,
+    "question": "대한민국의 국화는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "무궁화",
+    "incorrect_answers": ["국화", "장미", "동백"],
+    "explanation": "무궁화는 대한민국의 국화로, 나라의 상징으로 사용됩니다."
+  },
+  {
+    "id": 110,
+    "question": "올림픽 오륜기는 무엇을 상징하는가?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "5대륙",
+    "incorrect_answers": ["5개국", "5가지 종목", "올림픽 5대 가치"],
+    "explanation": "올림픽의 오륜기는 세계 5대륙의 단결을 상징합니다."
+  },
+  {
+    "id": 111,
+    "question": "한국 최초의 노벨 평화상 수상자는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "김대중",
+    "incorrect_answers": ["문재인", "반기문", "박정희"],
+    "explanation": "2000년 김대중 전 대통령이 남북 화해 노력으로 노벨 평화상을 수상했습니다."
+  },
+  {
+    "id": 112,
+    "question": "지구의 자전 주기는 약 몇 시간인가?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "24시간",
+    "incorrect_answers": ["12시간", "48시간", "36시간"],
+    "explanation": "지구는 약 24시간 주기로 한 바퀴 자전합니다."
+  },
+  {
+    "id": 113,
+    "question": "현대 올림픽의 창시자는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "쿠베르탱 남작",
+    "incorrect_answers": ["마라톤", "피에르 드 쿠르베탕", "앙리 뒤낭"],
+    "explanation": "1896년 아테네 대회로 시작된 근대 올림픽은 쿠베르탱 남작이 주도했습니다."
+  },
+  {
+    "id": 114,
+    "question": "세계에서 가장 인구가 많은 도시는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "도쿄",
+    "incorrect_answers": ["상하이", "뉴델리", "상파울루"],
+    "explanation": "도쿄는 수도권 기준으로 세계에서 인구가 가장 많은 도시입니다."
+  },
+  {
+    "id": 115,
+    "question": "인체에서 가장 큰 장기는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "피부",
+    "incorrect_answers": ["간", "심장", "폐"],
+    "explanation": "피부는 신체의 가장 큰 장기이자 보호막 역할을 합니다."
+  },
+  {
+    "id": 116,
+    "question": "세계 최초의 노벨 문학상 수상 국가는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "프랑스",
+    "incorrect_answers": ["영국", "독일", "이탈리아"],
+    "explanation": "1901년 프랑스의 쉴리 프뤼돔이 최초로 노벨 문학상을 받았습니다."
+  },
+  {
+    "id": 117,
+    "question": "세계에서 가장 긴 강은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "나일강",
+    "incorrect_answers": ["아마존강", "양쯔강", "황하"],
+    "explanation": "나일강은 약 6,650km로 세계 최장 강입니다."
+  },
+  {
+    "id": 118,
+    "question": "빛의 속도는 초당 약 몇 km인가?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "30만 km",
+    "incorrect_answers": ["3만 km", "300만 km", "300 km"],
+    "explanation": "빛은 진공에서 초당 약 30만 km 속도로 이동합니다."
+  },
+  {
+    "id": 119,
+    "question": "국제연합(UN)의 본부가 있는 도시는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "뉴욕",
+    "incorrect_answers": ["제네바", "파리", "워싱턴"],
+    "explanation": "UN 본부는 미국 뉴욕에 있습니다."
+  },
+  {
+    "id": 120,
+    "question": "인류 최초로 우주 비행을 한 사람은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "유리 가가린",
+    "incorrect_answers": [
+      "닐 암스트롱",
+      "알렉세이 레오노프",
+      "발렌티나 테레시코바"
+    ],
+    "explanation": "1961년 소련의 유리 가가린이 최초로 우주 비행에 성공했습니다."
+  },
+  {
+    "id": 121,
+    "question": "세계 3대 박물관 중 하나로 파리 루브르와 함께 꼽히는 박물관은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "대영박물관",
+    "incorrect_answers": ["에르미타주", "프라도", "메트로폴리탄"],
+    "explanation": "프랑스 루브르, 영국 대영박물관, 러시아 에르미타주가 3대 박물관으로 꼽힙니다."
+  },
+  {
+    "id": 122,
+    "question": "아인슈타인의 상대성 이론에서 유명한 공식은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "E=mc²",
+    "incorrect_answers": ["F=ma", "PV=nRT", "V=IR"],
+    "explanation": "특수 상대성 이론에서 질량과 에너지의 관계를 설명하는 공식입니다."
+  },
+  {
+    "id": 123,
+    "question": "세계에서 가장 많은 섬을 가진 나라는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "스웨덴",
+    "incorrect_answers": ["인도네시아", "필리핀", "노르웨이"],
+    "explanation": "스웨덴은 약 26만 개 이상의 섬을 보유해 세계 1위입니다."
+  },
+  {
+    "id": 124,
+    "question": "세계 최초로 인공위성 스푸트니크 1호를 발사한 국가는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "소련",
+    "incorrect_answers": ["미국", "중국", "일본"],
+    "explanation": "1957년 소련이 인류 최초의 인공위성 스푸트니크 1호를 발사했습니다."
+  },
+  {
+    "id": 125,
+    "question": "세계 최초의 여성 노벨상 수상자는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "마리 퀴리",
+    "incorrect_answers": [
+      "로잘린드 프랭클린",
+      "도로시 호지킨",
+      "리제 마이트너"
+    ],
+    "explanation": "마리 퀴리는 노벨 물리학상과 화학상을 모두 수상한 최초의 여성입니다."
+  },
+  {
+    "id": 126,
+    "question": "세계에서 가장 큰 곡물 생산국은?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "중국",
+    "incorrect_answers": ["미국", "인도", "브라질"],
+    "explanation": "중국은 쌀, 밀, 옥수수 등 다양한 곡물 생산량에서 세계 1위입니다."
+  },
+  {
+    "id": 127,
+    "question": "인류 최초로 에베레스트 산을 등정한 사람은?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "에드먼드 힐러리",
+    "incorrect_answers": ["라인홀트 메스너", "탄징 노르가이", "조지 말로리"],
+    "explanation": "1953년 뉴질랜드의 힐러리와 네팔의 탄징 노르가이가 에베레스트에 올랐습니다."
+  },
+  {
+    "id": 128,
+    "question": "세계 최초의 인터넷 프로토콜 TCP/IP가 적용된 해는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "1983년",
+    "incorrect_answers": ["1975년", "1980년", "1990년"],
+    "explanation": "1983년 1월 1일부터 ARPANET이 TCP/IP 기반으로 전환되었습니다."
+  },
+  {
+    "id": 129,
+    "question": "세계 최초의 노벨상 수상자는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "쉴리 프뤼돔",
+    "incorrect_answers": [
+      "알베르트 슈바이처",
+      "빌헬름 뢴트겐",
+      "앙리 베르그송"
+    ],
+    "explanation": "프랑스의 쉴리 프뤼돔이 1901년 노벨 문학상을 받으며 최초 수상자가 되었습니다."
+  },
+  {
+    "id": 130,
+    "question": "세계 최대의 원자력 발전소는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "가시와자키-가리와 원전",
+    "incorrect_answers": ["고리 원전", "브루스 원전", "체르노빌"],
+    "explanation": "일본의 가시와자키-가리와 원전은 세계 최대 규모의 원자력 발전소입니다."
+  },
+  {
+    "id": 131,
+    "question": "세계에서 가장 넓은 대양은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "태평양",
+    "incorrect_answers": ["대서양", "인도양", "북극해"],
+    "explanation": "태평양은 약 1억 6천만㎢로 지구에서 가장 넓은 바다입니다."
+  },
+  {
+    "id": 132,
+    "question": "지구에서 가장 가까운 별은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "태양",
+    "incorrect_answers": ["알파 센타우리", "시리우스", "프로키온"],
+    "explanation": "태양은 지구에서 가장 가까운 별로 약 1억 5천만 km 떨어져 있습니다."
+  },
+  {
+    "id": 133,
+    "question": "세계 최초로 인쇄술을 발명한 나라는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "중국",
+    "incorrect_answers": ["한국", "독일", "이집트"],
+    "explanation": "중국은 목판 인쇄를 발명했으며, 이후 한국에서 금속활자가 발달했습니다."
+  },
+  {
+    "id": 134,
+    "question": "지구의 위성은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "달",
+    "incorrect_answers": ["화성", "금성", "수성"],
+    "explanation": "지구의 유일한 자연 위성은 달입니다."
+  },
+  {
+    "id": 135,
+    "question": "세계에서 인구가 가장 많은 나라는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "중국",
+    "incorrect_answers": ["인도", "미국", "인도네시아"],
+    "explanation": "중국은 14억 명 이상의 인구로 세계 1위를 차지합니다."
+  },
+  {
+    "id": 136,
+    "question": "세계에서 가장 큰 대륙은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "아시아",
+    "incorrect_answers": ["아프리카", "유럽", "북아메리카"],
+    "explanation": "아시아 대륙은 면적과 인구 모두 세계에서 가장 큽니다."
+  },
+  {
+    "id": 137,
+    "question": "태양계에서 고리가 있는 대표적인 행성은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "토성",
+    "incorrect_answers": ["목성", "천왕성", "해왕성"],
+    "explanation": "토성의 고리는 얼음과 암석으로 구성된 특징적인 구조입니다."
+  },
+  {
+    "id": 138,
+    "question": "세계에서 가장 큰 섬은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "그린란드",
+    "incorrect_answers": ["호주", "뉴기니", "보르네오"],
+    "explanation": "호주는 대륙으로 분류되기 때문에 섬 중 최대는 그린란드입니다."
+  },
+  {
+    "id": 139,
+    "question": "인체에서 혈액을 순환시키는 기관은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "심장",
+    "incorrect_answers": ["폐", "간", "위"],
+    "explanation": "심장은 펌프 역할을 하며 혈액을 전신으로 보냅니다."
+  },
+  {
+    "id": 140,
+    "question": "세계에서 가장 넓은 평야는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "아마존 평야",
+    "incorrect_answers": ["미시시피 평야", "시베리아 평야", "한중 평야"],
+    "explanation": "아마존 평야는 남아메리카 대륙에 위치하며 세계 최대의 열대우림 평야입니다."
+  },
+  {
+    "id": 141,
+    "question": "대한민국의 수도는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "서울",
+    "incorrect_answers": ["부산", "인천", "대전"],
+    "explanation": "서울은 대한민국의 수도이자 정치·경제 중심지입니다."
+  },
+  {
+    "id": 142,
+    "question": "세계에서 가장 높은 빌딩은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "부르즈 할리파",
+    "incorrect_answers": ["상하이 타워", "롯데월드타워", "타이베이 101"],
+    "explanation": "아랍에미리트 두바이에 있는 부르즈 할리파는 828m로 세계 최고층 빌딩입니다."
+  },
+  {
+    "id": 143,
+    "question": "세계에서 커피 생산량이 가장 많은 나라는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "브라질",
+    "incorrect_answers": ["베트남", "콜롬비아", "인도네시아"],
+    "explanation": "브라질은 세계 커피 생산량 1위를 차지합니다."
+  },
+  {
+    "id": 144,
+    "question": "노벨 평화상 본부가 있는 도시는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "오슬로",
+    "incorrect_answers": ["스톡홀름", "코펜하겐", "헬싱키"],
+    "explanation": "노벨 평화상은 스웨덴이 아닌 노르웨이 오슬로에서 수여됩니다."
+  },
+  {
+    "id": 145,
+    "question": "세계에서 가장 긴 산맥은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "안데스 산맥",
+    "incorrect_answers": ["알프스", "로키 산맥", "히말라야"],
+    "explanation": "남아메리카에 위치한 안데스 산맥은 약 7,000km에 달합니다."
+  },
+  {
+    "id": 146,
+    "question": "대한민국의 국보 1호는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "숭례문",
+    "incorrect_answers": ["팔만대장경", "석굴암", "첨성대"],
+    "explanation": "숭례문은 조선시대 서울 성곽의 남문으로 국보 1호입니다."
+  },
+  {
+    "id": 147,
+    "question": "세계 최초로 전화기를 발명한 인물은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "알렉산더 그레이엄 벨",
+    "incorrect_answers": ["에디슨", "마르코니", "파스퇴르"],
+    "explanation": "1876년 벨이 전화기를 발명했습니다."
+  },
+  {
+    "id": 148,
+    "question": "세계에서 가장 큰 동물은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "흰긴수염고래",
+    "incorrect_answers": ["코끼리", "상어", "기린"],
+    "explanation": "흰긴수염고래는 몸길이 약 30m, 무게 180톤으로 가장 큽니다."
+  },
+  {
+    "id": 149,
+    "question": "일본의 대표적인 화산 산은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "후지산",
+    "incorrect_answers": ["아소산", "사쿠라지마", "온타케산"],
+    "explanation": "후지산은 일본의 상징적 화산 산입니다."
+  },
+  {
+    "id": 150,
+    "question": "국제올림픽위원회(IOC) 본부는 어디에 있는가?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "로잔",
+    "incorrect_answers": ["제네바", "파리", "빈"],
+    "explanation": "IOC 본부는 스위스 로잔에 위치합니다."
+  },
+  {
+    "id": 151,
+    "question": "세계 최초로 자동차를 만든 인물은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "칼 벤츠",
+    "incorrect_answers": ["포드", "에디슨", "다임러"],
+    "explanation": "1886년 칼 벤츠가 세계 최초의 자동차를 제작했습니다."
+  },
+  {
+    "id": 152,
+    "question": "세계에서 가장 작은 국가는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "바티칸 시국",
+    "incorrect_answers": ["모나코", "리히텐슈타인", "산마리노"],
+    "explanation": "바티칸은 면적과 인구 모두 세계에서 가장 작은 국가입니다."
+  },
+  {
+    "id": 153,
+    "question": "세계 최초의 우주정거장은?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "살류트 1호",
+    "incorrect_answers": ["미르", "ISS", "스카이랩"],
+    "explanation": "1971년 소련이 발사한 살류트 1호는 최초의 우주정거장입니다."
+  },
+  {
+    "id": 154,
+    "question": "세계 최초의 올림픽 경기는 어느 나라에서 열렸나?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "그리스",
+    "incorrect_answers": ["이집트", "로마", "페르시아"],
+    "explanation": "기원전 776년 고대 그리스 올림피아에서 처음 열렸습니다."
+  },
+  {
+    "id": 155,
+    "question": "세계 최초로 비행기를 발명한 인물은?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "라이트 형제",
+    "incorrect_answers": ["에디슨", "다빈치", "글렌 커티스"],
+    "explanation": "1903년 라이트 형제가 최초로 동력 비행에 성공했습니다."
+  },
+  {
+    "id": 156,
+    "question": "세계 최초로 원자폭탄이 사용된 도시는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "히로시마",
+    "incorrect_answers": ["나가사키", "베를린", "도쿄"],
+    "explanation": "1945년 미국이 일본 히로시마에 원자폭탄을 투하했습니다."
+  },
+  {
+    "id": 157,
+    "question": "세계 최초의 전자 컴퓨터는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "에니악",
+    "incorrect_answers": ["유니박", "콜로서스", "IBM 701"],
+    "explanation": "1946년 미국에서 개발된 에니악이 최초의 전자식 컴퓨터입니다."
+  },
+  {
+    "id": 158,
+    "question": "세계 최초로 노벨상을 받은 여성은?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "마리 퀴리",
+    "incorrect_answers": [
+      "도로시 호지킨",
+      "로잘린드 프랭클린",
+      "바바라 맥클린톡"
+    ],
+    "explanation": "마리 퀴리는 노벨 물리학상과 화학상을 모두 수상한 유일한 인물입니다."
+  },
+  {
+    "id": 159,
+    "question": "세계 최초의 영화 상영은 어느 나라에서 있었나?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "프랑스",
+    "incorrect_answers": ["미국", "독일", "영국"],
+    "explanation": "뤼미에르 형제가 1895년 파리에서 최초로 영화를 상영했습니다."
+  },
+  {
+    "id": 160,
+    "question": "세계에서 가장 오래된 대학은?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "카라우인 대학",
+    "incorrect_answers": ["볼로냐 대학", "옥스퍼드 대학", "파리 대학"],
+    "explanation": "모로코 페스에 있는 카라우인 대학은 859년에 설립되었습니다."
+  },
+  {
+    "id": 161,
+    "question": "세계에서 가장 긴 철도는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "시베리아 횡단철도",
+    "incorrect_answers": ["대륙횡단철도", "인도 횡단철도", "유럽 고속철"],
+    "explanation": "러시아의 시베리아 횡단철도는 약 9,300km로 세계 최장 철도입니다."
+  },
+  {
+    "id": 162,
+    "question": "대한민국의 국기는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "태극기",
+    "incorrect_answers": ["무궁화기", "한반도기", "백두산기"],
+    "explanation": "대한민국의 공식 국기는 태극기입니다."
+  },
+  {
+    "id": 163,
+    "question": "세계에서 가장 큰 열대우림은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "아마존 열대우림",
+    "incorrect_answers": [
+      "콩고 열대우림",
+      "동남아 열대우림",
+      "마다가스카르 열대우림"
+    ],
+    "explanation": "아마존 열대우림은 남아메리카 대륙에 위치하며 세계 최대 규모입니다."
+  },
+  {
+    "id": 164,
+    "question": "지구의 중심을 이루는 물질은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "철과 니켈",
+    "incorrect_answers": ["산소와 규소", "수소와 헬륨", "탄소와 황"],
+    "explanation": "지구의 핵은 주로 철과 니켈로 이루어져 있습니다."
+  },
+  {
+    "id": 165,
+    "question": "세계에서 가장 긴 국경을 접한 두 나라는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "미국과 캐나다",
+    "incorrect_answers": [
+      "러시아와 중국",
+      "인도와 방글라데시",
+      "아르헨티나와 칠레"
+    ],
+    "explanation": "미국과 캐나다의 국경은 약 8,890km로 세계 최장입니다."
+  },
+  {
+    "id": 166,
+    "question": "세계에서 가장 큰 대양 해류는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "북태평양 환류",
+    "incorrect_answers": ["멕시코 만류", "쿠로시오 해류", "남적도 해류"],
+    "explanation": "북태평양 환류는 거대한 순환 해류로 태평양을 따라 흐릅니다."
+  },
+  {
+    "id": 167,
+    "question": "인류 최초의 인공위성은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "스푸트니크 1호",
+    "incorrect_answers": ["아폴로 11호", "익스플로러 1호", "보스토크 1호"],
+    "explanation": "1957년 소련이 발사한 스푸트니크 1호는 인류 최초의 인공위성입니다."
+  },
+  {
+    "id": 168,
+    "question": "세계에서 가장 큰 바다는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "필리핀해",
+    "incorrect_answers": ["카리브해", "지중해", "남중국해"],
+    "explanation": "필리핀해는 면적이 약 5백만㎢로 세계 최대의 바다입니다."
+  },
+  {
+    "id": 169,
+    "question": "대한민국의 국토 최남단 섬은?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "마라도",
+    "incorrect_answers": ["이어도", "울릉도", "독도"],
+    "explanation": "마라도는 제주도 남쪽에 위치한 우리나라 최남단의 유인도입니다."
+  },
+  {
+    "id": 170,
+    "question": "세계 최초의 우편제도는 어느 나라에서 시작되었는가?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "페르시아",
+    "incorrect_answers": ["중국", "로마", "이집트"],
+    "explanation": "고대 페르시아 제국에서 최초의 체계적인 우편제도가 시행되었습니다."
+  },
+  {
+    "id": 171,
+    "question": "세계에서 가장 큰 호수는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "카스피해",
+    "incorrect_answers": ["바이칼 호수", "빅토리아 호수", "탕가니카 호수"],
+    "explanation": "카스피해는 호수로 분류되며 세계 최대의 면적을 가집니다."
+  },
+  {
+    "id": 172,
+    "question": "세계에서 가장 깊은 바다는?",
+    "type": "multiple",
+    "difficulty": "easy",
+    "correct_answer": "마리아나 해구",
+    "incorrect_answers": ["통가 해구", "쿠릴 해구", "필리핀 해구"],
+    "explanation": "마리아나 해구의 챌린저 딥은 약 11,000m 깊이로 가장 깊습니다."
+  },
+  {
+    "id": 173,
+    "question": "세계 최초의 올림픽 마라톤 금메달리스트는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "스피리돈 루이스",
+    "incorrect_answers": ["파보 누르미", "에밀 자토펙", "아베베 비킬라"],
+    "explanation": "1896년 아테네 올림픽에서 그리스의 루이스가 금메달을 차지했습니다."
+  },
+  {
+    "id": 174,
+    "question": "지구에서 가장 무거운 자연 원소는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "우라늄",
+    "incorrect_answers": ["납", "수은", "금"],
+    "explanation": "자연적으로 존재하는 원소 중 우라늄이 가장 무겁습니다."
+  },
+  {
+    "id": 175,
+    "question": "세계 최초의 인권 선언으로 알려진 문서는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "마그나 카르타",
+    "incorrect_answers": ["권리장전", "독립선언서", "인권선언"],
+    "explanation": "1215년 영국에서 발표된 마그나 카르타는 인권의 기초로 평가됩니다."
+  },
+  {
+    "id": 176,
+    "question": "세계에서 가장 큰 활화산은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "마우나 로아",
+    "incorrect_answers": ["후지산", "킬리만자로", "에트나산"],
+    "explanation": "하와이에 위치한 마우나 로아는 세계 최대 규모의 활화산입니다."
+  },
+  {
+    "id": 177,
+    "question": "세계 최초의 인터넷 메일은 누구에게 전송되었는가?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "자기 자신",
+    "incorrect_answers": ["상사", "동료", "정부 기관"],
+    "explanation": "1971년 레이 톰린슨이 자신에게 최초의 이메일을 전송했습니다."
+  },
+  {
+    "id": 178,
+    "question": "대한민국 최초의 여성 대통령은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "박근혜",
+    "incorrect_answers": ["윤석열", "김대중", "문재인"],
+    "explanation": "2013년 박근혜가 대한민국 최초의 여성 대통령으로 취임했습니다."
+  },
+  {
+    "id": 179,
+    "question": "세계 최초의 합성 고분자는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "베이클라이트",
+    "incorrect_answers": ["나일론", "폴리에스터", "폴리에틸렌"],
+    "explanation": "1907년 베이클란드가 발명한 베이클라이트가 최초의 합성 고분자입니다."
+  },
+  {
+    "id": 180,
+    "question": "세계에서 가장 많은 공용어를 가진 기구는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "유엔",
+    "incorrect_answers": ["EU", "OECD", "NATO"],
+    "explanation": "유엔은 6개 공용어를 사용합니다."
+  },
+  {
+    "id": 181,
+    "question": "세계 최초의 자동차 생산 라인을 도입한 회사는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "포드",
+    "incorrect_answers": ["벤츠", "GM", "도요타"],
+    "explanation": "헨리 포드가 1913년 컨베이어 벨트를 활용한 대량 생산 방식을 도입했습니다."
+  },
+  {
+    "id": 182,
+    "question": "세계에서 가장 오래된 나라는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "산마리노",
+    "incorrect_answers": ["이집트", "중국", "일본"],
+    "explanation": "산마리노는 301년에 건국되어 현재까지 이어지고 있습니다."
+  },
+  {
+    "id": 183,
+    "question": "세계에서 가장 큰 사막의 면적은?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "1,400만㎢ 이상",
+    "incorrect_answers": ["1,000만㎢", "800만㎢", "500만㎢"],
+    "explanation": "남극 사막의 면적은 약 1,400만㎢ 이상입니다."
+  },
+  {
+    "id": 184,
+    "question": "세계 최초로 노벨 평화상을 수상한 단체는?",
+    "type": "multiple",
+    "difficulty": "medium",
+    "correct_answer": "국제적십자사",
+    "incorrect_answers": ["유엔", "국제앰네스티", "국경없는의사회"],
+    "explanation": "1917년 국제적십자사가 노벨 평화상을 받았습니다."
+  },
+  {
+    "id": 185,
+    "question": "세계 최초로 상업용 비행기를 운행한 도시는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "탬파",
+    "incorrect_answers": ["뉴욕", "런던", "파리"],
+    "explanation": "1914년 미국 탬파에서 세계 최초로 상업 비행 서비스가 시작되었습니다."
+  },
+  {
+    "id": 186,
+    "question": "세계 최초의 원자력 발전소는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "오브닌스크 원전",
+    "incorrect_answers": ["체르노빌 원전", "쓰리마일 원전", "후쿠시마 원전"],
+    "explanation": "1954년 소련의 오브닌스크 원전이 최초의 상업용 원전입니다."
+  },
+  {
+    "id": 187,
+    "question": "세계에서 가장 오래된 신문은?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "스웨덴 포스텐스 티딩가르",
+    "incorrect_answers": ["타임스", "르몽드", "뉴욕타임스"],
+    "explanation": "1645년 창간된 스웨덴의 포스텐스 티딩가르는 세계에서 가장 오래된 신문입니다."
+  },
+  {
+    "id": 188,
+    "question": "세계 최초의 철갑선 전투는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "햄프턴 로즈 해전",
+    "incorrect_answers": ["노르망디 상륙작전", "미드웨이 해전", "츠시마 해전"],
+    "explanation": "미국 남북전쟁 중 벌어진 햄프턴 로즈 해전이 최초의 철갑선 전투입니다."
+  },
+  {
+    "id": 189,
+    "question": "세계 최초의 전기 기관차가 개발된 나라는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "독일",
+    "incorrect_answers": ["영국", "미국", "프랑스"],
+    "explanation": "1879년 독일 지멘스가 세계 최초의 전기 기관차를 개발했습니다."
+  },
+  {
+    "id": 190,
+    "question": "세계 최초의 인공위성 방송은?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "텔스타 1호",
+    "incorrect_answers": ["익스플로러 1호", "애리얼 1호", "인텔샛 1호"],
+    "explanation": "1962년 발사된 텔스타 1호가 최초의 위성 방송을 송출했습니다."
+  },
+  {
+    "id": 191,
+    "question": "세계 최초로 유전자를 편집한 기술은?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "CRISPR-Cas9",
+    "incorrect_answers": ["PCR", "DNA 클로닝", "RNA 간섭"],
+    "explanation": "CRISPR-Cas9은 유전자를 정밀하게 편집할 수 있는 획기적 기술입니다."
+  },
+  {
+    "id": 192,
+    "question": "세계 최초의 금속 활자는 어느 나라에서 발명되었는가?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "한국",
+    "incorrect_answers": ["중국", "독일", "이집트"],
+    "explanation": "고려시대에 금속 활자가 발명되어 세계 최초로 기록됩니다."
+  },
+  {
+    "id": 193,
+    "question": "세계 최초의 인공 심장 이식은 어느 나라에서 성공했는가?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "미국",
+    "incorrect_answers": ["프랑스", "영국", "독일"],
+    "explanation": "1969년 미국에서 최초로 인공 심장 이식 수술이 성공했습니다."
+  },
+  {
+    "id": 194,
+    "question": "세계 최초의 인류 화석은 무엇으로 불리는가?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "자바 원인",
+    "incorrect_answers": [
+      "네안데르탈인",
+      "오스트랄로피테쿠스",
+      "호모 하빌리스"
+    ],
+    "explanation": "19세기 후반 인도네시아 자바에서 발견된 자바 원인이 최초의 인류 화석입니다."
+  },
+  {
+    "id": 195,
+    "question": "세계 최초의 유엔 사무총장은?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "트리그베 리",
+    "incorrect_answers": ["햄마르셸드", "부트로스 갈리", "코피 아난"],
+    "explanation": "노르웨이의 트리그베 리가 1946년 초대 유엔 사무총장이 되었습니다."
+  },
+  {
+    "id": 196,
+    "question": "세계 최초로 상업용 인터넷 브라우저는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "넷스케이프 내비게이터",
+    "incorrect_answers": ["모자이크", "인터넷 익스플로러", "크롬"],
+    "explanation": "1994년 공개된 넷스케이프 내비게이터가 최초의 상업용 웹 브라우저입니다."
+  },
+  {
+    "id": 197,
+    "question": "세계 최초의 여성 우주인은?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "발렌티나 테레시코바",
+    "incorrect_answers": ["사비트라니 쿠마리", "샐리 라이드", "페기 휘트슨"],
+    "explanation": "1963년 소련의 발렌티나 테레시코바가 최초의 여성 우주비행사가 되었습니다."
+  },
+  {
+    "id": 198,
+    "question": "세계 최초의 국제 우편 기구는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "만국우편연합",
+    "incorrect_answers": ["국제통신연합", "세계무역기구", "국제노동기구"],
+    "explanation": "1874년 창설된 만국우편연합은 국제 우편을 규율하는 최초의 기구입니다."
+  },
+  {
+    "id": 199,
+    "question": "세계 최초의 노벨 문학상 수상자는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "쉴리 프뤼돔",
+    "incorrect_answers": ["톨스토이", "입센", "하인리히 만"],
+    "explanation": "1901년 프랑스의 쉴리 프뤼돔이 노벨 문학상 첫 수상자가 되었습니다."
+  },
+  {
+    "id": 200,
+    "question": "세계 최초의 위성항법시스템(GPS) 개발 국가는?",
+    "type": "multiple",
+    "difficulty": "hard",
+    "correct_answer": "미국",
+    "incorrect_answers": ["러시아", "중국", "유럽연합"],
+    "explanation": "미국이 군사용으로 개발한 GPS가 최초의 위성항법 시스템입니다."
   }
 ]

@@ -901,6 +901,922 @@
       "correct_answer": "순종",
       "incorrect_answers": ["고종", "철종", "흥선대원군"],
       "explanation": "조선의 마지막 왕은 순종으로, 대한제국의 황제와 동일 인물입니다."
+    },
+    {
+      "id": 101,
+      "question": "삼국 시대 최초로 율령을 반포한 왕은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "고구려 소수림왕",
+      "incorrect_answers": ["백제 근초고왕", "신라 지증왕", "발해 문왕"],
+      "explanation": "고구려 소수림왕은 373년에 율령을 반포하고 불교를 공인하여 중앙집권 체제를 강화했습니다."
+    },
+    {
+      "id": 102,
+      "question": "신라 진흥왕 때 건립된 탑비로 영토 확장의 증거가 되는 것은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "황초령비와 북한산비",
+      "incorrect_answers": ["광개토대왕비", "정혜공주묘", "무구정광대다라니경"],
+      "explanation": "진흥왕은 한강 유역과 함경도 일대까지 영토를 넓히며 이를 기념해 황초령비, 북한산비를 세웠습니다."
+    },
+    {
+      "id": 103,
+      "question": "발해 문왕이 수도를 옮긴 곳은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "중경 → 상경",
+      "incorrect_answers": ["평양 → 개성", "한성 → 사비", "경주 → 금성"],
+      "explanation": "발해 문왕은 국력을 키우며 수도를 중경에서 상경으로 옮겼습니다."
+    },
+    {
+      "id": 104,
+      "question": "고려 성종이 중앙집권 강화를 위해 설치한 지방제도는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "12목 제도",
+      "incorrect_answers": ["8도제", "향리제", "군현제"],
+      "explanation": "고려 성종은 지방관을 파견하고 12목을 설치하여 중앙의 통치를 강화했습니다."
+    },
+    {
+      "id": 105,
+      "question": "조선 세종 때 편찬된 농서로 우리 풍토에 맞는 농법을 소개한 책은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "농사직설",
+      "incorrect_answers": ["임원경제지", "산림경제", "금양잡록"],
+      "explanation": "농사직설은 세종 때 편찬된 농서로 지역 농민들의 경험을 바탕으로 작성되었습니다."
+    },
+    {
+      "id": 106,
+      "question": "조선 전기의 사림이 성장하는 계기가 된 사건은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "조광조의 개혁과 향약 보급",
+      "incorrect_answers": ["세도 정치", "임진왜란", "홍경래의 난"],
+      "explanation": "조광조 등 사림은 성리학적 도덕 정치를 주장하며 향약을 확산시켜 세력을 넓혔습니다."
+    },
+    {
+      "id": 107,
+      "question": "조선 중기 일본과의 국교가 재개되어 설치된 관청은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "비변사",
+      "incorrect_answers": ["집현전", "통신사", "삼포왜란"],
+      "explanation": "삼포왜란 이후 조선은 일본과의 외교를 조정하기 위해 비변사와 통신사 제도를 운영했습니다."
+    },
+    {
+      "id": 108,
+      "question": "병자호란 때 척화파의 대표적인 인물은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "김상헌",
+      "incorrect_answers": ["최명길", "정도전", "정약용"],
+      "explanation": "김상헌은 끝까지 청나라와 화친을 반대하며 척화를 주장했습니다."
+    },
+    {
+      "id": 109,
+      "question": "조선 숙종 때 일어난 예송 논쟁은 무엇을 둘러싼 논쟁인가?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "왕실의 상복 기간",
+      "incorrect_answers": ["토지 제도", "군사 개혁", "종교 정책"],
+      "explanation": "예송 논쟁은 왕비와 대비의 상복 기간을 둘러싸고 서인과 남인이 대립한 사건입니다."
+    },
+    {
+      "id": 110,
+      "question": "흥선대원군이 추진한 개혁 중 외세의 침입에 대비해 지은 것은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "수원 화성 보수",
+      "incorrect_answers": ["경복궁 신축", "금강산성", "동래읍성"],
+      "explanation": "흥선대원군은 경복궁을 중건하고 전국 요새를 정비해 국방을 강화했습니다."
+    },
+    {
+      "id": 111,
+      "question": "갑신정변이 일어난 해는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "1884년",
+      "incorrect_answers": ["1876년", "1894년", "1905년"],
+      "explanation": "갑신정변은 김옥균, 박영효 등이 주도해 1884년 3일간 진행된 정변입니다."
+    },
+    {
+      "id": 112,
+      "question": "독립협회가 세운 건물로 국민 대회가 열린 곳은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "만민공동회",
+      "incorrect_answers": ["독립문", "환구단", "대한문"],
+      "explanation": "독립협회는 만민공동회를 조직해 의회 설립과 개혁을 주장했습니다."
+    },
+    {
+      "id": 113,
+      "question": "3.1운동 직후 일본이 설치한 식민 통치 기구는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "조선총독부",
+      "incorrect_answers": ["동양척식주식회사", "조선어학회", "신간회"],
+      "explanation": "3.1운동 이후 일본은 무단 통치를 유지하면서 조선총독부의 권한을 강화했습니다."
+    },
+    {
+      "id": 114,
+      "question": "국채보상운동이 일어난 도시는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "대구",
+      "incorrect_answers": ["서울", "평양", "부산"],
+      "explanation": "1907년 대구에서 시작된 국채보상운동은 민족적 경제 자주를 지향했습니다."
+    },
+    {
+      "id": 115,
+      "question": "의열단의 강령을 작성한 인물은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "신채호",
+      "incorrect_answers": ["김원봉", "안창호", "여운형"],
+      "explanation": "신채호는 무장투쟁 노선을 뒷받침하는 의열단 강령을 집필했습니다."
+    },
+    {
+      "id": 116,
+      "question": "일제강점기 문화통치 시기의 대표적 사건은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "조선일보·동아일보 창간",
+      "incorrect_answers": [
+        "치안유지법 시행",
+        "국채보상운동",
+        "광주학생항일운동"
+      ],
+      "explanation": "문화통치기에는 언론과 교육 일부가 허용되어 조선일보, 동아일보 등이 창간되었습니다."
+    },
+    {
+      "id": 117,
+      "question": "광주학생항일운동이 일어난 해는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "1929년",
+      "incorrect_answers": ["1919년", "1931년", "1937년"],
+      "explanation": "광주학생항일운동은 1929년 발생하여 전국으로 확산된 항일 민족운동입니다."
+    },
+    {
+      "id": 118,
+      "question": "대한민국 정부 수립 직후 초대 국무총리는 누구인가?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "이범석",
+      "incorrect_answers": ["장면", "신익희", "김구"],
+      "explanation": "1948년 정부 수립 후 초대 국무총리는 이범석이었습니다."
+    },
+    {
+      "id": 119,
+      "question": "6.25전쟁 발발 당시 대한민국 대통령은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "이승만",
+      "incorrect_answers": ["박정희", "윤보선", "김대중"],
+      "explanation": "1950년 6.25전쟁 발발 당시 대통령은 이승만이었습니다."
+    },
+    {
+      "id": 120,
+      "question": "4.19혁명이 일어난 직접적 원인은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "3.15 부정선거",
+      "incorrect_answers": ["6.25전쟁", "한일협정", "부마항쟁"],
+      "explanation": "1960년 이승만 정권의 3.15 부정선거가 4.19혁명의 도화선이 되었습니다."
+    },
+    {
+      "id": 121,
+      "question": "5.16 군사정변을 일으킨 인물은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "박정희",
+      "incorrect_answers": ["전두환", "노태우", "김영삼"],
+      "explanation": "1961년 박정희를 중심으로 한 군부 세력이 5.16 군사정변을 일으켰습니다."
+    },
+    {
+      "id": 122,
+      "question": "1972년 유신헌법을 공포한 대통령은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "박정희",
+      "incorrect_answers": ["전두환", "노태우", "김대중"],
+      "explanation": "박정희는 1972년 유신헌법을 공포해 장기 집권의 길을 열었습니다."
+    },
+    {
+      "id": 123,
+      "question": "광주민주화운동이 발생한 해는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "1980년",
+      "incorrect_answers": ["1979년", "1987년", "1991년"],
+      "explanation": "광주민주화운동은 1980년 5월에 발생해 민주화 운동의 상징이 되었습니다."
+    },
+    {
+      "id": 124,
+      "question": "1987년 6월 항쟁의 직접적인 계기가 된 사건은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "박종철 고문치사 사건",
+      "incorrect_answers": ["부마항쟁", "광주민주화운동", "전두환 집권"],
+      "explanation": "1987년 1월 박종철 군 고문치사 사건이 6월 민주항쟁의 도화선이 되었습니다."
+    },
+    {
+      "id": 125,
+      "question": "서울 올림픽이 개최된 해는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "1988년",
+      "incorrect_answers": ["1986년", "1992년", "2002년"],
+      "explanation": "서울 올림픽은 1988년에 개최되어 대한민국의 위상을 세계에 알렸습니다."
+    },
+    {
+      "id": 126,
+      "question": "2000년 6.15 남북 공동선언을 체결한 남한 대통령은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "김대중",
+      "incorrect_answers": ["김영삼", "노무현", "이명박"],
+      "explanation": "김대중 대통령은 북한 김정일 국방위원장과 6.15 남북 공동선언을 발표했습니다."
+    },
+    {
+      "id": 127,
+      "question": "노무현 정부 시기 추진된 지방 분권 정책의 상징적 도시 건설은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "세종시",
+      "incorrect_answers": ["인천 송도", "부산 센텀시티", "판교 신도시"],
+      "explanation": "노무현 정부는 행정 수도 이전 정책의 일환으로 세종시를 추진했습니다."
+    },
+    {
+      "id": 128,
+      "question": "대한민국의 OECD 가입 연도는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "1996년",
+      "incorrect_answers": ["1994년", "1998년", "2000년"],
+      "explanation": "대한민국은 1996년 경제협력개발기구(OECD)에 가입했습니다."
+    },
+    {
+      "id": 129,
+      "question": "IMF 외환위기가 발생한 해는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "1997년",
+      "incorrect_answers": ["1995년", "1999년", "2001년"],
+      "explanation": "대한민국은 1997년 외환위기로 IMF 구제금융을 받았습니다."
+    },
+    {
+      "id": 130,
+      "question": "제주 4.3사건이 일어난 시기는?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "1948~1954년",
+      "incorrect_answers": ["1945~1946년", "1950~1953년", "1960~1962년"],
+      "explanation": "제주 4.3사건은 1948년부터 1954년까지 이어진 비극적 사건입니다."
+    },
+    {
+      "id": 131,
+      "question": "삼국사기를 편찬한 인물은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "김부식",
+      "incorrect_answers": ["일연", "최치원", "원효"],
+      "explanation": "고려 인종 때 김부식이 유교적 합리주의 사관에 따라 삼국사기를 편찬했습니다."
+    },
+    {
+      "id": 132,
+      "question": "통일신라 말 최치원이 일본에 보낸 글은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "사산비문",
+      "incorrect_answers": ["계원필경", "화왕계", "난랑비문"],
+      "explanation": "최치원은 일본에 사산비문을 보내 학문적 명성을 떨쳤습니다."
+    },
+    {
+      "id": 133,
+      "question": "발해의 문왕이 불교를 장려한 흔적으로 남긴 것은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "불상과 석탑",
+      "incorrect_answers": ["훈민정음", "팔만대장경", "화엄경소"],
+      "explanation": "발해 문왕은 불교를 장려하여 불상과 석탑 등 많은 문화재가 남아 있습니다."
+    },
+    {
+      "id": 134,
+      "question": "고려 태조가 지방 세력을 통합하기 위해 실시한 정책은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "사성정책",
+      "incorrect_answers": ["훈요10조", "전민변정도감", "교정도감"],
+      "explanation": "태조 왕건은 유력 지방 호족에게 왕씨 성을 하사하는 사성정책을 실시했습니다."
+    },
+    {
+      "id": 135,
+      "question": "고려 무신 집권기 대몽항쟁의 본거지가 된 섬은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "진도",
+      "incorrect_answers": ["제주도", "강화도", "울릉도"],
+      "explanation": "몽골의 침입에 맞서 삼별초는 진도로 근거지를 옮겨 항쟁했습니다."
+    },
+    {
+      "id": 136,
+      "question": "조선 태종이 실시한 중요한 개혁 가운데 하나는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "호패법 실시",
+      "incorrect_answers": ["균역법 시행", "대동법 시행", "탕평책"],
+      "explanation": "태종은 인구를 파악하기 위해 호패법을 실시했습니다."
+    },
+    {
+      "id": 137,
+      "question": "조선 세조가 왕위에 오르면서 집권한 과정은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "계유정난",
+      "incorrect_answers": ["인조반정", "을사사화", "임오군란"],
+      "explanation": "1453년 세조는 계유정난을 통해 단종을 몰아내고 집권했습니다."
+    },
+    {
+      "id": 138,
+      "question": "조선 중기의 학문 분파 가운데 퇴계 이황이 이끈 학파는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "영남학파",
+      "incorrect_answers": ["기호학파", "낙론학파", "실학파"],
+      "explanation": "이황은 영남학파의 대표 학자로 성리학을 심화시켰습니다."
+    },
+    {
+      "id": 139,
+      "question": "조선 후기 붕당 정치가 극심해진 계기는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "환국 정치",
+      "incorrect_answers": ["세도 정치", "탕평책", "갑신정변"],
+      "explanation": "숙종 때 집권 붕당이 급격히 교체되는 환국 정치가 전개되었습니다."
+    },
+    {
+      "id": 140,
+      "question": "정약용이 설계한 수원 화성의 성곽 축조 장비는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "거중기",
+      "incorrect_answers": ["화포", "거북선", "자격루"],
+      "explanation": "정약용은 수원 화성 축조에 거중기를 설계해 활용했습니다."
+    },
+    {
+      "id": 141,
+      "question": "병인양요 때 프랑스군이 침략해 약탈한 문화재는?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "외규장각 도서",
+      "incorrect_answers": ["팔만대장경", "훈민정음 해례본", "삼국사기"],
+      "explanation": "병인양요 때 프랑스군은 강화도의 외규장각 도서를 약탈했습니다."
+    },
+    {
+      "id": 142,
+      "question": "운요호 사건을 계기로 체결된 조약은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "강화도 조약",
+      "incorrect_answers": ["한일병합조약", "을사늑약", "제1차 한일협약"],
+      "explanation": "1876년 운요호 사건을 계기로 강화도 조약이 체결되었습니다."
+    },
+    {
+      "id": 143,
+      "question": "대한제국이 러시아의 금융 지원을 받으려 한 사건은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "한일은행 차관 교섭",
+      "incorrect_answers": ["한청통상조약", "을사늑약", "가쓰라-태프트 밀약"],
+      "explanation": "대한제국은 러시아와 차관 교섭을 벌였으나 일본의 견제로 무산되었습니다."
+    },
+    {
+      "id": 144,
+      "question": "신민회가 추진한 교육운동의 대표적 성과는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "오산학교와 대성학교 설립",
+      "incorrect_answers": ["조선어학회", "흥사단", "한성순보"],
+      "explanation": "신민회는 민족 계몽을 위해 오산학교, 대성학교 등을 설립했습니다."
+    },
+    {
+      "id": 145,
+      "question": "대한민국 임시정부의 군사 조직은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "광복군",
+      "incorrect_answers": ["의열단", "신간회", "조선학생회"],
+      "explanation": "임시정부는 중국 충칭에서 한국광복군을 창설했습니다."
+    },
+    {
+      "id": 146,
+      "question": "카이로 회담에서 논의된 한국 관련 내용은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "한국의 독립 약속",
+      "incorrect_answers": ["분단 확정", "남북 총선거", "한일병합 조약"],
+      "explanation": "1943년 카이로 회담에서 한국의 독립이 약속되었습니다."
+    },
+    {
+      "id": 147,
+      "question": "모스크바 3국 외상회의에서 결정된 사항은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "신탁통치안",
+      "incorrect_answers": ["6.15 공동선언", "6자 회담", "북방정책"],
+      "explanation": "1945년 모스크바 3국 회의에서 5년간의 신탁통치가 결정되었습니다."
+    },
+    {
+      "id": 148,
+      "question": "한국전쟁 중 최초로 UN군이 투입된 전투는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "오산 전투",
+      "incorrect_answers": ["낙동강 전투", "인천상륙작전", "장진호 전투"],
+      "explanation": "1950년 오산 전투에 미군이 처음으로 참전했습니다."
+    },
+    {
+      "id": 149,
+      "question": "제1공화국 시절 국가보안법을 강화한 사건은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "국회 프락치 사건",
+      "incorrect_answers": ["부마항쟁", "6.10 만세운동", "4.19혁명"],
+      "explanation": "1949년 국회 프락치 사건으로 보안법이 강화되었습니다."
+    },
+    {
+      "id": 150,
+      "question": "제2공화국 대통령은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "윤보선",
+      "incorrect_answers": ["장면", "이승만", "박정희"],
+      "explanation": "4.19혁명 이후 제2공화국 대통령은 윤보선이었습니다."
+    },
+    {
+      "id": 151,
+      "question": "박정희 정부 시기 경제 개발 5개년 계획이 처음 시작된 해는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "1962년",
+      "incorrect_answers": ["1958년", "1965년", "1970년"],
+      "explanation": "제1차 경제 개발 5개년 계획은 1962년부터 시행되었습니다."
+    },
+    {
+      "id": 152,
+      "question": "한일국교 정상화가 이루어진 해는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "1965년",
+      "incorrect_answers": ["1960년", "1970년", "1972년"],
+      "explanation": "박정희 정부는 1965년 한일국교 정상화를 추진했습니다."
+    },
+    {
+      "id": 153,
+      "question": "1979년 10.26 사건으로 사망한 인물은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "박정희",
+      "incorrect_answers": ["전두환", "김재규", "노태우"],
+      "explanation": "1979년 10.26 사건으로 당시 대통령 박정희가 사망했습니다."
+    },
+    {
+      "id": 154,
+      "question": "전두환 정부 시기 대학생들이 중심이 된 민주화 운동은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "서울의 봄",
+      "incorrect_answers": ["부마항쟁", "6월 항쟁", "광주민주화운동"],
+      "explanation": "1980년 ‘서울의 봄’은 전두환 신군부에 의해 좌절되었습니다."
+    },
+    {
+      "id": 155,
+      "question": "1987년 헌법 개정으로 도입된 제도는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "대통령 직선제",
+      "incorrect_answers": ["내각책임제", "양원제", "연임제"],
+      "explanation": "1987년 6월 항쟁 이후 대통령 직선제가 도입되었습니다."
+    },
+    {
+      "id": 156,
+      "question": "1993년 출범한 정부는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "문민정부",
+      "incorrect_answers": ["국민의 정부", "참여정부", "민주정부"],
+      "explanation": "김영삼 대통령의 문민정부가 1993년에 출범했습니다."
+    },
+    {
+      "id": 157,
+      "question": "2002년 한국이 공동 개최한 국제 스포츠 대회는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "한일 월드컵",
+      "incorrect_answers": ["아시안게임", "동계올림픽", "올림픽"],
+      "explanation": "2002년 한국과 일본은 월드컵을 공동 개최했습니다."
+    },
+    {
+      "id": 158,
+      "question": "박근혜 대통령이 탄핵된 해는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "2017년",
+      "incorrect_answers": ["2016년", "2018년", "2019년"],
+      "explanation": "헌법재판소는 2017년 박근혜 대통령 파면을 결정했습니다."
+    },
+    {
+      "id": 159,
+      "question": "조선 시대 관리 선발 제도 중 현량과를 실시한 왕은?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "중종",
+      "incorrect_answers": ["세종", "성종", "영조"],
+      "explanation": "중종은 조광조의 건의로 현량과를 실시했습니다."
+    },
+    {
+      "id": 160,
+      "question": "고려 시대 금속 활자를 이용해 인쇄된 세계 최고 금속활자본은?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "직지심체요절",
+      "incorrect_answers": ["팔만대장경", "훈민정음", "삼국사기"],
+      "explanation": "1377년 직지심체요절은 세계에서 가장 오래된 금속활자본입니다."
+    },
+    {
+      "id": 161,
+      "question": "삼국사기의 서문을 쓴 고려 인종 때 학자는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "김부식",
+      "incorrect_answers": ["최치원", "일연", "정도전"],
+      "explanation": "김부식은 삼국사기를 편찬하며 유교적 합리주의 역사관을 강조했습니다."
+    },
+    {
+      "id": 162,
+      "question": "통일신라의 불교 승려로 해동고승전 저자는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "각훈",
+      "incorrect_answers": ["원효", "의상", "일연"],
+      "explanation": "각훈은 고려 때 해동고승전을 지어 고승들의 업적을 기록했습니다."
+    },
+    {
+      "id": 163,
+      "question": "발해의 3성 6부 제도는 어느 나라 제도를 모방한 것인가?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "당나라",
+      "incorrect_answers": ["고구려", "신라", "일본"],
+      "explanation": "발해는 중앙 정치 제도로 당나라의 3성 6부제를 본받았습니다."
+    },
+    {
+      "id": 164,
+      "question": "고려 광종이 왕권 강화를 위해 실시한 제도는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "과거제",
+      "incorrect_answers": ["호패법", "대동법", "균역법"],
+      "explanation": "광종은 과거제를 도입해 신진 세력을 등용했습니다."
+    },
+    {
+      "id": 165,
+      "question": "고려 성종 때 최승로가 올린 정치적 건의문은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "시무 28조",
+      "incorrect_answers": ["훈요 10조", "삼강행실도", "경국대전"],
+      "explanation": "최승로는 시무 28조를 올려 유교적 통치를 제시했습니다."
+    },
+    {
+      "id": 166,
+      "question": "조선 성종 때 반포된 법전은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "경국대전",
+      "incorrect_answers": ["대전통편", "흠흠신서", "속대전"],
+      "explanation": "성종 때 경국대전이 완성·반포되어 조선의 기본 법전이 되었습니다."
+    },
+    {
+      "id": 167,
+      "question": "조선 중종 때 현량과를 건의한 인물은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "조광조",
+      "incorrect_answers": ["정도전", "이이", "성혼"],
+      "explanation": "조광조는 신진 사림을 등용하기 위해 현량과 실시를 주장했습니다."
+    },
+    {
+      "id": 168,
+      "question": "임진왜란 때 의병장 중 '호남 의병장'으로 불린 인물은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "고경명",
+      "incorrect_answers": ["곽재우", "김시민", "권율"],
+      "explanation": "고경명은 호남에서 의병을 이끌며 전사했습니다."
+    },
+    {
+      "id": 169,
+      "question": "병자호란 후 청에 끌려간 소현세자가 돌아온 후 겪은 일은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "의문사",
+      "incorrect_answers": ["청나라에 귀화", "영조 즉위", "강화도 정착"],
+      "explanation": "소현세자는 심양에서 돌아온 직후 의문사했습니다."
+    },
+    {
+      "id": 170,
+      "question": "조선 후기 서학(천주교)이 전래된 경로는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "중국을 통한 서적과 사신",
+      "incorrect_answers": [
+        "일본 포교사",
+        "서양 선교사 직접 전래",
+        "몽골 상인"
+      ],
+      "explanation": "천주교는 청나라 연행 사신들이 서적을 들여와 전래되었습니다."
+    },
+    {
+      "id": 171,
+      "question": "병인박해 때 처형된 프랑스 선교사를 계기로 일어난 사건은?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "병인양요",
+      "incorrect_answers": ["신미양요", "정한론", "강화도 조약"],
+      "explanation": "병인박해로 프랑스 선교사가 처형되자 프랑스군이 병인양요를 일으켰습니다."
+    },
+    {
+      "id": 172,
+      "question": "동학농민운동의 기포지가 된 지역은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "고부",
+      "incorrect_answers": ["전주", "공주", "수원"],
+      "explanation": "1894년 동학농민운동은 전라도 고부에서 시작되었습니다."
+    },
+    {
+      "id": 173,
+      "question": "독립협회가 세운 상징적 건물은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "독립문",
+      "incorrect_answers": ["환구단", "대한문", "숭례문"],
+      "explanation": "독립협회는 자주독립을 상징하는 독립문을 세웠습니다."
+    },
+    {
+      "id": 174,
+      "question": "안창호가 주도한 청년 교육 운동 단체는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "흥사단",
+      "incorrect_answers": ["의열단", "신간회", "조선청년연합회"],
+      "explanation": "안창호는 흥사단을 조직해 청년 계몽운동을 전개했습니다."
+    },
+    {
+      "id": 175,
+      "question": "일제강점기 최대 규모의 민족 유일당 운동은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "신간회",
+      "incorrect_answers": ["의열단", "대한광복회", "흥사단"],
+      "explanation": "1927년 신간회는 좌우 합작으로 결성된 최대 규모 민족 단체였습니다."
+    },
+    {
+      "id": 176,
+      "question": "대한민국 임시정부가 충칭에서 발간한 기관지는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "독립신문",
+      "incorrect_answers": ["대한매일신보", "조선일보", "동아일보"],
+      "explanation": "임시정부는 충칭에서 독립신문을 발간해 독립 의지를 고취했습니다."
+    },
+    {
+      "id": 177,
+      "question": "해방 직후 좌우 합작 운동을 주도한 인물은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "여운형",
+      "incorrect_answers": ["김구", "이승만", "신채호"],
+      "explanation": "여운형은 좌우 합작 운동을 주도하며 민족 통일을 모색했습니다."
+    },
+    {
+      "id": 178,
+      "question": "6.25전쟁 당시 서울을 수복한 작전은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "인천상륙작전",
+      "incorrect_answers": ["낙동강 전투", "백마고지 전투", "장진호 전투"],
+      "explanation": "1950년 맥아더 장군이 지휘한 인천상륙작전으로 서울을 수복했습니다."
+    },
+    {
+      "id": 179,
+      "question": "박정희 정부 시기 수출 진흥 정책으로 조성된 산업 단지는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "구로공단",
+      "incorrect_answers": ["포항제철", "울산공단", "여천공단"],
+      "explanation": "박정희 정부는 구로공단을 조성해 수출 지향 산업을 육성했습니다."
+    },
+    {
+      "id": 180,
+      "question": "김영삼 정부가 추진한 금융 개혁 정책은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "금융실명제",
+      "incorrect_answers": ["부동산실명제", "농지개혁", "재벌해체"],
+      "explanation": "김영삼 정부는 금융실명제를 실시해 투명성을 높였습니다."
+    },
+    {
+      "id": 181,
+      "question": "삼국시대 백제 근초고왕이 전성기를 이끌며 교류한 나라는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "일본",
+      "incorrect_answers": ["당나라", "신라", "고려"],
+      "explanation": "근초고왕은 일본과 교류하며 문화 전파에 기여했습니다."
+    },
+    {
+      "id": 182,
+      "question": "신라 진평왕 때 황룡사 구층목탑 건립을 건의한 승려는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "자장",
+      "incorrect_answers": ["원효", "의상", "혜초"],
+      "explanation": "자장은 당에서 돌아와 황룡사 구층목탑 건립을 건의했습니다."
+    },
+    {
+      "id": 183,
+      "question": "고려 예종 때 국자감에 설치된 전문 강좌는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "7재",
+      "incorrect_answers": ["집현전", "성균관", "서원"],
+      "explanation": "예종은 국자감에 7재를 두어 전문 교육을 강화했습니다."
+    },
+    {
+      "id": 184,
+      "question": "조선 후기 실학자 유형원의 저서는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "반계수록",
+      "incorrect_answers": ["목민심서", "열하일기", "북학의"],
+      "explanation": "유형원은 반계수록을 저술해 균전제를 주장했습니다."
+    },
+    {
+      "id": 185,
+      "question": "세도 정치기 삼정의 문란을 비판한 상소문은?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "임술농민봉기 상소",
+      "incorrect_answers": [
+        "홍경래의 난 보고서",
+        "동학농민운동 격문",
+        "갑신정변 선언"
+      ],
+      "explanation": "임술농민봉기 이후 삼정의 문란을 고치는 상소가 올려졌습니다."
+    },
+    {
+      "id": 186,
+      "question": "조선 말기 개화파가 설립한 신식 학교는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "육영공원",
+      "incorrect_answers": ["경성제국대학", "오산학교", "대성학교"],
+      "explanation": "1886년 정부는 개화파와 함께 육영공원을 설립했습니다."
+    },
+    {
+      "id": 187,
+      "question": "을사늑약 체결 당시 항일 의병을 일으킨 인물은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "민종식",
+      "incorrect_answers": ["윤봉길", "김원봉", "신채호"],
+      "explanation": "을사늑약 이후 민종식이 의병을 일으켰습니다."
+    },
+    {
+      "id": 188,
+      "question": "1920년 봉오동 전투를 승리로 이끈 부대는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "홍범도 부대",
+      "incorrect_answers": ["김좌진 부대", "대한광복회", "의열단"],
+      "explanation": "홍범도가 이끈 독립군이 봉오동 전투에서 승리했습니다."
+    },
+    {
+      "id": 189,
+      "question": "청산리 대첩을 이끈 독립군 지휘관은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "김좌진",
+      "incorrect_answers": ["홍범도", "이범석", "김원봉"],
+      "explanation": "1920년 김좌진이 지휘한 독립군은 청산리 전투에서 대승했습니다."
+    },
+    {
+      "id": 190,
+      "question": "대한민국 정부 수립 후 제헌 국회에서 제정된 토지 정책은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "농지개혁법",
+      "incorrect_answers": ["균역법", "과전법", "대동법"],
+      "explanation": "1949년 제헌 국회는 농지개혁법을 제정해 지주의 토지를 분배했습니다."
+    },
+    {
+      "id": 191,
+      "question": "6.25전쟁 중 흥남 철수 작전을 지휘한 장군은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "알몬드",
+      "incorrect_answers": ["맥아더", "클라크", "리치웨이"],
+      "explanation": "미 제10군단장 알몬드 장군이 흥남 철수를 지휘했습니다."
+    },
+    {
+      "id": 192,
+      "question": "대한민국 제3공화국 초대 대통령은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "박정희",
+      "incorrect_answers": ["윤보선", "최규하", "김영삼"],
+      "explanation": "1963년 박정희가 제3공화국 대통령에 당선되었습니다."
+    },
+    {
+      "id": 193,
+      "question": "1970년대 새마을 운동의 대표적 구호는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "근면·자조·협동",
+      "incorrect_answers": [
+        "자유·평등·박애",
+        "자주·자립·자강",
+        "민주·정의·평화"
+      ],
+      "explanation": "새마을 운동은 근면·자조·협동을 구호로 내세웠습니다."
+    },
+    {
+      "id": 194,
+      "question": "1987년 대선에서 당선된 대통령은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "노태우",
+      "incorrect_answers": ["김영삼", "김대중", "김종필"],
+      "explanation": "1987년 직선제 개헌 후 첫 대통령은 노태우였습니다."
+    },
+    {
+      "id": 195,
+      "question": "1998년 IMF 외환위기 극복을 위해 추진된 국민 운동은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "금 모으기 운동",
+      "incorrect_answers": ["새마을 운동", "국채보상운동", "의병 운동"],
+      "explanation": "IMF 위기 극복을 위해 국민들이 자발적으로 금 모으기 운동에 참여했습니다."
+    },
+    {
+      "id": 196,
+      "question": "2007년 남북 정상회담을 가진 대통령은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "노무현",
+      "incorrect_answers": ["김대중", "이명박", "박근혜"],
+      "explanation": "노무현 대통령은 김정일 위원장과 2007년 남북 정상회담을 가졌습니다."
+    },
+    {
+      "id": 197,
+      "question": "2018년 평창 동계올림픽 당시 북한 대표단을 맞이한 대통령은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "문재인",
+      "incorrect_answers": ["이명박", "박근혜", "윤석열"],
+      "explanation": "문재인 대통령은 평창 동계올림픽에서 북한 대표단을 맞이했습니다."
+    },
+    {
+      "id": 198,
+      "question": "2020년 대한민국 총선에서 집권당이 거둔 결과는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "국회 과반 확보",
+      "incorrect_answers": ["과반 미달", "연정 실패", "탄핵"],
+      "explanation": "2020년 21대 총선에서 집권당이 국회 과반을 확보했습니다."
+    },
+    {
+      "id": 199,
+      "question": "삼국시대 가야 연맹을 이끈 대표 국가는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "금관가야",
+      "incorrect_answers": ["대가야", "아라가야", "고령가야"],
+      "explanation": "가야 연맹에서 금관가야가 중심 세력이었습니다."
+    },
+    {
+      "id": 200,
+      "question": "발해와 신라 사이의 교역로로 불린 길은?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "신라도",
+      "incorrect_answers": ["실크로드", "해상왕 장보고로", "조공로"],
+      "explanation": "발해와 신라 사이 교역로를 신라도라 불렀습니다."
     }
   ]
 }
