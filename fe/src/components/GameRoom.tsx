@@ -327,7 +327,7 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
     <div className="min-h-screen bg-gradient-to-br from-purple-600 to-blue-600 p-4">
       <div className="max-w-4xl mx-auto">
         {/* 방 헤더 */}
-        <div className="bg-white rounded-lg shadow-xl p-6 mb-6">
+        <div className="bg-white rounded-lg shadow-xl p-6 mb-6 hidden md:block">
           <div className="flex items-center justify-between mb-4">
             <div>
               <h1 className="text-2xl font-bold text-gray-800">
@@ -519,9 +519,9 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
           </div>
         )}
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-6">
           {/* 참가자 목록 */}
-          <div className="bg-white rounded-lg shadow-xl p-6">
+          <div className="order-2 md:order-1 bg-white rounded-lg shadow-xl p-6">
             <h2 className="text-xl font-semibold text-gray-800 mb-4">
               참가자 ({currentRoom.players.length}/{currentRoom.maxPlayers})
             </h2>
@@ -568,7 +568,7 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
           </div>
 
           {/* 게임 컨트롤 */}
-          <div className="bg-white rounded-lg shadow-xl p-6">
+          <div className="order-1 md:order-2 bg-white rounded-lg shadow-xl p-6">
             <h2 className="text-xl font-semibold text-gray-800 mb-4">
               게임 컨트롤
             </h2>
@@ -675,74 +675,105 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
                 </div>
               )}
 
-            {currentRoom.gameStarted && currentRoom.gamePhase === "playing" && (
-              <div className="mt-6">
-                {isHost ? (
-                  <button
-                    onClick={endGame}
-                    disabled={finalScores.length > 0}
-                    className={`w-full py-3 px-4 rounded-md transition-colors ${
-                      finalScores.length > 0
-                        ? "bg-gray-400 text-white cursor-not-allowed"
-                        : "bg-red-600 text-white hover:bg-red-700"
-                    }`}
-                  >
-                    퀴즈 종료 (방장)
-                  </button>
-                ) : (
-                  <div className="text-center text-sm text-gray-500">
-                    방장이 언제든 퀴즈를 종료할 수 있습니다.
-                  </div>
-                )}
-              </div>
-            )}
-
-            {/* 채팅 */}
-            <div className="mt-8">
-              <h3 className="text-lg font-semibold text-gray-800 mb-3">채팅</h3>
-              <div
-                ref={chatListRef}
-                className="h-48 overflow-y-auto border border-gray-200 rounded p-3 space-y-2 bg-gray-50"
-              >
-                {chatMessages.length === 0 && (
-                  <div className="text-center text-sm text-gray-400">
-                    아직 메시지가 없습니다.
-                  </div>
-                )}
-                {chatMessages.map((m) => (
-                  <div key={m.id} className="text-sm">
-                    <span
-                      className={`font-medium ${
-                        m.playerId === socket?.id
-                          ? "text-blue-600"
-                          : "text-gray-800"
-                      }`}
-                    >
-                      {m.nickname}
-                    </span>
-                    <span className="text-gray-400 mx-2">•</span>
-                    <span className="text-gray-700 break-words">{m.text}</span>
-                  </div>
-                ))}
-              </div>
-              <div className="mt-2 flex gap-2">
-                <input
-                  type="text"
-                  value={chatInput}
-                  onChange={(e) => setChatInput(e.target.value)}
-                  onKeyDown={(e) => e.key === "Enter" && sendMessage()}
-                  placeholder="메시지를 입력하세요 (최대 500자)"
-                  className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 text-base"
-                />
-                <button
-                  onClick={sendMessage}
-                  className="px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-700"
+            <div className="mt-6 flex flex-col">
+              {/* 채팅 (모바일에서 위) */}
+              <div className="order-1 md:order-2">
+                <h3 className="text-lg font-semibold text-gray-800 mb-3">
+                  채팅
+                </h3>
+                <div
+                  ref={chatListRef}
+                  className="h-48 overflow-y-auto border border-gray-200 rounded p-3 space-y-2 bg-gray-50"
                 >
-                  전송
-                </button>
+                  {chatMessages.length === 0 && (
+                    <div className="text-center text-sm text-gray-400">
+                      아직 메시지가 없습니다.
+                    </div>
+                  )}
+                  {chatMessages.map((m) => (
+                    <div key={m.id} className="text-sm">
+                      <span
+                        className={`font-medium ${
+                          m.playerId === socket?.id
+                            ? "text-blue-600"
+                            : "text-gray-800"
+                        }`}
+                      >
+                        {m.nickname}
+                      </span>
+                      <span className="text-gray-400 mx-2">•</span>
+                      <span className="text-gray-700 break-words">
+                        {m.text}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+                <div className="mt-2 flex gap-2">
+                  <input
+                    type="text"
+                    value={chatInput}
+                    onChange={(e) => setChatInput(e.target.value)}
+                    onKeyDown={(e) => e.key === "Enter" && sendMessage()}
+                    placeholder="메시지를 입력하세요 (최대 500자)"
+                    className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 text-base"
+                  />
+                  <button
+                    onClick={sendMessage}
+                    className="px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-700"
+                  >
+                    전송
+                  </button>
+                </div>
               </div>
+
+              {/* 종료 버튼 (모바일에서 아래) */}
+              {currentRoom.gameStarted &&
+                currentRoom.gamePhase === "playing" && (
+                  <div className="order-2 md:order-1 mt-6">
+                    {isHost ? (
+                      <button
+                        onClick={endGame}
+                        disabled={finalScores.length > 0}
+                        className={`w-full py-3 px-4 rounded-md transition-colors ${
+                          finalScores.length > 0
+                            ? "bg-gray-400 text-white cursor-not-allowed"
+                            : "bg-red-600 text-white hover:bg-red-700"
+                        }`}
+                      >
+                        퀴즈 종료 (방장)
+                      </button>
+                    ) : (
+                      <div className="text-center text-sm text-gray-500">
+                        방장이 언제든 퀴즈를 종료할 수 있습니다.
+                      </div>
+                    )}
+                  </div>
+                )}
             </div>
           </div>
+        </div>
+
+        {/* 모바일 전용 하단 방 정보 */}
+        <div className="bg-white rounded-lg shadow-xl p-6 mt-6 md:hidden">
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <h1 className="text-2xl font-bold text-gray-800">
+                {currentRoom.name}
+              </h1>
+              <p className="text-gray-600">방 ID: {currentRoom.id}</p>
+              <p className="text-gray-500 text-sm mt-1">
+                나: <span className="font-semibold">{nickname}</span> (
+                <span className="font-mono text-xs">{socket?.id}</span>)
+              </p>
+            </div>
+            <button
+              onClick={leaveRoom}
+              className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 transition-colors"
+            >
+              방 나가기
+            </button>
+          </div>
+          {getGameStatusDisplay()}
         </div>
       </div>
     </div>
