@@ -177,6 +177,7 @@ io.on("connection", (socket) => {
       selectedCategory: null,
       maxPlayers: 8,
       createdAt: new Date(),
+      chatMessages: [],
     };
 
     rooms.set(roomId, room);
@@ -246,6 +247,11 @@ io.on("connection", (socket) => {
     });
 
     socket.emit("roomJoined", { room });
+    // 채팅 히스토리 전송 (최근 100개)
+    try {
+      const history = (room.chatMessages || []).slice(-100);
+      socket.emit("chatHistory", history);
+    } catch (_) {}
     broadcastRoomList();
   });
 
@@ -444,6 +450,40 @@ io.on("connection", (socket) => {
     });
 
     // 모든 플레이어 제출 여부와 무관하게, 타이머가 결과 표시를 담당 (재제출 허용)
+  });
+
+  // 채팅 메시지 전송
+  socket.on("sendMessage", ({ text }) => {
+    const user = userSockets.get(socket.id);
+    if (!user || !user.roomId) {
+      socket.emit("error", "방에 참가하지 않았습니다.");
+      return;
+    }
+    const room = rooms.get(user.roomId);
+    if (!room) {
+      socket.emit("error", "방을 찾을 수 없습니다.");
+      return;
+    }
+    const messageText = (text || "").toString().trim();
+    if (!messageText) return;
+    if (messageText.length > 500) {
+      socket.emit("error", "메시지는 500자 이하여야 합니다.");
+      return;
+    }
+    const message = {
+      id: generateMessageId(),
+      playerId: socket.id,
+      nickname: user.nickname,
+      text: messageText,
+      timestamp: Date.now(),
+    };
+    if (!room.chatMessages) room.chatMessages = [];
+    room.chatMessages.push(message);
+    // 히스토리 최대 200개로 제한
+    if (room.chatMessages.length > 200) {
+      room.chatMessages = room.chatMessages.slice(-200);
+    }
+    io.to(user.roomId).emit("chatMessage", message);
   });
 
   // 연결 해제
@@ -700,6 +740,11 @@ function shuffleArray(array) {
 // 방 ID 생성 함수
 function generateRoomId() {
   return Math.random().toString(36).substring(2, 8).toUpperCase();
+}
+
+// 채팅 메시지 ID 생성
+function generateMessageId() {
+  return Math.random().toString(36).slice(2) + Date.now().toString(36);
 }
 
 // 서버 시작

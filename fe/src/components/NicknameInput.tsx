@@ -79,7 +79,7 @@ const NicknameInput: React.FC<NicknameInputProps> = ({ onNicknameSet }) => {
               value={nickname}
               onChange={(e) => setNickname(e.target.value)}
               onKeyPress={(e) => e.key === "Enter" && handleSubmit()}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 text-base"
               placeholder="닉네임 (2글자 이상)"
               maxLength={20}
               disabled={loading}

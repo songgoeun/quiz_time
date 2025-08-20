@@ -13,6 +13,13 @@ body {
   overflow-x: hidden;
 }
 
+/* iOS Safari input focus 자동 줌 방지: 최소 16px 보장 */
+input,
+select,
+textarea {
+  font-size: 16px;
+}
+
 /* 모바일 터치 최적화 */
 * {
   -webkit-tap-highlight-color: transparent;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useSocket } from "../context/SocketContext";
 import {
   type GameRoom as GameRoomType,
@@ -28,6 +28,17 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
   );
   const [finalScores, setFinalScores] = useState<FinalScore[]>([]);
   const [submittedAnswer, setSubmittedAnswer] = useState<string>("");
+  const [chatMessages, setChatMessages] = useState<
+    Array<{
+      id: string;
+      playerId: string;
+      nickname: string;
+      text: string;
+      timestamp: number;
+    }>
+  >([]);
+  const [chatInput, setChatInput] = useState("");
+  const chatListRef = useRef<HTMLDivElement | null>(null);
   const [showResult, setShowResult] = useState(false);
   const { socket } = useSocket();
 
@@ -138,6 +149,7 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
       setFinalScores([]);
       setShowResult(false);
       setSelectedAnswer("");
+      setChatMessages([]);
     };
 
     const handleAnswerSubmitted = ({
@@ -166,6 +178,32 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
     socket.on("backToWaiting", handleBackToWaiting);
     socket.on("answerSubmitted", handleAnswerSubmitted);
     socket.on("error", handleError);
+    socket.on(
+      "chatHistory",
+      (
+        history: Array<{
+          id: string;
+          playerId: string;
+          nickname: string;
+          text: string;
+          timestamp: number;
+        }>
+      ) => {
+        setChatMessages(history);
+      }
+    );
+    socket.on(
+      "chatMessage",
+      (msg: {
+        id: string;
+        playerId: string;
+        nickname: string;
+        text: string;
+        timestamp: number;
+      }) => {
+        setChatMessages((prev) => [...prev, msg]);
+      }
+    );
 
     return () => {
       socket.off("playerJoined", handlePlayerJoined);
@@ -179,8 +217,18 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
       socket.off("backToWaiting", handleBackToWaiting);
       socket.off("answerSubmitted", handleAnswerSubmitted);
       socket.off("error", handleError);
+      socket.off("chatHistory");
+      socket.off("chatMessage");
     };
   }, [socket, nickname]);
+
+  // 채팅 자동 스크롤: 새 메시지가 올 때마다 맨 아래로 이동
+  useEffect(() => {
+    const el = chatListRef.current;
+    if (el) {
+      el.scrollTop = el.scrollHeight;
+    }
+  }, [chatMessages]);
 
   // 타이머 효과
   useEffect(() => {
@@ -224,6 +272,14 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
   const endGame = () => {
     if (!socket) return;
     socket.emit("endGame");
+  };
+
+  const sendMessage = () => {
+    if (!socket) return;
+    const text = chatInput.trim();
+    if (!text) return;
+    socket.emit("sendMessage", { text });
+    setChatInput("");
   };
 
   const leaveRoom = () => {
@@ -640,6 +696,52 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
                 )}
               </div>
             )}
+
+            {/* 채팅 */}
+            <div className="mt-8">
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">채팅</h3>
+              <div
+                ref={chatListRef}
+                className="h-48 overflow-y-auto border border-gray-200 rounded p-3 space-y-2 bg-gray-50"
+              >
+                {chatMessages.length === 0 && (
+                  <div className="text-center text-sm text-gray-400">
+                    아직 메시지가 없습니다.
+                  </div>
+                )}
+                {chatMessages.map((m) => (
+                  <div key={m.id} className="text-sm">
+                    <span
+                      className={`font-medium ${
+                        m.playerId === socket?.id
+                          ? "text-blue-600"
+                          : "text-gray-800"
+                      }`}
+                    >
+                      {m.nickname}
+                    </span>
+                    <span className="text-gray-400 mx-2">•</span>
+                    <span className="text-gray-700 break-words">{m.text}</span>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-2 flex gap-2">
+                <input
+                  type="text"
+                  value={chatInput}
+                  onChange={(e) => setChatInput(e.target.value)}
+                  onKeyDown={(e) => e.key === "Enter" && sendMessage()}
+                  placeholder="메시지를 입력하세요 (최대 500자)"
+                  className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 text-base"
+                />
+                <button
+                  onClick={sendMessage}
+                  className="px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-700"
+                >
+                  전송
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
