@@ -100,6 +100,20 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
       setQuestionResult(result);
       setShowResult(true);
       setCurrentQuestion(null);
+      // 참가자 점수 즉시 반영
+      setCurrentRoom((prev) => {
+        const updatedScores: { [playerId: string]: number } = {
+          ...(prev.playerScores || {}),
+        };
+        result.playerResults.forEach((r) => {
+          const player = prev.players.find((p) => p.nickname === r.nickname);
+          const playerId = (player && player.id) || r.playerId;
+          if (playerId) {
+            updatedScores[playerId] = r.score;
+          }
+        });
+        return { ...prev, playerScores: updatedScores } as GameRoomType;
+      });
     };
 
     const handleQuizFinished = ({

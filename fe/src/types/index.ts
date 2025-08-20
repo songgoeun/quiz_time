@@ -40,6 +40,7 @@ export interface QuestionResult {
   correctAnswer: string;
   explanation: string;
   playerResults: Array<{
+    playerId?: string;
     nickname: string;
     answer: string;
     isCorrect: boolean;

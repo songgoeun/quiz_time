@@ -431,7 +431,7 @@ io.on("connection", (socket) => {
     const isCorrect = answer === currentQuestion.correct_answer;
     let points = 0;
     if (isCorrect) {
-      const maxTime = 15000; // 15초
+      const maxTime = 9000; // 9초
       const timeBonus = Math.max(0, maxTime - timeSpent) / 1000;
       points = Math.round(100 + timeBonus * 10);
     }
@@ -554,15 +554,15 @@ function sendNextQuestion(roomId) {
       ...question.incorrect_answers,
     ]),
     difficulty: question.difficulty,
-    timeLimit: 15000, // 15초
+    timeLimit: 9000, // 9초
   };
 
   io.to(roomId).emit("questionStart", questionData);
 
-  // 15초 후 자동으로 결과 표시 (중복 방지를 위해 핸들 저장)
+  // 9초 후 자동으로 결과 표시 (중복 방지를 위해 핸들 저장)
   room.questionTimeout = setTimeout(() => {
     showQuestionResult(roomId);
-  }, 15000);
+  }, 9000);
 }
 
 function showQuestionResult(roomId) {
@@ -590,8 +590,8 @@ function showQuestionResult(roomId) {
   Object.entries(room.currentAnswers || {}).forEach(([playerId, ans]) => {
     const isCorrect = ans && ans.answer === question.correct_answer;
     if (isCorrect) {
-      const maxTime = 15000;
-      const timeBonus = Math.max(0, maxTime - (ans.timeSpent || 15000)) / 1000;
+      const maxTime = 9000;
+      const timeBonus = Math.max(0, maxTime - (ans.timeSpent || 9000)) / 1000;
       const points = Math.round(100 + timeBonus * 10);
       room.playerScores[playerId] = (room.playerScores[playerId] || 0) + points;
     }
@@ -604,10 +604,11 @@ function showQuestionResult(roomId) {
       const answer = room.currentAnswers[player.id];
       const isCorrect = answer && answer.answer === question.correct_answer;
       return {
+        playerId: player.id,
         nickname: player.nickname,
         answer: answer ? answer.answer : "미제출",
         isCorrect,
-        timeSpent: answer ? answer.timeSpent : 15000,
+        timeSpent: answer ? answer.timeSpent : 9000,
         score: room.playerScores[player.id] || 0,
       };
     }),
@@ -615,7 +616,7 @@ function showQuestionResult(roomId) {
 
   io.to(roomId).emit("questionResult", results);
 
-  // 3초 후 다음 문제 또는 게임 종료
+  // 3.9초 후 다음 문제 또는 게임 종료
   setTimeout(() => {
     // 사용된 문제 기록에 현재 문제 ID 추가 (중복 방지)
     try {
@@ -640,7 +641,7 @@ function showQuestionResult(roomId) {
     } else {
       endQuiz(roomId);
     }
-  }, 5000);
+  }, 3800);
 }
 
 function endQuiz(roomId) {
