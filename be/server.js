@@ -352,7 +352,7 @@ io.on("connection", (socket) => {
 
     const categories = [
       { id: 1, name: "다슬쨩의 애니", description: "애니메이션 관련 퀴즈" },
-      { id: 2, name: "모두의 한국사", description: "한국사 관련 퀴즈" },
+      { id: 2, name: "윤하캐리 한국사", description: "한국사 관련 퀴즈" },
       { id: 3, name: "몰상식 듀오의 상식", description: "일반상식 관련 퀴즈" },
     ];
 

@@ -71,7 +71,7 @@ export const QUIZ_CATEGORIES: Category[] = [
   },
   {
     id: 2,
-    name: "모두의 한국사",
+    name: "윤하캐리 한국사",
     description: "한국사 관련 퀴즈",
     emoji: "🏛️",
   },
