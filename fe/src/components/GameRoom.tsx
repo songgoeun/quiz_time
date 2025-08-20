@@ -254,19 +254,20 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
     socket.emit("selectCategory", categoryId);
   };
 
-  const submitAnswer = () => {
-    if (!socket || !selectedAnswer || !currentQuestion) {
+  const submitAnswer = (overrideAnswer?: string) => {
+    const answerToSend = overrideAnswer || selectedAnswer;
+    if (!socket || !answerToSend || !currentQuestion) {
       return;
     }
 
     const timeSpent = currentQuestion.timeLimit / 1000 - timeLeft;
     socket.emit("submitAnswer", {
-      answer: selectedAnswer,
+      answer: answerToSend,
       timeSpent: timeSpent * 1000,
     });
 
     // UI 상태 업데이트
-    setSubmittedAnswer(selectedAnswer);
+    setSubmittedAnswer(answerToSend);
   };
 
   const endGame = () => {
@@ -383,7 +384,10 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
                 return (
                   <button
                     key={index}
-                    onClick={() => setSelectedAnswer(option)}
+                    onClick={() => {
+                      setSelectedAnswer(option);
+                      submitAnswer(option);
+                    }}
                     className={`p-4 border rounded-lg text-left transition-colors flex items-center justify-between ${
                       isChosenNow
                         ? "bg-blue-100 border-blue-500 text-blue-700"
@@ -406,20 +410,7 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
               })}
             </div>
 
-            {selectedAnswer && (
-              <div className="mt-6 flex flex-col gap-2">
-                <button
-                  onClick={submitAnswer}
-                  className="w-full bg-green-600 text-white py-3 px-4 rounded-md hover:bg-green-700 transition-colors"
-                >
-                  {submittedAnswer ? "답안 변경:" : "답안 제출:"}{" "}
-                  {selectedAnswer}
-                </button>
-                <div className="text-xs text-gray-500 text-center">
-                  제출 전·후 모두 다시 선택해 재제출할 수 있습니다.
-                </div>
-              </div>
-            )}
+            {/* 자동 제출 모드: 별도 제출 버튼 없음 */}
           </div>
         )}
 
