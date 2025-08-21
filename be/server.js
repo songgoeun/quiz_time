@@ -42,7 +42,7 @@ const loadQuizData = () => {
     { id: 1, file: "anime.json" },
     { id: 2, file: "korean-history.json" },
     { id: 3, file: "general-knowledge.json" },
-    { id: 4, file: "math.json" },
+    { id: 4, file: "money.json" },
   ];
 
   categories.forEach((category) => {
@@ -54,14 +54,31 @@ const loadQuizData = () => {
         const cleaned = raw.replace(/^\uFEFF/, "");
         const parsed = JSON.parse(cleaned);
 
-        // 데이터 정규화: 배열 또는 { questions: [] } 모두 지원
+        // 데이터 정규화: 배열/래퍼/객체 모두 지원
         let normalized;
         if (Array.isArray(parsed)) {
-          normalized = {
-            category: path.basename(category.file, ".json"),
-            category_name: path.basename(category.file, ".json"),
-            questions: parsed,
-          };
+          // money.json처럼 [ { category, category_name, questions: [...] } ] 형태 지원
+          if (
+            parsed.length > 0 &&
+            parsed[0] &&
+            typeof parsed[0] === "object" &&
+            Array.isArray(parsed[0].questions)
+          ) {
+            const wrapper = parsed[0];
+            normalized = {
+              category:
+                wrapper.category || path.basename(category.file, ".json"),
+              category_name:
+                wrapper.category_name || path.basename(category.file, ".json"),
+              questions: wrapper.questions,
+            };
+          } else {
+            normalized = {
+              category: path.basename(category.file, ".json"),
+              category_name: path.basename(category.file, ".json"),
+              questions: parsed,
+            };
+          }
         } else if (parsed && Array.isArray(parsed.questions)) {
           normalized = parsed;
         } else {
@@ -103,6 +120,24 @@ function broadcastRoomList() {
     gameStarted: room.gameStarted,
   }));
   io.emit("roomListUpdated", roomList);
+}
+
+// 클라이언트로 보낼 방 정보 직렬화 (순환/비직렬 필드 제거)
+function serializeRoom(room) {
+  if (!room) return null;
+  return {
+    id: room.id,
+    name: room.name,
+    host: room.host,
+    players: room.players,
+    gameStarted: room.gameStarted,
+    gamePhase: room.gamePhase,
+    selectedCategory: room.selectedCategory,
+    maxPlayers: room.maxPlayers,
+    createdAt: room.createdAt,
+    currentQuestionIndex: room.currentQuestionIndex,
+    playerScores: room.playerScores,
+  };
 }
 
 // 기본 라우트
@@ -184,7 +219,7 @@ io.on("connection", (socket) => {
     user.roomId = roomId;
 
     socket.join(roomId);
-    socket.emit("roomCreated", { room });
+    socket.emit("roomCreated", { room: serializeRoom(room) });
 
     console.log(`방 ${roomId} (${roomName})이 생성되었습니다.`);
 
@@ -243,10 +278,10 @@ io.on("connection", (socket) => {
     // 방 참가자들에게 업데이트 전송
     io.to(roomId).emit("playerJoined", {
       player: { id: socket.id, nickname: user.nickname, isHost: false },
-      room: room,
+      room: serializeRoom(room),
     });
 
-    socket.emit("roomJoined", { room });
+    socket.emit("roomJoined", { room: serializeRoom(room) });
     // 채팅 히스토리 전송 (최근 100개)
     try {
       const history = (room.chatMessages || []).slice(-100);
@@ -294,7 +329,7 @@ io.on("connection", (socket) => {
       `방 ${user.roomId}에서 게임이 시작되었습니다. (분야 선택 단계)`
     );
 
-    io.to(user.roomId).emit("gameStarted", { room });
+    io.to(user.roomId).emit("gameStarted", { room: serializeRoom(room) });
     broadcastRoomList();
   });
 
@@ -354,6 +389,11 @@ io.on("connection", (socket) => {
       { id: 1, name: "다슬쨩의 애니", description: "애니메이션 관련 퀴즈" },
       { id: 2, name: "윤하캐리 한국사", description: "한국사 관련 퀴즈" },
       { id: 3, name: "몰상식 듀오의 상식", description: "일반상식 관련 퀴즈" },
+      {
+        id: 4,
+        name: "고니의 금융 개념 찾기",
+        description: "금융 상식 관련 퀴즈",
+      },
     ];
 
     const selectedCategory = categories.find((cat) => cat.id === categoryId);
@@ -377,11 +417,13 @@ io.on("connection", (socket) => {
     const available = getUnseenQuestions(categoryId, user.roomId);
     room.questions = available;
     room.playerScores = {};
+    room.playerStreaks = {};
     room.questionStartTime = Date.now();
 
     // 플레이어 점수 초기화
     room.players.forEach((player) => {
       room.playerScores[player.id] = 0;
+      room.playerStreaks[player.id] = 0;
     });
 
     console.log(
@@ -389,7 +431,7 @@ io.on("connection", (socket) => {
     );
 
     io.to(user.roomId).emit("categorySelected", {
-      room,
+      room: serializeRoom(room),
       category: selectedCategory,
     });
 
@@ -529,7 +571,7 @@ io.on("connection", (socket) => {
     if (room.players.length > 0) {
       io.to(user.roomId).emit("playerLeft", {
         playerId: socketId,
-        room: room,
+        room: serializeRoom(room),
       });
     }
 
@@ -626,14 +668,53 @@ function showQuestionResult(roomId) {
   }
 
   // 결과 데이터 준비
-  // 최종 점수 반영: 제출된 최종 답안 기준
+  // 1) 최속 정답 보너스를 위한 최소 시간 계산
+  let fastestTime = null;
+  Object.values(room.currentAnswers || {}).forEach((ans) => {
+    if (ans && typeof ans.timeSpent === "number") {
+      if (fastestTime === null || ans.timeSpent < fastestTime) {
+        fastestTime = ans.timeSpent;
+      }
+    }
+  });
+
+  // 2) 각 플레이어 정답 처리: 기본점수 + 콤보 보너스 + 최속 보너스
+  const FASTEST_BONUS = 30;
+  const STREAK_STEP_BONUS = 20; // 연속 2번째부터 20점씩 추가
   Object.entries(room.currentAnswers || {}).forEach(([playerId, ans]) => {
     const isCorrect = ans && ans.answer === question.correct_answer;
+
+    // 콤보 갱신
+    if (!room.playerStreaks) room.playerStreaks = {};
+    if (room.playerStreaks[playerId] == null) room.playerStreaks[playerId] = 0;
+    if (isCorrect) {
+      room.playerStreaks[playerId] = (room.playerStreaks[playerId] || 0) + 1;
+    } else {
+      room.playerStreaks[playerId] = 0;
+    }
+
     if (isCorrect) {
       const maxTime = 9000;
       const timeBonus = Math.max(0, maxTime - (ans.timeSpent || 9000)) / 1000;
-      const points = Math.round(100 + timeBonus * 10);
-      room.playerScores[playerId] = (room.playerScores[playerId] || 0) + points;
+      const basePoints = Math.round(100 + timeBonus * 10);
+      // streak 보너스: 2연속부터 20점씩 증가 → (streak-1)*20
+      const streak = room.playerStreaks[playerId] || 0;
+      const streakBonus = Math.max(0, streak - 1) * STREAK_STEP_BONUS;
+      // 최속 보너스: 최속 시간과 동률 포함
+      const isFastest =
+        typeof ans.timeSpent === "number" && fastestTime !== null
+          ? ans.timeSpent === fastestTime
+          : false;
+      const fastestBonus = isFastest ? FASTEST_BONUS : 0;
+
+      const total = basePoints + streakBonus + fastestBonus;
+      room.playerScores[playerId] = (room.playerScores[playerId] || 0) + total;
+      // 임시 저장: 결과 전송용 메타를 currentAnswers에 부착
+      ans.__basePoints = basePoints;
+      ans.__streak = streak;
+      ans.__streakBonus = streakBonus;
+      ans.__fastest = isFastest;
+      ans.__fastestBonus = fastestBonus;
     }
   });
 
@@ -650,6 +731,12 @@ function showQuestionResult(roomId) {
         isCorrect,
         timeSpent: answer ? answer.timeSpent : 9000,
         score: room.playerScores[player.id] || 0,
+        streakCount: room.playerStreaks
+          ? room.playerStreaks[player.id] || 0
+          : 0,
+        fastest: answer ? !!answer.__fastest : false,
+        streakBonus: answer ? answer.__streakBonus || 0 : 0,
+        fastestBonus: answer ? answer.__fastestBonus || 0 : 0,
       };
     }),
   };
@@ -681,7 +768,7 @@ function showQuestionResult(roomId) {
     } else {
       endQuiz(roomId);
     }
-  }, 3800);
+  }, 4000);
 }
 
 function endQuiz(roomId) {
@@ -723,7 +810,7 @@ function endQuiz(roomId) {
     room.playerScores = {};
     room.currentAnswers = {};
 
-    io.to(roomId).emit("backToWaiting", { room });
+    io.to(roomId).emit("backToWaiting", { room: serializeRoom(room) });
     broadcastRoomList();
   }, 10000);
 }

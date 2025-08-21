@@ -437,6 +437,24 @@ const GameRoom: React.FC<GameRoomProps> = ({ room, nickname, onLeaveRoom }) => {
                 >
                   <div className="flex items-center gap-3">
                     <span className="font-medium">{result.nickname}</span>
+                    {result.streakCount && result.streakCount > 1 && (
+                      <span className="text-xs px-2 py-1 rounded bg-yellow-100 text-yellow-800">
+                        🔥 {result.streakCount}연속
+                        {typeof result.streakBonus === "number" &&
+                        result.streakBonus > 0
+                          ? ` (+${result.streakBonus})`
+                          : ""}
+                      </span>
+                    )}
+                    {result.fastest && (
+                      <span className="text-xs px-2 py-1 rounded bg-blue-100 text-blue-700">
+                        ⚡ 최속
+                        {typeof result.fastestBonus === "number" &&
+                        result.fastestBonus > 0
+                          ? ` (+${result.fastestBonus})`
+                          : ""}
+                      </span>
+                    )}
                     <span
                       className={`text-sm px-2 py-1 rounded ${
                         result.isCorrect

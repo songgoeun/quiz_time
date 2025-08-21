@@ -46,6 +46,10 @@ export interface QuestionResult {
     isCorrect: boolean;
     timeSpent: number;
     score: number;
+    streakCount?: number;
+    fastest?: boolean;
+    streakBonus?: number;
+    fastestBonus?: number;
   }>;
 }
 
@@ -80,5 +84,11 @@ export const QUIZ_CATEGORIES: Category[] = [
     name: "몰상식 듀오의 상식",
     description: "일반상식 관련 퀴즈",
     emoji: "🧠",
+  },
+  {
+    id: 4,
+    name: "고니의 금융 개념 찾기",
+    description: "금융 상식 관련 퀴즈",
+    emoji: "💰",
   },
 ];

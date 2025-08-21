@@ -1817,6 +1817,906 @@
       "correct_answer": "신라도",
       "incorrect_answers": ["실크로드", "해상왕 장보고로", "조공로"],
       "explanation": "발해와 신라 사이 교역로를 신라도라 불렀습니다."
+    },
+    {
+      "id": 201,
+      "question": "고조선의 법으로 알려진 조항은 무엇인가?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "8조법",
+      "incorrect_answers": ["율령", "시무 28조", "훈요 10조"],
+      "explanation": "고조선에는 8조법이 있었는데, 그 중 일부만 기록으로 전해지고 있습니다."
+    },
+    {
+      "id": 202,
+      "question": "부여의 대표적인 제천 행사는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "영고",
+      "incorrect_answers": ["동맹", "무천", "팔관회"],
+      "explanation": "부여에서는 12월에 영고라는 제천 행사를 열어 하늘에 제사를 지냈습니다."
+    },
+    {
+      "id": 203,
+      "question": "고구려의 수도 국내성에서 평양으로 천도한 왕은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "장수왕",
+      "incorrect_answers": ["광개토대왕", "소수림왕", "동명성왕"],
+      "explanation": "장수왕은 427년에 평양으로 천도하여 남하 정책을 추진했습니다."
+    },
+    {
+      "id": 204,
+      "question": "백제의 근초고왕이 전성기를 맞이하며 교류했던 중국의 왕조는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "동진",
+      "incorrect_answers": ["수", "당", "송"],
+      "explanation": "백제 근초고왕은 동진과 교류하며 해상 무역을 활성화했습니다."
+    },
+    {
+      "id": 205,
+      "question": "신라의 건국 시조는 누구인가?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "박혁거세",
+      "incorrect_answers": ["김알지", "석탈해", "김춘추"],
+      "explanation": "신라는 박혁거세가 건국한 나라로, 왕호는 거서간이었습니다."
+    },
+    {
+      "id": 206,
+      "question": "광개토대왕비가 세워진 지역은 어디인가?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "중국 지안",
+      "incorrect_answers": ["평양", "서울", "경주"],
+      "explanation": "광개토대왕비는 고구려 수도였던 국내성(지안)에 세워졌습니다."
+    },
+    {
+      "id": 207,
+      "question": "백제의 무령왕릉이 발굴된 도시는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "공주",
+      "incorrect_answers": ["부여", "서울", "경주"],
+      "explanation": "무령왕릉은 공주 송산리 고분군에서 발굴되어 백제사 연구의 귀중한 자료가 되었습니다."
+    },
+    {
+      "id": 208,
+      "question": "신라 지증왕 때 새로 제정한 국호는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "신라",
+      "incorrect_answers": ["사로국", "계림", "서라벌"],
+      "explanation": "지증왕은 국호를 '신라'로 정하고, 왕호를 '왕'으로 바꾸었습니다."
+    },
+    {
+      "id": 209,
+      "question": "고구려의 살수대첩에서 활약한 장수는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "을지문덕",
+      "incorrect_answers": ["연개소문", "온달", "강감찬"],
+      "explanation": "612년 수나라의 대군을 격파한 장수는 을지문덕입니다."
+    },
+    {
+      "id": 210,
+      "question": "백제 성왕이 사비로 천도한 시기는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "538년",
+      "incorrect_answers": ["475년", "660년", "612년"],
+      "explanation": "백제 성왕은 538년에 수도를 웅진에서 사비로 옮겼습니다."
+    },
+    {
+      "id": 211,
+      "question": "신라가 한강 유역을 차지한 전투는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "관산성 전투",
+      "incorrect_answers": ["황산벌 전투", "매소성 전투", "살수대첩"],
+      "explanation": "관산성 전투에서 백제 성왕을 전사시키고 한강 유역을 차지했습니다."
+    },
+    {
+      "id": 212,
+      "question": "발해의 3성 6부 제도는 어느 나라 제도를 본받은 것인가?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "당나라",
+      "incorrect_answers": ["고구려", "신라", "일본"],
+      "explanation": "발해는 중앙 정치 제도로 당나라의 제도를 본받아 3성 6부를 운영했습니다."
+    },
+    {
+      "id": 213,
+      "question": "고구려 동명성왕이 건국한 도시는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "졸본",
+      "incorrect_answers": ["국내성", "평양", "환도성"],
+      "explanation": "동명성왕 주몽은 졸본에 고구려를 세웠습니다."
+    },
+    {
+      "id": 214,
+      "question": "백제의 멸망 당시 왕은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "의자왕",
+      "incorrect_answers": ["무왕", "성왕", "문주왕"],
+      "explanation": "660년 신라·당 연합군에 의해 백제가 멸망할 때 왕은 의자왕이었습니다."
+    },
+    {
+      "id": 215,
+      "question": "신라 진흥왕 때 세워진 비석으로 영토 확장의 증거가 되는 것은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "북한산비",
+      "incorrect_answers": ["광개토대왕비", "진흥왕순수비", "황초령비"],
+      "explanation": "진흥왕은 영토 확장을 기념하여 북한산비, 황초령비 등을 세웠습니다."
+    },
+    {
+      "id": 216,
+      "question": "발해 문왕 때 수도를 옮긴 곳은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "상경",
+      "incorrect_answers": ["동경", "중경", "서경"],
+      "explanation": "발해 문왕은 수도를 상경으로 옮겨 발해 전성기를 이끌었습니다."
+    },
+    {
+      "id": 217,
+      "question": "고구려의 대막리지로 정변을 일으켜 집권한 인물은?",
+      "type": "multiple",
+      "difficulty": "hard",
+      "correct_answer": "연개소문",
+      "incorrect_answers": ["을지문덕", "온달", "광개토대왕"],
+      "explanation": "연개소문은 7세기 고구려의 대막리지로 정변을 통해 정권을 잡고 당과 대립했습니다."
+    },
+    {
+      "id": 218,
+      "question": "통일 신라의 대표적인 불교 승려로 화엄 사상을 전파한 인물은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "의상",
+      "incorrect_answers": ["원효", "자장", "혜초"],
+      "explanation": "의상은 화엄 사상을 전파하고 부석사를 창건했습니다."
+    },
+    {
+      "id": 219,
+      "question": "발해가 '해동성국'이라 불리게 된 시기의 왕은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "선왕",
+      "incorrect_answers": ["문왕", "무왕", "대조영"],
+      "explanation": "발해 선왕은 영토를 최대한으로 확장해 '해동성국'이라 불렸습니다."
+    },
+    {
+      "id": 220,
+      "question": "신라 최초의 여왕은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "선덕여왕",
+      "incorrect_answers": ["진덕여왕", "진성여왕", "문무왕"],
+      "explanation": "선덕여왕은 신라 최초의 여왕으로 첨성대를 건립하는 등 업적을 남겼습니다."
+    },
+    {
+      "id": 221,
+      "question": "고려를 건국한 왕은 누구인가?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "태조 왕건",
+      "incorrect_answers": ["궁예", "광종", "혜종"],
+      "explanation": "918년 왕건이 고려를 세우고 송악(개경)을 수도로 삼았습니다."
+    },
+    {
+      "id": 222,
+      "question": "태조 왕건이 강조한 정치 이념으로, 호족과의 혼인 정책을 포함한 것은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "북진 정책과 혼인 정책",
+      "incorrect_answers": ["과거제와 전시과", "훈요 10조", "개혁 정치"],
+      "explanation": "태조는 북진 정책을 추진하고 호족과의 혼인을 통해 기반을 다졌습니다."
+    },
+    {
+      "id": 223,
+      "question": "고려 광종이 실시한 제도로, 신분 상승의 기회를 마련한 것은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "과거제",
+      "incorrect_answers": ["전시과", "정방 설치", "별무반 창설"],
+      "explanation": "광종은 과거제를 도입하여 문벌 귀족 세력을 견제했습니다."
+    },
+    {
+      "id": 224,
+      "question": "고려 성종이 실시한 정책으로 옳은 것은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "최승로의 시무 28조 수용",
+      "incorrect_answers": ["훈요 10조 제정", "과거제 실시", "노비안검법 시행"],
+      "explanation": "성종은 최승로의 시무 28조를 받아들여 유교적 통치 기반을 마련했습니다."
+    },
+    {
+      "id": 225,
+      "question": "거란의 2차 침입을 막아낸 인물은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "양규",
+      "incorrect_answers": ["강감찬", "윤관", "서희"],
+      "explanation": "양규는 거란의 2차 침입 때 큰 활약을 했습니다."
+    },
+    {
+      "id": 226,
+      "question": "거란의 1차 침입 때 외교 담판을 통해 강동 6주를 획득한 인물은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "서희",
+      "incorrect_answers": ["강감찬", "윤관", "김부식"],
+      "explanation": "서희는 외교 담판으로 강동 6주를 얻었습니다."
+    },
+    {
+      "id": 227,
+      "question": "거란의 3차 침입을 귀주대첩에서 물리친 장수는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "강감찬",
+      "incorrect_answers": ["서희", "양규", "윤관"],
+      "explanation": "강감찬은 1019년 귀주대첩에서 거란의 대군을 물리쳤습니다."
+    },
+    {
+      "id": 228,
+      "question": "고려의 중앙 군사 조직으로, 2군 6위 체제를 확립한 왕은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "성종",
+      "incorrect_answers": ["광종", "현종", "문종"],
+      "explanation": "성종 때 중앙군 체제는 2군 6위로 정비되었습니다."
+    },
+    {
+      "id": 229,
+      "question": "고려 현종 때 거란의 침입에 대비하여 축조한 것은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "나성",
+      "incorrect_answers": ["팔만대장경", "천리장성", "개경성곽"],
+      "explanation": "현종 때 거란 침입을 막기 위해 개경에 나성을 쌓았습니다."
+    },
+    {
+      "id": 230,
+      "question": "고려 문종 때 정비된 토지 제도는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "전시과",
+      "incorrect_answers": ["과전법", "균전제", "녹읍"],
+      "explanation": "문종 때 전시과가 정비되어 문무 관리들에게 토지를 지급했습니다."
+    },
+    {
+      "id": 231,
+      "question": "동북 9성을 축조한 장수는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "윤관",
+      "incorrect_answers": ["강감찬", "서희", "양규"],
+      "explanation": "윤관은 별무반을 이끌고 여진을 정벌하여 동북 9성을 쌓았습니다."
+    },
+    {
+      "id": 232,
+      "question": "고려 중기의 대표적 문벌 귀족 가문은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "이자겸 가문",
+      "incorrect_answers": ["최충 가문", "김부식 가문", "윤관 가문"],
+      "explanation": "이자겸은 인종 때 권력을 장악한 대표적 문벌 귀족입니다."
+    },
+    {
+      "id": 233,
+      "question": "고려 중기 문벌 귀족 사회를 비판하며 서경 천도를 주장한 인물은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "묘청",
+      "incorrect_answers": ["김부식", "정지상", "최충헌"],
+      "explanation": "묘청은 서경 천도와 칭제건원 운동을 주장했습니다."
+    },
+    {
+      "id": 234,
+      "question": "묘청의 난을 진압한 인물은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "김부식",
+      "incorrect_answers": ["이자겸", "최충헌", "정중부"],
+      "explanation": "김부식은 묘청의 난을 진압하고 문벌 귀족의 권위를 지켰습니다."
+    },
+    {
+      "id": 235,
+      "question": "고려 중기 교육 기관 중 최충이 세운 사학은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "9재 학당",
+      "incorrect_answers": ["성균관", "향교", "문헌공도"],
+      "explanation": "최충은 9재 학당을 세워 유학 교육을 확산시켰습니다."
+    },
+    {
+      "id": 236,
+      "question": "고려 전기 불교계의 대표 승려로 화엄학을 연구한 인물은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "의천",
+      "incorrect_answers": ["지눌", "원효", "보우"],
+      "explanation": "의천은 화엄학과 교관겸수 사상을 주장하며 천태종을 세웠습니다."
+    },
+    {
+      "id": 237,
+      "question": "고려 숙종 때 주조된 화폐는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "해동통보",
+      "incorrect_answers": ["건원중보", "삼한통보", "활구"],
+      "explanation": "숙종 때 해동통보, 해동중보 등 화폐가 주조되었습니다."
+    },
+    {
+      "id": 238,
+      "question": "고려 예종 때 국자감에 설치된 전문 교육 기관은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "7재",
+      "incorrect_answers": ["9재 학당", "성균관", "사마학당"],
+      "explanation": "예종은 국자감에 전문 교육 기관인 7재를 설치했습니다."
+    },
+    {
+      "id": 239,
+      "question": "고려 중기, 송과 금에 사신을 파견하며 외교를 펼친 왕은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "인종",
+      "incorrect_answers": ["문종", "예종", "숙종"],
+      "explanation": "인종은 송, 금과의 외교를 통해 국익을 도모했습니다."
+    },
+    {
+      "id": 240,
+      "question": "고려 전기 불교 사상가 의천이 주장한 사상은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "교관겸수",
+      "incorrect_answers": ["돈오점수", "선종 일원화", "정혜쌍수"],
+      "explanation": "의천은 교학과 선종의 조화를 강조하며 교관겸수를 주장했습니다."
+    },
+    {
+      "id": 241,
+      "question": "무신정변(1170)을 주도한 인물은 누구인가?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "정중부",
+      "incorrect_answers": ["최충헌", "이자겸", "김부식"],
+      "explanation": "1170년 무신정변은 정중부, 이의방 등이 주도하여 문벌 귀족을 몰아냈습니다."
+    },
+    {
+      "id": 242,
+      "question": "무신 집권기 최충헌이 설치한 기구는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "도방",
+      "incorrect_answers": ["정방", "삼별초", "교정도감"],
+      "explanation": "최충헌은 자신의 신변 보호를 위해 사병 조직 도방을 설치했습니다."
+    },
+    {
+      "id": 243,
+      "question": "최우가 설치하여 문신을 등용하는 인사 기구는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "정방",
+      "incorrect_answers": ["교정도감", "서방", "삼별초"],
+      "explanation": "최우는 인사권을 장악하기 위해 정방을 설치했습니다."
+    },
+    {
+      "id": 244,
+      "question": "최우가 강화도에 설치한 문신들의 연구 기관은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "서방",
+      "incorrect_answers": ["정방", "도방", "교정도감"],
+      "explanation": "최우는 문신들을 등용하기 위해 서방이라는 연구 기관을 설치했습니다."
+    },
+    {
+      "id": 245,
+      "question": "몽골 침입에 맞서 항전한 최후의 무신 정권 군사 조직은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "삼별초",
+      "incorrect_answers": ["도방", "정방", "별무반"],
+      "explanation": "삼별초는 강화도, 진도, 제주도에서 끝까지 저항했습니다."
+    },
+    {
+      "id": 246,
+      "question": "몽골 침입 때 초조대장경이 불탄 후 다시 조판한 것은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "팔만대장경",
+      "incorrect_answers": ["직지심체요절", "훈민정음", "해동청"],
+      "explanation": "팔만대장경은 대장도감에서 새로 조판하여 해인사에 보관되었습니다."
+    },
+    {
+      "id": 247,
+      "question": "몽골과의 전쟁 중 고려 정부가 임시 천도한 곳은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "강화도",
+      "incorrect_answers": ["개경", "진도", "제주도"],
+      "explanation": "몽골 침입을 피해 고려 정부는 강화도로 천도하였습니다."
+    },
+    {
+      "id": 248,
+      "question": "고려 후기 권문세족의 경제적 기반은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "대농장",
+      "incorrect_answers": ["과전", "녹읍", "전시과"],
+      "explanation": "권문세족은 대규모 농장을 소유하며 경제력을 확대했습니다."
+    },
+    {
+      "id": 249,
+      "question": "공민왕 때 개혁 정치로 폐지한 기구는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "정방",
+      "incorrect_answers": ["교정도감", "도방", "서방"],
+      "explanation": "공민왕은 권문세족의 기반이었던 정방을 폐지했습니다."
+    },
+    {
+      "id": 250,
+      "question": "공민왕이 홍건적의 침입 때 피난한 곳은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "안동",
+      "incorrect_answers": ["개경", "강화도", "평양"],
+      "explanation": "홍건적의 침입 때 공민왕은 안동으로 피난했습니다."
+    },
+    {
+      "id": 251,
+      "question": "고려 후기 왜구 격퇴에 큰 공을 세운 인물은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "최영",
+      "incorrect_answers": ["이성계", "윤관", "정중부"],
+      "explanation": "최영은 고려 후기 왜구를 격퇴하며 명성을 얻었습니다."
+    },
+    {
+      "id": 252,
+      "question": "황산대첩에서 왜구를 크게 물리친 장수는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "이성계",
+      "incorrect_answers": ["최영", "정몽주", "강감찬"],
+      "explanation": "이성계는 1380년 황산대첩에서 왜구를 크게 물리쳤습니다."
+    },
+    {
+      "id": 253,
+      "question": "고려 후기 공민왕 때 신돈이 추진한 개혁 정책은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "전민변정도감 설치",
+      "incorrect_answers": ["교정도감 설치", "도방 설치", "서방 설치"],
+      "explanation": "신돈은 권문세족이 불법으로 차지한 토지를 되돌리기 위해 전민변정도감을 운영했습니다."
+    },
+    {
+      "id": 254,
+      "question": "우왕 때 왜구 격퇴를 위해 이성계가 사용한 신무기는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "화통도감의 화포",
+      "incorrect_answers": ["활", "쇠뇌", "창"],
+      "explanation": "최무선이 만든 화약 무기가 화통도감을 통해 실전에 사용되었습니다."
+    },
+    {
+      "id": 255,
+      "question": "고려 후기 성리학을 본격적으로 도입한 인물은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "안향",
+      "incorrect_answers": ["정몽주", "이색", "권근"],
+      "explanation": "안향은 원에서 성리학을 배워와 고려에 전파했습니다."
+    },
+    {
+      "id": 256,
+      "question": "고려 후기 성리학을 심화하여 성균관을 중심으로 교육한 학자는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "이색",
+      "incorrect_answers": ["정몽주", "권근", "안향"],
+      "explanation": "이색은 성리학을 연구하며 성균관 대사성으로 활동했습니다."
+    },
+    {
+      "id": 257,
+      "question": "조선 건국의 이념적 기반을 마련한 고려 말 성리학자는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "정몽주",
+      "incorrect_answers": ["이색", "안향", "권근"],
+      "explanation": "정몽주는 성리학을 정치에 반영하고 조선 건국 세력과 대립했습니다."
+    },
+    {
+      "id": 258,
+      "question": "위화도 회군을 주도한 인물은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "이성계",
+      "incorrect_answers": ["최영", "정몽주", "우왕"],
+      "explanation": "1388년 이성계는 위화도 회군을 통해 권력을 장악했습니다."
+    },
+    {
+      "id": 259,
+      "question": "고려 말 불교 개혁 운동을 이끈 승려는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "보우",
+      "incorrect_answers": ["의천", "지눌", "혜심"],
+      "explanation": "보우는 고려 말 불교 개혁 운동을 전개했으나 실패했습니다."
+    },
+    {
+      "id": 260,
+      "question": "고려 후기 불교계의 대표 승려로, 정혜결사를 이끈 인물은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "지눌",
+      "incorrect_answers": ["의천", "보우", "혜심"],
+      "explanation": "지눌은 정혜결사를 이끌며 돈오점수와 정혜쌍수를 주장했습니다."
+    },
+    {
+      "id": 261,
+      "question": "조선을 건국한 왕은 누구인가?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "태조 이성계",
+      "incorrect_answers": ["태종 이방원", "세종대왕", "정종"],
+      "explanation": "이성계는 1392년에 고려를 멸망시키고 조선을 건국했습니다."
+    },
+    {
+      "id": 262,
+      "question": "태조가 즉위 후 공포한 통치 규범은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "조선경국전",
+      "incorrect_answers": ["경제문감", "경국대전", "동국통감"],
+      "explanation": "정도전이 편찬한 조선경국전은 조선의 정치 체제를 규정했습니다."
+    },
+    {
+      "id": 263,
+      "question": "왕자의 난(제1차 왕자의 난)으로 권력을 잡은 인물은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "태종 이방원",
+      "incorrect_answers": ["세종", "세조", "정종"],
+      "explanation": "이방원은 제1차 왕자의 난을 통해 정권을 장악하고 태종으로 즉위했습니다."
+    },
+    {
+      "id": 264,
+      "question": "조선 태종의 업적으로 옳은 것은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "사병 혁파",
+      "incorrect_answers": ["훈민정음 반포", "집현전 설치", "6조 직계제 폐지"],
+      "explanation": "태종은 사병을 혁파하여 왕권을 강화했습니다."
+    },
+    {
+      "id": 265,
+      "question": "세종대왕이 설치한 학문 연구 기관은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "집현전",
+      "incorrect_answers": ["홍문관", "사헌부", "사간원"],
+      "explanation": "세종은 집현전을 설치하여 학문과 정책 연구를 추진했습니다."
+    },
+    {
+      "id": 266,
+      "question": "세종이 만든 농업 기술서로, 각 지역의 농법을 정리한 책은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "농사직설",
+      "incorrect_answers": ["삼강행실도", "향약집성방", "훈민정음"],
+      "explanation": "농사직설은 세종 때 편찬된 최초의 우리 농서입니다."
+    },
+    {
+      "id": 267,
+      "question": "세종이 설치한 과학 기구로, 해시계에 해당하는 것은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "앙부일구",
+      "incorrect_answers": ["혼천의", "측우기", "간의"],
+      "explanation": "세종 때 장영실 등이 제작한 앙부일구는 세계 최초의 휴대용 해시계입니다."
+    },
+    {
+      "id": 268,
+      "question": "훈민정음을 반포한 연도는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "1446년",
+      "incorrect_answers": ["1443년", "1450년", "1420년"],
+      "explanation": "훈민정음은 1443년에 창제되고, 1446년에 반포되었습니다."
+    },
+    {
+      "id": 269,
+      "question": "세조가 즉위한 사건은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "계유정난",
+      "incorrect_answers": ["무오사화", "갑자사화", "중종반정"],
+      "explanation": "세조는 계유정난을 통해 수양대군으로서 정권을 장악했습니다."
+    },
+    {
+      "id": 270,
+      "question": "세조가 집권 후 편찬을 추진한 법전은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "경국대전",
+      "incorrect_answers": ["조선경국전", "대전회통", "속대전"],
+      "explanation": "세조 때 편찬을 시작한 경국대전은 성종 때 완성되었습니다."
+    },
+    {
+      "id": 271,
+      "question": "성종 대에 편찬된 역사서로, 우리 역사를 정리한 것은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "동국통감",
+      "incorrect_answers": ["삼국사기", "고려사", "조선왕조실록"],
+      "explanation": "성종 때 서거정 등이 편찬한 동국통감은 편년체 통사입니다."
+    },
+    {
+      "id": 272,
+      "question": "조선 전기 중앙 정치 제도로서, 6조 직계제가 처음 실시된 왕은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "태종",
+      "incorrect_answers": ["세종", "세조", "성종"],
+      "explanation": "태종은 의정부 서사제를 폐지하고 6조 직계제를 시행했습니다."
+    },
+    {
+      "id": 273,
+      "question": "조선 전기 관리의 비리를 감찰하던 기관은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "사헌부",
+      "incorrect_answers": ["사간원", "홍문관", "의금부"],
+      "explanation": "사헌부는 관리의 비리를 감찰하고 탄핵하는 기능을 했습니다."
+    },
+    {
+      "id": 274,
+      "question": "성종 대에 설치되어 경연과 학문 연구를 담당한 기관은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "홍문관",
+      "incorrect_answers": ["집현전", "사간원", "사헌부"],
+      "explanation": "홍문관은 성종 대에 설치되어 경연과 학문 연구를 담당했습니다."
+    },
+    {
+      "id": 275,
+      "question": "중종반정으로 왕위에 오른 인물은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "중종",
+      "incorrect_answers": ["연산군", "인종", "명종"],
+      "explanation": "연산군이 쫓겨나고 중종이 즉위하는 사건이 중종반정입니다."
+    },
+    {
+      "id": 276,
+      "question": "중종 때 조광조가 실시한 개혁 정책은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "현량과 실시",
+      "incorrect_answers": ["균역법 제정", "대동법 시행", "속대전 편찬"],
+      "explanation": "조광조는 능력 있는 선비를 등용하기 위해 현량과를 실시했습니다."
+    },
+    {
+      "id": 277,
+      "question": "사림이 본격적으로 정치에 진출하기 시작한 시기는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "성종 때",
+      "incorrect_answers": ["태종 때", "세종 때", "중종 때"],
+      "explanation": "성종은 사림을 등용하여 정치에 참여시켰습니다."
+    },
+    {
+      "id": 278,
+      "question": "명종 때 척신 정치의 중심 인물은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "윤원형",
+      "incorrect_answers": ["윤임", "심의겸", "이황"],
+      "explanation": "명종 때 외척인 윤원형이 권력을 장악했습니다."
+    },
+    {
+      "id": 279,
+      "question": "조선 전기 성리학을 집대성하고 동방의 주자라 불린 학자는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "이황",
+      "incorrect_answers": ["이이", "정도전", "정약용"],
+      "explanation": "이황은 성리학을 심화하여 동방의 주자라 불렸습니다."
+    },
+    {
+      "id": 280,
+      "question": "조선 전기 '십만양병설'을 주장한 학자는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "이이",
+      "incorrect_answers": ["이황", "조식", "정몽주"],
+      "explanation": "이이는 만일의 사태에 대비하기 위해 십만양병설을 주장했습니다."
+    },
+    {
+      "id": 281,
+      "question": "임진왜란 당시 조선 수군을 이끈 장수는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "이순신",
+      "incorrect_answers": ["권율", "원균", "정발"],
+      "explanation": "이순신은 한산도 대첩, 명량 대첩 등에서 큰 승리를 거두었습니다."
+    },
+    {
+      "id": 282,
+      "question": "임진왜란 초기 부산진에서 전사한 장수는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "정발",
+      "incorrect_answers": ["권율", "김시민", "이순신"],
+      "explanation": "정발 장군은 부산진에서 끝까지 싸우다 전사했습니다."
+    },
+    {
+      "id": 283,
+      "question": "진주대첩에서 왜군을 크게 물리친 장수는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "김시민",
+      "incorrect_answers": ["권율", "정발", "이순신"],
+      "explanation": "김시민은 진주대첩에서 3800명의 병력으로 왜군을 막아냈습니다."
+    },
+    {
+      "id": 284,
+      "question": "행주대첩에서 승리를 거둔 조선 장수는?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "권율",
+      "incorrect_answers": ["이순신", "김시민", "원균"],
+      "explanation": "권율은 행주산성에서 승리하여 임진왜란의 국면을 바꾸었습니다."
+    },
+    {
+      "id": 285,
+      "question": "임진왜란 중 의병장으로 활약한 인물은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "곽재우",
+      "incorrect_answers": ["원균", "정발", "유성룡"],
+      "explanation": "곽재우는 의병을 일으켜 임진왜란에서 활약했습니다."
+    },
+    {
+      "id": 286,
+      "question": "병자호란 때 청에 끝까지 저항한 산성은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "남한산성",
+      "incorrect_answers": ["화성", "강화도", "북한산성"],
+      "explanation": "병자호란 당시 인조는 남한산성에서 항전했으나 결국 항복했습니다."
+    },
+    {
+      "id": 287,
+      "question": "병자호란 이후 청과 맺은 굴욕적인 조약은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "삼전도의 굴욕",
+      "incorrect_answers": ["강화도 조약", "강화 조약", "정묘호란 조약"],
+      "explanation": "인조는 삼전도에서 청 태종에게 항복하는 굴욕을 겪었습니다."
+    },
+    {
+      "id": 288,
+      "question": "효종이 북벌을 준비하기 위해 강화한 군사 제도는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "어영청 강화",
+      "incorrect_answers": ["훈련도감 설치", "별무반 창설", "5군영 폐지"],
+      "explanation": "효종은 북벌을 준비하며 어영청 등 군영을 강화했습니다."
+    },
+    {
+      "id": 289,
+      "question": "임진왜란 때 피난한 선조를 호위하며 책을 쓴 인물은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "유성룡",
+      "incorrect_answers": ["이순신", "권율", "곽재우"],
+      "explanation": "유성룡은 징비록을 저술하여 전란의 교훈을 남겼습니다."
+    },
+    {
+      "id": 290,
+      "question": "조선 후기 대동법을 처음 시행한 왕은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "광해군",
+      "incorrect_answers": ["효종", "숙종", "인조"],
+      "explanation": "광해군 때 경기도에서 처음 대동법이 시행되었습니다."
+    },
+    {
+      "id": 291,
+      "question": "대동법을 전국적으로 확대 시행한 왕은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "숙종",
+      "incorrect_answers": ["광해군", "영조", "정조"],
+      "explanation": "숙종 때 대동법이 전국적으로 확대 시행되었습니다."
+    },
+    {
+      "id": 292,
+      "question": "균역법을 시행한 조선 왕은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "영조",
+      "incorrect_answers": ["정조", "숙종", "광해군"],
+      "explanation": "영조는 군포를 1년에 1필로 줄이는 균역법을 시행했습니다."
+    },
+    {
+      "id": 293,
+      "question": "조선 후기 탕평 정치를 강화한 왕은?",
+      "type": "multiple",
+      "difficulty": "easy",
+      "correct_answer": "정조",
+      "incorrect_answers": ["영조", "숙종", "광해군"],
+      "explanation": "정조는 탕평책을 강화하고 규장각을 설치했습니다."
+    },
+    {
+      "id": 294,
+      "question": "정조가 설치한 학문 연구소이자 인재 등용 기관은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "규장각",
+      "incorrect_answers": ["집현전", "홍문관", "사헌부"],
+      "explanation": "정조는 규장각을 설치하여 학문 연구와 인재 양성을 추진했습니다."
+    },
+    {
+      "id": 295,
+      "question": "정조가 군사적 기반을 다지기 위해 설치한 부대는?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "장용영",
+      "incorrect_answers": ["어영청", "훈련도감", "별무반"],
+      "explanation": "정조는 장용영을 설치하여 왕권을 강화했습니다."
+    },
+    {
+      "id": 296,
+      "question": "조선 후기 실학자 유형원이 주장한 개혁은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "균전제",
+      "incorrect_answers": ["여전제", "정전제", "한전제"],
+      "explanation": "유형원은 모든 백성에게 토지를 균등하게 나누는 균전제를 주장했습니다."
+    },
+    {
+      "id": 297,
+      "question": "정약용이 주장한 토지 제도 개혁안은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "여전제",
+      "incorrect_answers": ["균전제", "정전제", "한전제"],
+      "explanation": "정약용은 공동 경작 후 분배하는 여전제를 주장했습니다."
+    },
+    {
+      "id": 298,
+      "question": "박지원이 저술한 연행록 형식의 책은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "열하일기",
+      "incorrect_answers": ["목민심서", "흠흠신서", "성호사설"],
+      "explanation": "박지원은 청나라 연행 중 열하일기를 저술하여 현실 개혁의 필요성을 강조했습니다."
+    },
+    {
+      "id": 299,
+      "question": "정약용이 저술한 지방 행정 개혁서로 옳은 것은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "목민심서",
+      "incorrect_answers": ["흠흠신서", "경세유표", "성호사설"],
+      "explanation": "목민심서는 정약용이 지방 행정 개혁을 위해 저술한 책입니다."
+    },
+    {
+      "id": 300,
+      "question": "조선 후기 천주교를 신봉하다 순교한 인물은?",
+      "type": "multiple",
+      "difficulty": "medium",
+      "correct_answer": "정약종",
+      "incorrect_answers": ["정약용", "홍경래", "박제가"],
+      "explanation": "정약종은 천주교를 신봉하다 순교하였으며, 그의 형 정약용과 구분됩니다."
     }
   ]
 }

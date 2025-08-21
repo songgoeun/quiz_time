@@ -1,0 +1,1016 @@
+[
+  {
+    "category": "money",
+    "category_name": "고니의 금융 개념 찾기",
+    "questions": [
+      {
+        "id": 1,
+        "question": "한 나라 안에서 일정 기간 동안 생산된 재화와 서비스의 총 가치를 의미하는 것은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "GDP",
+        "incorrect_answers": ["GNP", "CPI", "PPI"],
+        "explanation": "GDP(국내총생산)는 일정 기간 한 나라의 영토 내에서 생산된 재화와 서비스의 총액입니다."
+      },
+      {
+        "id": 2,
+        "question": "물가가 전반적으로 상승하는 경제 현상은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "인플레이션",
+        "incorrect_answers": ["디플레이션", "스태그플레이션", "리세션"],
+        "explanation": "인플레이션은 화폐 가치가 하락하고 물가가 전반적으로 오르는 현상입니다."
+      },
+      {
+        "id": 3,
+        "question": "물가가 지속적으로 하락하는 현상은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "디플레이션",
+        "incorrect_answers": ["인플레이션", "스태그플레이션", "리플레이션"],
+        "explanation": "디플레이션은 물가가 계속해서 하락하여 경기 침체를 유발할 수 있습니다."
+      },
+      {
+        "id": 4,
+        "question": "경기 침체 속에서 물가가 상승하는 현상을 일컫는 말은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "스태그플레이션",
+        "incorrect_answers": ["리세션", "인플레이션", "디플레이션"],
+        "explanation": "스태그플레이션은 경기 침체(stagnation)와 물가 상승(inflation)이 동시에 나타나는 현상입니다."
+      },
+      {
+        "id": 5,
+        "question": "일반적으로 경기가 순환하는 4단계에 속하지 않는 것은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "정체기",
+        "incorrect_answers": ["회복기", "호황기", "불황기"],
+        "explanation": "경기 순환은 회복기 → 호황기 → 후퇴기 → 불황기의 4단계를 거칩니다."
+      },
+      {
+        "id": 6,
+        "question": "소비자 물가지수를 나타내는 지표는?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "CPI",
+        "incorrect_answers": ["PPI", "GDP 디플레이터", "GNI"],
+        "explanation": "CPI(소비자 물가지수)는 소비자가 구입하는 상품과 서비스의 가격 변동을 나타냅니다."
+      },
+      {
+        "id": 7,
+        "question": "생산자 물가지수(PPI)는 무엇을 측정하는 지표인가?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "생산자가 판매하는 상품 가격 변동",
+        "incorrect_answers": [
+          "소비자가 지불하는 물가 변동",
+          "노동 임금 변동",
+          "환율 변동"
+        ],
+        "explanation": "PPI는 생산자가 출하하는 상품 가격의 변동을 나타내는 지표입니다."
+      },
+      {
+        "id": 8,
+        "question": "실업의 종류 중 경기 변동에 따라 발생하는 것은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "경기적 실업",
+        "incorrect_answers": ["구조적 실업", "계절적 실업", "마찰적 실업"],
+        "explanation": "경기적 실업은 경제 침체로 기업 활동이 위축될 때 발생합니다."
+      },
+      {
+        "id": 9,
+        "question": "경제 성장률이 높아도 일부 산업의 쇠퇴로 발생하는 실업은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "구조적 실업",
+        "incorrect_answers": ["마찰적 실업", "계절적 실업", "경기적 실업"],
+        "explanation": "구조적 실업은 산업 구조 변화로 특정 직종의 일자리가 줄어들 때 발생합니다."
+      },
+      {
+        "id": 10,
+        "question": "환율이 상승하면 수출 기업에는 어떤 효과가 있는가?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "수출에 유리하다",
+        "incorrect_answers": [
+          "수입에 유리하다",
+          "내수 시장 활성화",
+          "경상수지 악화"
+        ],
+        "explanation": "환율이 오르면 외국에서 한국 제품이 상대적으로 저렴해져 수출에 유리합니다."
+      },
+      {
+        "id": 11,
+        "question": "실질 GDP와 명목 GDP의 차이는 무엇인가?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "물가 변동 반영 여부",
+        "incorrect_answers": [
+          "환율 반영 여부",
+          "수출입 반영 여부",
+          "정부지출 반영 여부"
+        ],
+        "explanation": "실질 GDP는 물가 변동을 제거한 값이고, 명목 GDP는 당시 가격을 그대로 반영한 값입니다."
+      },
+      {
+        "id": 12,
+        "question": "재정 정책의 대표적인 수단이 아닌 것은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "금리 조절",
+        "incorrect_answers": ["정부 지출", "조세 정책", "사회간접자본 투자"],
+        "explanation": "금리 조절은 통화 정책의 수단이고, 재정 정책은 세금과 지출을 통해 경제에 개입합니다."
+      },
+      {
+        "id": 13,
+        "question": "통화 정책을 담당하는 기관은 일반적으로 어디인가?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "중앙은행",
+        "incorrect_answers": ["재무부", "국회", "감사원"],
+        "explanation": "통화 정책은 중앙은행(예: 한국은행, 미국 연준)이 담당합니다."
+      },
+      {
+        "id": 14,
+        "question": "중앙은행이 금리를 인하하면 일반적으로 기대되는 효과는?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "경기 부양",
+        "incorrect_answers": ["경기 침체", "물가 하락", "실업 증가"],
+        "explanation": "금리를 낮추면 대출이 쉬워져 소비와 투자가 늘어나 경기 부양 효과가 있습니다."
+      },
+      {
+        "id": 15,
+        "question": "GDP 대비 국가 부채 비율이 높다는 것은 무엇을 의미하는가?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "재정 건전성이 낮다",
+        "incorrect_answers": [
+          "경제 성장률이 높다",
+          "실업률이 낮다",
+          "물가가 안정적이다"
+        ],
+        "explanation": "국가 부채 비율이 높으면 정부가 빚을 많이 져 있어 재정 건전성이 낮음을 의미합니다."
+      },
+      {
+        "id": 16,
+        "question": "경상수지 흑자가 지속되면 나타날 수 있는 현상은?",
+        "type": "multiple",
+        "difficulty": "hard",
+        "correct_answer": "외환보유액 증가",
+        "incorrect_answers": [
+          "무역적자 확대",
+          "환율 하락 불가피",
+          "외국인 투자 감소"
+        ],
+        "explanation": "경상수지 흑자는 수출이 많음을 의미하며 외환보유액 증가로 이어집니다."
+      },
+      {
+        "id": 17,
+        "question": "세계은행(WB)과 IMF의 주된 차이는?",
+        "type": "multiple",
+        "difficulty": "hard",
+        "correct_answer": "IMF는 단기 유동성 지원, WB는 개발 자금 지원",
+        "incorrect_answers": [
+          "IMF는 무역 촉진, WB는 금융 안정",
+          "IMF는 환율 조정, WB는 투자 유치",
+          "큰 차이가 없다"
+        ],
+        "explanation": "IMF는 위기 국가에 단기 유동성을 지원하고, 세계은행은 개발 프로젝트 자금을 지원합니다."
+      },
+      {
+        "id": 18,
+        "question": "브레튼우즈 체제에서 기축 통화로 사용된 것은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "달러",
+        "incorrect_answers": ["파운드", "엔화", "마르크"],
+        "explanation": "브레튼우즈 체제에서는 금과 달러를 기준으로 국제 환율 체제를 운영했습니다."
+      },
+      {
+        "id": 19,
+        "question": "경제학자 애덤 스미스가 주장한 개념은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "보이지 않는 손",
+        "incorrect_answers": ["유효수요 이론", "절대 우위론", "상대 우위론"],
+        "explanation": "애덤 스미스는 시장의 자율적 조정 기능을 ‘보이지 않는 손’이라고 설명했습니다."
+      },
+      {
+        "id": 20,
+        "question": "케인스가 강조한 경제학적 요소는?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "유효수요",
+        "incorrect_answers": ["보이지 않는 손", "합리적 기대", "한계 효용"],
+        "explanation": "케인스는 유효수요 확대를 통해 경기 침체를 극복할 수 있다고 주장했습니다."
+      },
+      {
+        "id": 21,
+        "question": "주식시장에서 기업이 새로 주식을 발행하여 자금을 조달하는 시장은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "발행시장",
+        "incorrect_answers": ["유통시장", "장외시장", "파생상품시장"],
+        "explanation": "발행시장은 기업이 신규 주식을 발행해 자금을 조달하는 시장입니다."
+      },
+      {
+        "id": 22,
+        "question": "이미 발행된 주식이나 채권이 투자자들 사이에서 거래되는 시장은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "유통시장",
+        "incorrect_answers": ["발행시장", "장외시장", "외환시장"],
+        "explanation": "유통시장은 이미 발행된 증권을 사고파는 시장입니다."
+      },
+      {
+        "id": 23,
+        "question": "주식의 가격이 장기간 하락하는 시장 상황을 뜻하는 용어는?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "약세장(베어마켓)",
+        "incorrect_answers": ["강세장(불마켓)", "조정장", "횡보장"],
+        "explanation": "약세장은 주가가 장기간 하락세를 보이는 시장 상황입니다."
+      },
+      {
+        "id": 24,
+        "question": "기업이 이익을 주주에게 분배하는 형태를 무엇이라 하는가?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "배당금",
+        "incorrect_answers": ["이자", "자본이득", "사채"],
+        "explanation": "기업은 이익의 일부를 배당금 형태로 주주에게 지급합니다."
+      },
+      {
+        "id": 25,
+        "question": "채권 투자에서 발생하는 수익의 핵심 요소는?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "이자",
+        "incorrect_answers": ["배당금", "자본이득", "수수료"],
+        "explanation": "채권은 일정한 이자를 지급하는 고정 수익 증권입니다."
+      },
+      {
+        "id": 26,
+        "question": "기업의 소유권을 나타내는 금융 상품은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "주식",
+        "incorrect_answers": ["채권", "파생상품", "예금"],
+        "explanation": "주식은 기업의 소유권 일부를 의미하는 증권입니다."
+      },
+      {
+        "id": 27,
+        "question": "기업이나 정부가 일정 기간 뒤 원리금을 지급할 것을 약속하고 발행하는 증권은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "채권",
+        "incorrect_answers": ["주식", "ETF", "옵션"],
+        "explanation": "채권은 일정 기간 뒤 원금과 이자를 지급할 것을 약속하는 증권입니다."
+      },
+      {
+        "id": 28,
+        "question": "주가지수를 추종하는 대표적인 투자 상품은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "ETF",
+        "incorrect_answers": ["ELS", "선물", "옵션"],
+        "explanation": "ETF(상장지수펀드)는 특정 지수를 추종하도록 설계된 펀드입니다."
+      },
+      {
+        "id": 29,
+        "question": "파생상품 중 특정 자산을 미래 일정 시점에 미리 정한 가격으로 사고팔기로 약속하는 계약은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "선물",
+        "incorrect_answers": ["옵션", "스왑", "ETF"],
+        "explanation": "선물은 미래 일정 시점에 특정 자산을 약속된 가격에 거래하기로 한 계약입니다."
+      },
+      {
+        "id": 30,
+        "question": "옵션 거래에서 매수자가 권리를 행사할 수 있는 선택권을 의미하는 것은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "콜옵션과 풋옵션",
+        "incorrect_answers": ["선물계약", "스왑계약", "ETF"],
+        "explanation": "콜옵션은 살 수 있는 권리, 풋옵션은 팔 수 있는 권리를 의미합니다."
+      },
+      {
+        "id": 31,
+        "question": "한국의 대표적인 주가지수는?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "KOSPI",
+        "incorrect_answers": ["다우존스", "나스닥", "니케이225"],
+        "explanation": "KOSPI는 한국거래소에 상장된 기업들의 주가지수를 나타냅니다."
+      },
+      {
+        "id": 32,
+        "question": "미국 증시에서 기술주 중심의 지수는?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "나스닥",
+        "incorrect_answers": ["다우존스", "S&P500", "FTSE100"],
+        "explanation": "나스닥 지수는 IT·기술주 중심의 미국 대표 주가지수입니다."
+      },
+      {
+        "id": 33,
+        "question": "주식시장과 채권시장을 포괄하는 용어는?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "자본시장",
+        "incorrect_answers": ["화폐시장", "외환시장", "노동시장"],
+        "explanation": "자본시장은 장기 자금을 조달·운용하는 시장으로 주식과 채권이 대표적입니다."
+      },
+      {
+        "id": 34,
+        "question": "단기 금융 상품이 거래되는 시장은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "화폐시장",
+        "incorrect_answers": ["자본시장", "파생상품시장", "외환시장"],
+        "explanation": "화폐시장은 1년 이내 만기의 단기 금융상품이 거래되는 시장입니다."
+      },
+      {
+        "id": 35,
+        "question": "중앙은행이 시중은행과 직접 거래하여 단기 유동성을 조절하는 수단은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "공개시장조작",
+        "incorrect_answers": ["기준금리 조정", "지급준비율 조정", "양적완화"],
+        "explanation": "공개시장조작은 중앙은행이 국채 등을 사고팔아 유동성을 조절하는 방식입니다."
+      },
+      {
+        "id": 36,
+        "question": "은행이 고객에게 돈을 빌려주고 이자를 받는 활동을 무엇이라 하는가?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "대출",
+        "incorrect_answers": ["예금", "투자", "증권거래"],
+        "explanation": "은행의 기본적 기능은 예금을 받아 대출을 통해 운용하는 것입니다."
+      },
+      {
+        "id": 37,
+        "question": "은행의 지급준비율을 낮추면 기대되는 효과는?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "대출 증가",
+        "incorrect_answers": ["대출 감소", "금리 상승", "통화량 축소"],
+        "explanation": "지급준비율을 낮추면 은행이 더 많은 자금을 대출할 수 있어 통화량이 증가합니다."
+      },
+      {
+        "id": 38,
+        "question": "국제 금융시장에서 통용되는 기축 통화 중 대표적인 것은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "미국 달러",
+        "incorrect_answers": ["유로", "엔화", "위안화"],
+        "explanation": "현재 국제 금융시장의 주요 기축 통화는 미국 달러입니다."
+      },
+      {
+        "id": 39,
+        "question": "한국의 중앙은행은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "한국은행",
+        "incorrect_answers": ["금융위원회", "산업은행", "수출입은행"],
+        "explanation": "한국은행은 한국의 중앙은행으로 통화정책과 금융안정을 담당합니다."
+      },
+      {
+        "id": 40,
+        "question": "금융위원회와 금융감독원의 관계로 옳은 것은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "금융위원회는 정책 결정, 금융감독원은 감독 집행",
+        "incorrect_answers": [
+          "둘 다 정책 결정",
+          "둘 다 집행 기관",
+          "서로 무관한 기관"
+        ],
+        "explanation": "금융위원회는 금융 정책을 결정하고, 금융감독원은 이를 현장에서 집행·감독합니다."
+      },
+      {
+        "id": 41,
+        "question": "은행 예금의 이자를 계산할 때 기준이 되는 것은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "금리",
+        "incorrect_answers": ["환율", "배당률", "채권가"],
+        "explanation": "예금 이자는 약정된 금리에 따라 산출됩니다."
+      },
+      {
+        "id": 42,
+        "question": "단리와 복리의 차이는?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "복리는 이자에 이자가 붙는다",
+        "incorrect_answers": [
+          "단리는 이자가 없다",
+          "복리는 원금이 줄어든다",
+          "둘 다 동일하다"
+        ],
+        "explanation": "복리는 원금과 함께 발생한 이자에도 다시 이자가 붙는 방식입니다."
+      },
+      {
+        "id": 43,
+        "question": "투자에서 '분산 투자'의 주된 목적은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "위험 분산",
+        "incorrect_answers": ["수익 극대화", "세금 절감", "유동성 확보"],
+        "explanation": "분산 투자는 여러 자산에 나누어 투자하여 위험을 줄이는 전략입니다."
+      },
+      {
+        "id": 44,
+        "question": "‘고위험 고수익, 저위험 저수익’이라는 원칙을 설명하는 개념은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "위험-수익 상관관계",
+        "incorrect_answers": ["효율적 투자선", "현가 개념", "파생상품 이론"],
+        "explanation": "위험이 클수록 기대 수익도 크다는 것을 의미합니다."
+      },
+      {
+        "id": 45,
+        "question": "예금자보호제도에서 1인당 1금융기관 기준으로 보호되는 한도는?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "5천만 원",
+        "incorrect_answers": ["1억 원", "3천만 원", "무제한"],
+        "explanation": "한국의 예금자보호제도는 원금과 이자를 합쳐 5천만 원까지 보호합니다."
+      },
+      {
+        "id": 46,
+        "question": "채권 수익률이 상승하면 일반적으로 채권 가격은 어떻게 되는가?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "하락한다",
+        "incorrect_answers": ["상승한다", "변하지 않는다", "무관하다"],
+        "explanation": "채권 수익률과 가격은 반대로 움직입니다."
+      },
+      {
+        "id": 47,
+        "question": "적립식 투자 방식의 대표적인 금융 상품은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "적립식 펀드",
+        "incorrect_answers": ["채권", "정기예금", "ELS"],
+        "explanation": "적립식 펀드는 일정 금액을 정기적으로 투자하는 상품입니다."
+      },
+      {
+        "id": 48,
+        "question": "개인 신용도를 평가하는 지표로 사용되는 것은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "신용점수",
+        "incorrect_answers": ["GDP", "금리", "채권등급"],
+        "explanation": "개인의 금융 거래 이력 등을 바탕으로 신용점수가 산출됩니다."
+      },
+      {
+        "id": 49,
+        "question": "주식시장에서 특정 주식을 대량 매입하여 가격을 끌어올리는 행위는?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "작전 매매",
+        "incorrect_answers": ["공매도", "차익거래", "스캘핑"],
+        "explanation": "작전 매매는 불법적으로 시세를 조종하는 행위를 말합니다."
+      },
+      {
+        "id": 50,
+        "question": "투자 자산의 현재 가치를 계산할 때 사용하는 개념은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "현가(PV)",
+        "incorrect_answers": ["미래가치(FV)", "할인율", "수익률"],
+        "explanation": "현가는 미래의 가치를 현재 시점으로 환산한 값입니다."
+      },
+      {
+        "id": 51,
+        "question": "주식시장에서 ‘PER(주가수익비율)’은 무엇을 의미하는가?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "주가 ÷ 주당순이익",
+        "incorrect_answers": [
+          "주가 ÷ 배당금",
+          "주가 ÷ 자산총액",
+          "주가 ÷ 매출액"
+        ],
+        "explanation": "PER은 기업의 주가가 수익에 비해 얼마나 고평가 또는 저평가 되었는지 보여줍니다."
+      },
+      {
+        "id": 52,
+        "question": "주식 투자에서 '분기마다 기업이 주주에게 주는 현금 수익'은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "배당금",
+        "incorrect_answers": ["이자", "쿠폰", "차익"],
+        "explanation": "기업은 이익을 배당금 형태로 주주에게 분배하기도 합니다."
+      },
+      {
+        "id": 53,
+        "question": "공매도란 무엇인가?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "주식을 빌려 먼저 팔고 나중에 되갚는 거래",
+        "incorrect_answers": [
+          "주식을 장기 보유하는 거래",
+          "주식을 신규 발행하는 것",
+          "주식을 낮은 가격에 매수하는 행위"
+        ],
+        "explanation": "공매도는 주가 하락에 베팅하는 투자 방식입니다."
+      },
+      {
+        "id": 54,
+        "question": "가상자산의 대표적인 특징으로 옳지 않은 것은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "중앙은행이 발행한다",
+        "incorrect_answers": [
+          "분산원장 기술 활용",
+          "높은 변동성",
+          "전자적 거래"
+        ],
+        "explanation": "가상자산은 중앙은행이 아닌 블록체인 기반으로 발행됩니다."
+      },
+      {
+        "id": 55,
+        "question": "채권의 신용등급이 낮아질수록 나타나는 현상은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "수익률 상승",
+        "incorrect_answers": ["수익률 하락", "가격 상승", "위험 감소"],
+        "explanation": "위험이 커질수록 투자자는 더 높은 수익률을 요구합니다."
+      },
+      {
+        "id": 56,
+        "question": "투자에서 ‘달걀을 한 바구니에 담지 말라’는 격언이 의미하는 전략은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "분산 투자",
+        "incorrect_answers": ["집중 투자", "가치 투자", "단기 투자"],
+        "explanation": "분산 투자는 위험을 줄이기 위한 기본적인 투자 원칙입니다."
+      },
+      {
+        "id": 57,
+        "question": "신용카드 할부 구매에서 추가로 발생하는 비용은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "할부 이자",
+        "incorrect_answers": ["배당금", "캐시백", "수수료 면제"],
+        "explanation": "할부 구매 시 이자 비용이 추가로 발생할 수 있습니다."
+      },
+      {
+        "id": 58,
+        "question": "변동금리 대출의 특징은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "시중 금리 변동에 따라 대출 이자가 달라진다",
+        "incorrect_answers": [
+          "항상 고정 이자를 낸다",
+          "상환 기간이 자동 연장된다",
+          "정부가 금리를 보장한다"
+        ],
+        "explanation": "변동금리 대출은 기준금리와 연동되어 이자가 변동됩니다."
+      },
+      {
+        "id": 59,
+        "question": "금융 소비자가 상품을 비교·선택할 때 가장 중요한 요소가 아닌 것은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "발행 국가의 GDP",
+        "incorrect_answers": ["금리", "수수료", "원금 보장 여부"],
+        "explanation": "발행 국가의 GDP는 직접적인 비교 기준이 되지 않습니다."
+      },
+      {
+        "id": 60,
+        "question": "장기 투자에서 복리 효과를 설명하는 대표적인 사례는?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "72의 법칙",
+        "incorrect_answers": ["80의 법칙", "50의 법칙", "100의 법칙"],
+        "explanation": "72의 법칙은 투자 수익률로 자산이 두 배가 되는 시간을 계산하는 간단한 방법입니다."
+      },
+      {
+        "id": 61,
+        "question": "세계 경제 협력과 개발을 목적으로 설립된 국제 기구는?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "OECD",
+        "incorrect_answers": ["IMF", "WTO", "UN"],
+        "explanation": "OECD는 경제 협력과 개발을 위해 설립된 국제 기구입니다."
+      },
+      {
+        "id": 62,
+        "question": "IMF가 주로 지원하는 것은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "국가의 단기 유동성 위기",
+        "incorrect_answers": ["장기 개발 자금", "군사 원조", "환경 보호"],
+        "explanation": "IMF는 외환 위기 등 단기적인 금융 위기에 처한 국가를 지원합니다."
+      },
+      {
+        "id": 63,
+        "question": "WTO(세계무역기구)의 주요 역할은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "국제 무역 규범 관리",
+        "incorrect_answers": [
+          "환율 조정",
+          "외환 보유액 지원",
+          "개발 자금 제공"
+        ],
+        "explanation": "WTO는 자유 무역 촉진과 분쟁 해결을 담당합니다."
+      },
+      {
+        "id": 64,
+        "question": "유럽의 단일 통화는?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "유로",
+        "incorrect_answers": ["파운드", "프랑", "마르크"],
+        "explanation": "유로는 유럽연합(EU)의 단일 통화입니다."
+      },
+      {
+        "id": 65,
+        "question": "중국이 발행하는 통화의 국제적 명칭은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "위안화(CNY)",
+        "incorrect_answers": ["엔화", "홍콩달러", "페소"],
+        "explanation": "중국의 공식 통화는 위안화이며, 국제적으로는 CNY로 표기됩니다."
+      },
+      {
+        "id": 66,
+        "question": "국제 금융에서 '기축 통화'의 대표적 특징은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "국제 거래에서 널리 사용된다",
+        "incorrect_answers": [
+          "금으로만 교환된다",
+          "환율 변동이 없다",
+          "국제 거래에서는 쓰이지 않는다"
+        ],
+        "explanation": "기축 통화는 국제 무역과 금융 거래에서 널리 통용되는 화폐입니다."
+      },
+      {
+        "id": 67,
+        "question": "1997년 한국 외환위기 당시 IMF가 제공한 지원 금액은?",
+        "type": "multiple",
+        "difficulty": "hard",
+        "correct_answer": "약 570억 달러",
+        "incorrect_answers": [
+          "약 200억 달러",
+          "약 1000억 달러",
+          "약 300억 달러"
+        ],
+        "explanation": "1997년 한국은 약 570억 달러 규모의 IMF 구제금융을 지원받았습니다."
+      },
+      {
+        "id": 68,
+        "question": "비트코인의 기본 기술로 사용되는 것은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "블록체인",
+        "incorrect_answers": ["클라우드 컴퓨팅", "빅데이터", "인공지능"],
+        "explanation": "비트코인은 블록체인 기술을 기반으로 거래 내역을 기록합니다."
+      },
+      {
+        "id": 69,
+        "question": "가상화폐 발행 방식 중 채굴(mining)이란?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "컴퓨터 연산으로 블록을 생성하고 보상을 받는 것",
+        "incorrect_answers": [
+          "은행이 가상화폐를 발행하는 것",
+          "정부가 디지털 화폐를 인쇄하는 것",
+          "현금을 교환하는 것"
+        ],
+        "explanation": "채굴은 연산을 통해 거래 기록을 검증하고 보상으로 가상화폐를 얻는 과정입니다."
+      },
+      {
+        "id": 70,
+        "question": "CBDC(중앙은행 디지털화폐)의 특징으로 옳은 것은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "중앙은행이 직접 발행한다",
+        "incorrect_answers": [
+          "민간 기업이 발행한다",
+          "가격 변동성이 크다",
+          "암호화 기술을 쓰지 않는다"
+        ],
+        "explanation": "CBDC는 중앙은행이 발행하는 디지털 화폐로 신뢰성과 안정성이 특징입니다."
+      },
+      {
+        "id": 71,
+        "question": "세계에서 최초로 법정화폐로 비트코인을 채택한 국가는?",
+        "type": "multiple",
+        "difficulty": "hard",
+        "correct_answer": "엘살바도르",
+        "incorrect_answers": ["미국", "일본", "한국"],
+        "explanation": "엘살바도르는 2021년 비트코인을 법정화폐로 인정했습니다."
+      },
+      {
+        "id": 72,
+        "question": "글로벌 금융위기(2008)의 발단이 된 미국의 금융상품은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "서브프라임 모기지",
+        "incorrect_answers": ["국채", "파생상품 ETF", "신용카드 대출"],
+        "explanation": "고위험 주택담보대출인 서브프라임 모기지가 위기의 원인이었습니다."
+      },
+      {
+        "id": 73,
+        "question": "글로벌 금융위기 이후 각국 중앙은행이 시행한 대표적 정책은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "양적완화(QE)",
+        "incorrect_answers": ["금본위제", "환율 동결", "금리 급등"],
+        "explanation": "각국 중앙은행은 국채 매입 등 양적완화 정책으로 유동성을 공급했습니다."
+      },
+      {
+        "id": 74,
+        "question": "국제 원유 가격이 급등하면 한국 경제에 가장 직접적인 영향은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "무역수지 악화",
+        "incorrect_answers": ["수출 증가", "환율 안정", "실업 감소"],
+        "explanation": "한국은 원유를 대부분 수입하기 때문에 국제 유가 상승은 무역수지 악화로 이어집니다."
+      },
+      {
+        "id": 75,
+        "question": "SDR(특별인출권)을 발행하는 국제 기구는?",
+        "type": "multiple",
+        "difficulty": "hard",
+        "correct_answer": "IMF",
+        "incorrect_answers": ["세계은행", "OECD", "WTO"],
+        "explanation": "SDR은 IMF가 회원국의 외환 보유액 보완을 위해 발행하는 가상 자산입니다."
+      },
+      {
+        "id": 76,
+        "question": "세계 3대 신용평가사에 속하지 않는 곳은?",
+        "type": "multiple",
+        "difficulty": "hard",
+        "correct_answer": "골드만삭스",
+        "incorrect_answers": ["무디스", "S&P", "피치"],
+        "explanation": "3대 신용평가사는 무디스, S&P, 피치입니다."
+      },
+      {
+        "id": 77,
+        "question": "달러 인덱스(DXY)는 무엇을 나타내는 지표인가?",
+        "type": "multiple",
+        "difficulty": "hard",
+        "correct_answer": "달러의 주요 6개 통화 대비 가치를 측정",
+        "incorrect_answers": [
+          "달러와 금 가격 비율",
+          "달러의 국내 구매력",
+          "달러와 원유 가격 관계"
+        ],
+        "explanation": "달러 인덱스는 유로, 엔, 파운드 등 주요 통화 대비 달러 가치를 보여줍니다."
+      },
+      {
+        "id": 78,
+        "question": "세계 경제 포럼(WEF)이 매년 개최되는 도시는?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "다보스",
+        "incorrect_answers": ["제네바", "뉴욕", "파리"],
+        "explanation": "스위스 다보스에서 매년 개최되는 세계 경제 포럼을 다보스 포럼이라고 부릅니다."
+      },
+      {
+        "id": 79,
+        "question": "금융시장에서 '블랙 스완' 사건이란?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "예상치 못한 충격적 사건",
+        "incorrect_answers": [
+          "주가 상승 신호",
+          "기준금리 인상",
+          "통화가치 안정"
+        ],
+        "explanation": "블랙 스완은 발생 확률은 낮지만 충격이 큰 사건을 의미합니다."
+      },
+      {
+        "id": 80,
+        "question": "최근 글로벌 금융시장에서 '디지털 자산'의 대표적 형태는?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "가상화폐",
+        "incorrect_answers": ["종이 화폐", "금괴", "부동산"],
+        "explanation": "디지털 자산의 대표적인 형태는 비트코인, 이더리움 같은 가상화폐입니다."
+      },
+      {
+        "id": 81,
+        "question": "부동산 거래에서 은행 대출을 담보로 제공하는 것은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "주택담보대출",
+        "incorrect_answers": ["신용대출", "마이너스통장", "기업대출"],
+        "explanation": "주택담보대출은 부동산을 담보로 제공하고 자금을 빌리는 방식입니다."
+      },
+      {
+        "id": 82,
+        "question": "은행 창구에서 바로 인출 가능한 예금을 무엇이라 하는가?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "수시입출금식 예금",
+        "incorrect_answers": ["정기예금", "적금", "채권"],
+        "explanation": "수시입출금식 예금은 자유롭게 입출금이 가능합니다."
+      },
+      {
+        "id": 83,
+        "question": "리스크 관리에서 분산 투자 외의 주요 전략은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "헤지",
+        "incorrect_answers": ["공매도", "단기투자", "레버리지"],
+        "explanation": "헤지는 파생상품 등을 활용해 위험을 줄이는 전략입니다."
+      },
+      {
+        "id": 84,
+        "question": "인덱스 펀드의 가장 큰 장점은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "저비용으로 분산 투자 가능",
+        "incorrect_answers": [
+          "절대수익 보장",
+          "높은 세금 혜택",
+          "중앙은행 보증"
+        ],
+        "explanation": "인덱스 펀드는 특정 지수를 추종하여 저비용으로 분산 투자할 수 있습니다."
+      },
+      {
+        "id": 85,
+        "question": "ROE(자기자본이익률)는 무엇을 측정하는 지표인가?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "자기자본 대비 이익률",
+        "incorrect_answers": [
+          "매출 대비 이익률",
+          "총자산 대비 이익률",
+          "부채비율"
+        ],
+        "explanation": "ROE는 자기자본을 활용해 얼마나 수익을 냈는지 보여줍니다."
+      },
+      {
+        "id": 86,
+        "question": "국채의 대표적 특징은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "정부가 발행한다",
+        "incorrect_answers": [
+          "기업이 발행한다",
+          "개인이 발행한다",
+          "은행이 발행한다"
+        ],
+        "explanation": "국채는 국가가 필요한 자금을 조달하기 위해 발행하는 채권입니다."
+      },
+      {
+        "id": 87,
+        "question": "기업이 파산할 경우 채권자와 주주 중 변제 우선순위가 높은 것은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "채권자",
+        "incorrect_answers": ["주주", "이사회", "직원"],
+        "explanation": "채권자는 채무 변제 우선권을 갖고, 주주는 마지막에 청산가치를 분배받습니다."
+      },
+      {
+        "id": 88,
+        "question": "리츠(REITs)의 주요 투자 대상은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "부동산",
+        "incorrect_answers": ["채권", "주식", "가상화폐"],
+        "explanation": "리츠는 부동산에 투자하는 간접투자 상품입니다."
+      },
+      {
+        "id": 89,
+        "question": "금융시장에서 레버리지를 활용한다는 의미는?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "타인의 자본을 빌려 투자 규모를 확대한다",
+        "incorrect_answers": [
+          "리스크를 줄인다",
+          "세금을 절감한다",
+          "투자 기간을 단축한다"
+        ],
+        "explanation": "레버리지는 빚을 이용해 투자 규모를 키우는 것을 의미합니다."
+      },
+      {
+        "id": 90,
+        "question": "연금제도의 기본 목적은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "노후 소득 보장",
+        "incorrect_answers": [
+          "투자 수익 극대화",
+          "기업 자금 조달",
+          "세금 감면"
+        ],
+        "explanation": "연금은 은퇴 이후 안정적인 소득을 보장하기 위해 운영됩니다."
+      },
+      {
+        "id": 91,
+        "question": "개인이 일정 금액을 적립하여 세제 혜택을 받을 수 있는 대표 상품은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "개인연금",
+        "incorrect_answers": ["적금", "주식", "채권"],
+        "explanation": "개인연금은 세제 혜택과 함께 노후 준비를 할 수 있는 제도입니다."
+      },
+      {
+        "id": 92,
+        "question": "인플레이션 헤지 수단으로 자주 언급되는 실물 자산은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "금",
+        "incorrect_answers": ["채권", "달러", "주식"],
+        "explanation": "금은 가치 저장 수단으로 인플레이션에 대한 헤지 수단으로 활용됩니다."
+      },
+      {
+        "id": 93,
+        "question": "주식시장에서 '유동성'이 높다는 것은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "쉽게 사고팔 수 있다",
+        "incorrect_answers": [
+          "가격 변동이 없다",
+          "배당이 많다",
+          "상승 가능성이 크다"
+        ],
+        "explanation": "유동성이 높으면 자산을 빠르게 현금화할 수 있습니다."
+      },
+      {
+        "id": 94,
+        "question": "펀드매니저가 시장 평균을 초과하는 수익을 내려고 하는 펀드는?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "적극적 운용 펀드",
+        "incorrect_answers": ["인덱스 펀드", "ETF", "리츠"],
+        "explanation": "적극적 펀드는 매니저의 판단으로 초과 수익을 추구합니다."
+      },
+      {
+        "id": 95,
+        "question": "기업의 회계 장부를 외부인이 감사할 수 있도록 공개하는 제도는?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "공시제도",
+        "incorrect_answers": ["상속세 제도", "무역 규제", "외환 관리"],
+        "explanation": "공시제도는 투자자 보호와 투명성을 위한 제도입니다."
+      },
+      {
+        "id": 96,
+        "question": "ESG 투자에서 'E'는 무엇을 의미하는가?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "환경(Environment)",
+        "incorrect_answers": [
+          "경제(Economy)",
+          "에너지(Energy)",
+          "윤리(Ethics)"
+        ],
+        "explanation": "ESG는 환경, 사회, 지배구조를 고려하는 투자를 의미합니다."
+      },
+      {
+        "id": 97,
+        "question": "그린본드(Green Bond)의 투자 목적은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "환경 친화적 프로젝트 자금 조달",
+        "incorrect_answers": [
+          "군사 산업 지원",
+          "부동산 개발",
+          "금융 파생상품 투자"
+        ],
+        "explanation": "그린본드는 친환경 사업 자금을 조달하기 위해 발행되는 채권입니다."
+      },
+      {
+        "id": 98,
+        "question": "핀테크(FinTech)의 대표적 서비스가 아닌 것은?",
+        "type": "multiple",
+        "difficulty": "medium",
+        "correct_answer": "전통적 종이 수표 거래",
+        "incorrect_answers": ["모바일 결제", "P2P 대출", "로보어드바이저"],
+        "explanation": "핀테크는 IT 기반 금융 혁신으로 종이 수표 거래는 해당되지 않습니다."
+      },
+      {
+        "id": 99,
+        "question": "보험의 기본 목적은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "위험 분산",
+        "incorrect_answers": ["세금 감면", "투자 수익", "환율 안정"],
+        "explanation": "보험은 다수의 가입자가 위험을 나누어 분산하는 제도입니다."
+      },
+      {
+        "id": 100,
+        "question": "금융 문맹을 줄이기 위한 대표적 활동은?",
+        "type": "multiple",
+        "difficulty": "easy",
+        "correct_answer": "금융 교육",
+        "incorrect_answers": ["부채 확대", "공매도", "레버리지 투자"],
+        "explanation": "금융 교육은 금융 문맹을 줄이는 핵심 수단입니다."
+      }
+    ]
+  }
+]
